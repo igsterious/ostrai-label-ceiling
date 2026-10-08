@@ -66,4 +66,4 @@ json.dump({'M': {f'{a}||{b}': v for (a,b), v in M.items()},
            'gpt_pairwise': sum(gw)/len(gw), 'gpt_unanimous': allthree,
            'n': len(ids), 'names': names,
            'pairs': [[a, b, c] for (a, b), c in pairs.most_common(12)]},
-          open('/c/Users/Igor/AppData/Local/Temp/claude/C--Users-Igor/fa603f87-4ffc-453a-a5f5-ee8a08d39aa0/scratchpad/agree.json','w'), indent=1)
+          open(os.environ.get('AGREE_OUT', 'agree.json'), 'w', encoding='utf-8'), indent=1)

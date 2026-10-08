@@ -1,16 +1,20 @@
 # Findings
 
-Measured on benchmark A (77 intents) over the 1,000 pool rows common to all eight
+Measured on benchmark A (77 intents) over the 9,233 pool rows common to all eight
 independent labelling passes. No gold labels are used anywhere in this measurement;
 it compares labellers against each other.
 
 ## The decomposition
 
-| Comparison | Disagreement | What the increment adds |
-|---|---|---|
-| Same model, same prompt, twice | 2.70% | Sampling noise, and nothing else |
-| Same model, prompt reworded | 5.91% | + 3.21 prompt sensitivity |
-| Different model families | 11.53% | + 5.62 model bias |
+| Comparison | Disagreement | Rows | What the increment adds |
+|---|---|---|---|
+| Same model, same prompt, twice | 2.70% | 1,000 | Sampling noise, and nothing else |
+| Same model, prompt reworded | 5.91% | 9,233 | + 3.21 prompt sensitivity |
+| Different model families | 11.53% | 9,233 | + 5.62 model bias |
+
+The first row is a separate measurement: `gpt-5.1` batch-10 against a 1,000-row
+re-run of the identical configuration. The other two are the within-family and
+between-family means of the full pairwise grid below.
 
 The repeat-run pair is what makes this a measurement rather than a ratio: it fixes a
 zero point. Of the 11.53 points between families, 8.83 — **77%** — is reproducible for
@@ -19,6 +23,30 @@ a given model and prompt.
 That distinction decides what can be fixed. Random error points in every direction
 and cancels across a large pool. A reproducible preference points the same way every
 time, so a student trained on 30,000 such labels learns it as truth.
+
+## The pairwise grid
+
+Agreement between every pair of passes, in percent, over the 9,233 common rows.
+`S` is claude-sonnet-5, `G` is gpt-5.1; `v1` and `v2` are prompt revisions, `10` is
+ten-shot, `b10` is batch size ten.
+
+| Pass | S·v1 | S·v2 | S·10 | G·v1 | G·v2 | G·b10 | DS | Gem |
+|---|---|---|---|---|---|---|---|---|
+| **sonnet-5 · v1** | — | *94.3* | *94.1* | 89.3 | 89.1 | 88.9 | 87.1 | 90.0 |
+| **sonnet-5 · rules v2** | *94.3* | — | *93.5* | 89.1 | 89.3 | 88.7 | 86.7 | 90.2 |
+| **sonnet-5 · 10-shot** | *94.1* | *93.5* | — | 89.2 | 89.0 | 88.6 | 86.7 | 90.1 |
+| **gpt-5.1 · v1** | 89.3 | 89.1 | 89.2 | — | *95.6* | *93.7* | 86.2 | 89.7 |
+| **gpt-5.1 · rules v2** | 89.1 | 89.3 | 89.0 | *95.6* | — | *93.4* | 85.8 | 89.6 |
+| **gpt-5.1 · batch 10** | 88.9 | 88.7 | 88.6 | *93.7* | *93.4* | — | 86.1 | 89.4 |
+| **deepseek-chat** | 87.1 | 86.7 | 86.7 | 86.2 | 85.8 | 86.1 | — | 87.5 |
+| **gemini-3.1-flash** | 90.0 | 90.2 | 90.1 | 89.7 | 89.6 | 89.4 | 87.5 | — |
+
+Italics mark the six same-family pairs. `deepseek-chat` and `gemini-3.1-flash` ran
+once each, so they contribute none. The deepseek row is the lowest almost
+everywhere, which is consistent with what its labels did downstream: −5.35 accuracy
+when used to train the student.
+
+Means: same-family **94.09** over 6 pairs, cross-family **88.47** over 22.
 
 ## The family fingerprint
 
@@ -80,6 +108,12 @@ The mechanism is not novel, and the paper in preparation says so in its introduc
 
 - One domain, mostly one benchmark. Benchmark B has three passes rather than eight,
   so the decomposition is not yet replicated there.
+- **The noise floor is measured on one family.** The 2.70% comes from a gpt-5.1
+  repeat run. The only other repeat available, deepseek-chat over 50 rows, disagrees
+  with itself on 8.00% — too few rows to conclude anything (roughly ±4 points), but
+  enough to say the floor may be model-specific rather than universal. If it is, the
+  77% is a gpt-5.1 figure, not a constant, and a second full repeat per family is the
+  cheapest way to find out.
 - The accuracy deltas were read against a competition split with ±0.83 of standard
   error, and they are not accompanied by paired significance tests. McNemar tests on
   the paired predictions, and confidence intervals on the agreement rates, are the

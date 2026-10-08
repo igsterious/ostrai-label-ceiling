@@ -9,11 +9,11 @@ it transfers into the student as if it were ground truth.
 The measurement needs no ground truth of its own. It compares labelling passes
 against each other, with a repeat run of one configuration as the floor:
 
-| What is compared | Disagreement |
-|---|---|
-| The same model, the same prompt, twice | 2.70% |
-| The same model, the prompt reworded | 5.91% |
-| Models from different families | 11.53% |
+| What is compared | Disagreement | Rows |
+|---|---|---|
+| The same model, the same prompt, twice | 2.70% | 1,000 |
+| The same model, the prompt reworded | 5.91% | 9,233 |
+| Models from different families | 11.53% | 9,233 |
 
 Subtract the floor and 8.83 of the 11.53 points are reproducible preference rather
 than sampling noise. [FINDINGS.md](FINDINGS.md) has the full result, the model-family
