@@ -1,0 +1,84 @@
+{
+  "benchmark": "benchmark_a",
+  "model": "roberta-base",
+  "items": [
+    {
+      "id": "3797",
+      "text": "I need Australian dollars instead of UK currency.",
+      "assigned": "fiat_currency_support",
+      "stratum": "change",
+      "examples": [
+        "What currencies do you support?",
+        "Please tell me which fiat currencies you support.",
+        "How can I hold and exchange fiat currencies?",
+        "What fiat currencies do you support?",
+        "What fiat currencies can I use for holding and exchanging?"
+      ]
+    },
+    {
+      "id": "4158",
+      "text": "What's the time frame on EU transfers? I purchased something a couple of days ago but the seller hasn't received my payment.",
+      "assigned": "transfer_not_received_by_recipient",
+      "stratum": "change",
+      "examples": [
+        "Why has my transfer not arrived yet?",
+        "My recipient hasn't received the money",
+        "Why did the funds not transfer to another recipient?",
+        "The recipient can not locate funds.",
+        "My transfer didn't arrive to the recipient"
+      ]
+    },
+    {
+      "id": "5586",
+      "text": "I have an unauthorized charge.",
+      "assigned": "extra_charge_on_statement",
+      "stratum": "change",
+      "examples": [
+        "Is there a reason there's an extra fee on my statement?",
+        "Why did I get a $1 extra fee on the statement?",
+        "Why is there a $1 charge on my statement?",
+        "Why do i have an extra fee on my statement?",
+        "Why is there an extra fee on my statement?"
+      ]
+    },
+    {
+      "id": "8858",
+      "text": "Help, I don't see my money i just added.",
+      "assigned": "pending_top_up",
+      "stratum": "change",
+      "examples": [
+        "My top up says it is still pending",
+        "What is the reason my top-up is still pending?",
+        "My top-up is still pending",
+        "Tell my why my top-up is pending.",
+        "I believe my top up is still pending"
+      ]
+    },
+    {
+      "id": "9109",
+      "text": "Will there be a charge when money is added to my account?",
+      "assigned": "top_up_by_card_charge",
+      "stratum": "change",
+      "examples": [
+        "Are you going to charge me to top up my card?",
+        "Are there charges for using a bank card to top up",
+        "How much is the charge to top up via credit card?",
+        "Is there a charge to use a Top up card in the US?",
+        "If I top up using a European card is there a charge?"
+      ]
+    },
+    {
+      "id": "9412",
+      "text": "Money was taken out without my consent,",
+      "assigned": "cash_withdrawal_not_recognised",
+      "stratum": "change",
+      "examples": [
+        "Why is there a cash withdrawal I didn't make?",
+        "I did not make a cash withdrawal that is on my statement",
+        "What do I do if I do not recognise a cash withdrawal?",
+        "The app says I made a cash withdrawal that I didn't make",
+        "There's a cash withdrawal I am certain I did not make"
+      ]
+    }
+  ]
+}

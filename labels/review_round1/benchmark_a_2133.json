@@ -1,0 +1,9 @@
+{
+  "assigned": "beneficiary_not_allowed",
+  "at": "2026-09-05T08:17:32.646Z",
+  "benchmark": "benchmark_a",
+  "item_id": "2133",
+  "note": "the user message doesn´t say anything about beneficiary",
+  "stratum": "long",
+  "verdict": "bad"
+}

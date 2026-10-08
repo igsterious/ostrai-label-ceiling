@@ -1,0 +1,9 @@
+{
+  "assigned": "extra_charge_on_statement",
+  "at": "2026-09-05T08:03:22.663Z",
+  "benchmark": "benchmark_a",
+  "item_id": "1305",
+  "note": "customer complains about being charged fees, not about extra charge",
+  "stratum": "long",
+  "verdict": "bad"
+}

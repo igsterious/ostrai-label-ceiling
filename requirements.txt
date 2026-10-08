@@ -1,0 +1,8 @@
+# Local (Python 3.14): labelling only -- no torch, it has no 3.14 wheels.
+pandas
+numpy
+openai
+python-dotenv
+
+# Training and inference run in Colab, which already provides torch and
+# transformers. Pinning them here would only break the local install.

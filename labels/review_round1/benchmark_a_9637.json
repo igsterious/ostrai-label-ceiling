@@ -1,0 +1,9 @@
+{
+  "assigned": "transaction_charged_twice",
+  "at": "2026-09-05T08:22:38.231Z",
+  "benchmark": "benchmark_a",
+  "item_id": "9637",
+  "note": "",
+  "stratum": "long",
+  "verdict": "ok"
+}

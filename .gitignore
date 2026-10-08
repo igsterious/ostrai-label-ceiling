@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated. Splits are reproducible from make_splits.py; pseudo-labels and
+# trained models are large and/or expensive, keep them out of git and move
+# them to Colab another way.
+artifacts/

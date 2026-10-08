@@ -1,0 +1,9 @@
+{
+  "assigned": "cancel_transfer",
+  "at": "2026-09-05T08:59:10.001Z",
+  "benchmark": "calibration",
+  "item_id": "p2831",
+  "note": "transaction doesn´t automatically equal a transfer",
+  "stratum": "pseudo",
+  "verdict": "bad"
+}

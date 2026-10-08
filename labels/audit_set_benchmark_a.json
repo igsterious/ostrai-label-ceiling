@@ -1,0 +1,1566 @@
+{
+  "benchmark": "benchmark_a",
+  "model": "submitted model (leaderboard 81.25%)",
+  "items": [
+    {
+      "id": "7787",
+      "text": "Do you have the best exchange rate?",
+      "assigned": "exchange_rate",
+      "stratum": "audit",
+      "examples": [
+        "What is the formula for your exchange rate?",
+        "What is your opinion on the exchange rate?",
+        "How's the exchange rate?",
+        "What is the exchange rate for EUR?",
+        "How is the current exchange rate?"
+      ]
+    },
+    {
+      "id": "8211",
+      "text": "My rate is not right when I used my card in a different country's money.",
+      "assigned": "card_payment_wrong_exchange_rate",
+      "stratum": "audit",
+      "examples": [
+        "My card payment has the wrong exchange rate",
+        "the exchange rate on my payment was wrong",
+        "Exchange rate for my card payment is wrong",
+        "My payment had a wrong exchange rate.",
+        "Why is the exchange rate on my card wrong?"
+      ]
+    },
+    {
+      "id": "1526",
+      "text": "If US cards have a top up charge, what is it?",
+      "assigned": "top_up_by_card_charge",
+      "stratum": "audit",
+      "examples": [
+        "Are you going to charge me to top up my card?",
+        "Are there charges for using a bank card to top up",
+        "How much is the charge to top up via credit card?",
+        "Is there a charge to use a Top up card in the US?",
+        "If I top up using a European card is there a charge?"
+      ]
+    },
+    {
+      "id": "3083",
+      "text": "I deposited a check yesterday to up my account balance, but that deposit hasn't shown up yet. It's been a day already!",
+      "assigned": "balance_not_updated_after_cheque_or_cash_deposit",
+      "stratum": "audit",
+      "examples": [
+        "I'm not seeing my cash deposit showing up in my account.",
+        "Why did the cash deposit not show up in my account?",
+        "After depositing a cheque my balance did not change.",
+        "Why is my balance still the same after a cheque deposit?",
+        "My balance was not updated with my checque or cash deposit."
+      ]
+    },
+    {
+      "id": "2475",
+      "text": "Hi! A seller that I requested a refund from a long time ago has yet to send the money into my account, even though I keep checking it. Can the seller be contacted by you guys to see what's going on?",
+      "assigned": "refund_not_showing_up",
+      "stratum": "audit",
+      "examples": [
+        "My refund isn't showing up on my statement.",
+        "My refund is not showing up in my account. Where is it?",
+        "My refund has not shown up in my account. Where is it?",
+        "Why isn't my refund showing up in my statement?",
+        "Why is my refund not showing up on the statement?"
+      ]
+    },
+    {
+      "id": "8318",
+      "text": "Can I auto top up multiple times?",
+      "assigned": "automatic_top_up",
+      "stratum": "audit",
+      "examples": [
+        "Can I get an auto Top-up?",
+        "Can I set the account to auto top-up?",
+        "How do I auto top-up?",
+        "Can i set up an auto top-up?",
+        "Is there an automatic top up feature?"
+      ]
+    },
+    {
+      "id": "7400",
+      "text": "Bank transfer to account did not show up, please help?",
+      "assigned": "balance_not_updated_after_bank_transfer",
+      "stratum": "audit",
+      "examples": [
+        "Balance hasn't been updated following a bank transfer",
+        "I made a transfer but my balance hasn't been updated",
+        "Why wasn't my bank balance updated?",
+        "How soon will my balance be updated to reflect my transfer?",
+        "When will I see an updated balance after a transfer?"
+      ]
+    },
+    {
+      "id": "6971",
+      "text": "What currencies does google pay top up accept?",
+      "assigned": "apple_pay_or_google_pay",
+      "stratum": "audit",
+      "examples": [
+        "Can I top-up my google pay?",
+        "Can I use top-up with Apple pay?",
+        "Can I use Apple Pay to top-up?",
+        "How can I top up with Apple Pay?",
+        "Can I top up my account with Google Pay?"
+      ]
+    },
+    {
+      "id": "1363",
+      "text": "Is identity verification required for me to use my account?",
+      "assigned": "why_verify_identity",
+      "stratum": "audit",
+      "examples": [
+        "Why is it important to verify my identity?",
+        "Why am I being asked to verify my identity?",
+        "Why do you need verification for my identity?",
+        "Why do I need to verify my identity?",
+        "Why do you need to verify my identity?"
+      ]
+    },
+    {
+      "id": "556",
+      "text": "I tried to get money out of the Notting Hill ATM earlier, but I wasn't able to get it to work. Is my card with issue? It's the first time I tried using it.",
+      "assigned": "declined_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "What caused my cash withdrawal to be declined?",
+        "Is there a reason my cash withdrawal was declined?",
+        "My cash withdrawal was declined, why?",
+        "Why was I declined from getting cash?",
+        "My cash withdrawal was declined. Why?"
+      ]
+    },
+    {
+      "id": "9109",
+      "text": "Will there be a charge when money is added to my account?",
+      "assigned": "top_up_by_bank_transfer_charge",
+      "stratum": "audit",
+      "examples": [
+        "Is there a fee to top up by bank transfers?",
+        "How much does it cost to top up by transfer?",
+        "If I top up by transfer, am I going to be charged?",
+        "Am I going to see a charge for a SEPA transfer?",
+        "What is the charge for receiving a SEPA transfer?"
+      ]
+    },
+    {
+      "id": "8671",
+      "text": "What's taking so long for this payment to go through?",
+      "assigned": "pending_card_payment",
+      "stratum": "audit",
+      "examples": [
+        "Why is the payment from my card still pending?",
+        "How come my card payment is still pending?",
+        "My card payment still pending",
+        "I have a pending payment on my card. Why?",
+        "Why is my card payment pending?"
+      ]
+    },
+    {
+      "id": "1973",
+      "text": "Why haven't I gotten my payment yet?",
+      "assigned": "pending_card_payment",
+      "stratum": "audit",
+      "examples": [
+        "Why is the payment from my card still pending?",
+        "How come my card payment is still pending?",
+        "My card payment still pending",
+        "I have a pending payment on my card. Why?",
+        "Why is my card payment pending?"
+      ]
+    },
+    {
+      "id": "7443",
+      "text": "Looking at my account I've noticed a charge that appears to still be in progress. I had attempted to get money out of the machine earlier but the machine seemed to have been broken. I never received my money so will you please look into this for me? I don't want to be charged for money I never actually received.",
+      "assigned": "pending_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "What is the reason my cash withdrawal is still pending?",
+        "My cash withdrawal says pending, why?",
+        "My cash withdrawal is showing as pending, why?",
+        "Why is the cash withdrawal under pending?",
+        "My cash withdrawal shows pending, why?"
+      ]
+    },
+    {
+      "id": "6905",
+      "text": "Online banking is not showing my cheque or cash deposit so the balance is incorrect.",
+      "assigned": "balance_not_updated_after_cheque_or_cash_deposit",
+      "stratum": "audit",
+      "examples": [
+        "I'm not seeing my cash deposit showing up in my account.",
+        "Why did the cash deposit not show up in my account?",
+        "After depositing a cheque my balance did not change.",
+        "Why is my balance still the same after a cheque deposit?",
+        "My balance was not updated with my checque or cash deposit."
+      ]
+    },
+    {
+      "id": "2163",
+      "text": "Is a physical charge extra",
+      "assigned": "order_physical_card",
+      "stratum": "audit",
+      "examples": [
+        "How do I order a card?",
+        "Can I get a physical card",
+        "How do i receive a physical card?",
+        "Where can I get a physical card?",
+        "Is there a fee to order a physical card?"
+      ]
+    },
+    {
+      "id": "9418",
+      "text": "still need to get card pin",
+      "assigned": "get_physical_card",
+      "stratum": "audit",
+      "examples": [
+        "do i have to wait for a physical card before i get my pin",
+        "My card arrived but I don't know how to get my PIN.",
+        "do i need to wait to get my card before getting a pin",
+        "how do i get a pin for my card",
+        "do i need to wait for my card before i get pin"
+      ]
+    },
+    {
+      "id": "1383",
+      "text": "I have transactions that I don't recognize - I think someone is using my card.",
+      "assigned": "compromised_card",
+      "stratum": "audit",
+      "examples": [
+        "I think someone is using my card without my permission!",
+        "I think someone else is using my card.",
+        "Someone might be using my card. What should I do?",
+        "I think my card has been compromised in some way.",
+        "What do I do if I think someone has used my card?"
+      ]
+    },
+    {
+      "id": "7810",
+      "text": "Why is there an identity check?",
+      "assigned": "why_verify_identity",
+      "stratum": "audit",
+      "examples": [
+        "Why is it important to verify my identity?",
+        "Why am I being asked to verify my identity?",
+        "Why do you need verification for my identity?",
+        "Why do I need to verify my identity?",
+        "Why do you need to verify my identity?"
+      ]
+    },
+    {
+      "id": "3375",
+      "text": "I don't think the charges made when I had currency exchanged are right.",
+      "assigned": "exchange_charge",
+      "stratum": "audit",
+      "examples": [
+        "How much more do you charge for currency exchange?",
+        "What do you charge for an exchange fee?",
+        "Is there a fee for currency exchange?",
+        "IS there a fee to exchange currency?",
+        "Is there an extra charge to exchange different currencies?"
+      ]
+    },
+    {
+      "id": "6977",
+      "text": "Is there a specific date it can be delivered by?",
+      "assigned": "card_delivery_estimate",
+      "stratum": "audit",
+      "examples": [
+        "How long will I have to wait for my new card?",
+        "how long should I expect to wait for my card to arrive?",
+        "When can I expect my card?",
+        "How soon will I get my card?",
+        "When will I get my card shipped to me?"
+      ]
+    },
+    {
+      "id": "8210",
+      "text": "I need to cancel a purchase that I made the other day.",
+      "assigned": "cancel_transfer",
+      "stratum": "audit",
+      "examples": [
+        "I made a mistake and need to cancel a transfer.",
+        "I need to cancel a transfer",
+        "I want to cancel a transfer I just made.",
+        "I need to cancel a transfer I made.",
+        "I wish to cancel a transfer"
+      ]
+    },
+    {
+      "id": "4073",
+      "text": "What do I do now that I can't use this card?",
+      "assigned": "card_not_working",
+      "stratum": "audit",
+      "examples": [
+        "My physical card is not working",
+        "I need clarity on why my card is not working.",
+        "I can't use my card because it is not working.",
+        "My card is not working.",
+        "Why is my physical card not working?"
+      ]
+    },
+    {
+      "id": "4056",
+      "text": "I want to deactivate my account.",
+      "assigned": "terminate_account",
+      "stratum": "audit",
+      "examples": [
+        "Help me terminate and close my account.",
+        "The company is no good, please terminate my account.",
+        "I want to delete my account.",
+        "I want to terminate my account",
+        "How do I terminate my account."
+      ]
+    },
+    {
+      "id": "3797",
+      "text": "I need Australian dollars instead of UK currency.",
+      "assigned": "exchange_via_app",
+      "stratum": "audit",
+      "examples": [
+        "Can I exchange currencies with the app?",
+        "How can I exchange USD and GBP in the app?",
+        "Can I use your app to exchange between USD and GBP",
+        "How can I exchange currencies with this app?",
+        "How can I exchange currencies using your app?"
+      ]
+    },
+    {
+      "id": "8858",
+      "text": "Help, I don't see my money i just added.",
+      "assigned": "top_up_failed",
+      "stratum": "audit",
+      "examples": [
+        "Looks like my top up failed.",
+        "I think the top up failed",
+        "I think my top-up has failed.",
+        "Seems like my top-up has failed",
+        "Can you tell me why my top-up failed?"
+      ]
+    },
+    {
+      "id": "4293",
+      "text": "Do I have to go somewhere to activate my card?",
+      "assigned": "activate_my_card",
+      "stratum": "audit",
+      "examples": [
+        "I need to activate my card.",
+        "Can I activate my card?",
+        "I want to activate my card, how do I do it?",
+        "What do I do to activate my new card?",
+        "I want to activate my new card."
+      ]
+    },
+    {
+      "id": "8184",
+      "text": "Explain the extra fee on my card when paying.",
+      "assigned": "card_payment_fee_charged",
+      "stratum": "audit",
+      "examples": [
+        "Why was I charged a fee for my card payment?",
+        "Why am I being charged a fee on a card payment?",
+        "Why have I been charged a fee for card payment?",
+        "I was mistakenly charged a fee for using my card.",
+        "What was I charged a fee for card payment?"
+      ]
+    },
+    {
+      "id": "849",
+      "text": "I had a decline on my card. Why?",
+      "assigned": "declined_card_payment",
+      "stratum": "audit",
+      "examples": [
+        "Do you know why my card payment has been declined?",
+        "My card payment has been declined, why?",
+        "Why did my card payment get declined?",
+        "Why was the payment on my card declined?",
+        "My card payment wasn't declined"
+      ]
+    },
+    {
+      "id": "3012",
+      "text": "What happened to the money that I deposited?",
+      "assigned": "balance_not_updated_after_cheque_or_cash_deposit",
+      "stratum": "audit",
+      "examples": [
+        "I'm not seeing my cash deposit showing up in my account.",
+        "Why did the cash deposit not show up in my account?",
+        "After depositing a cheque my balance did not change.",
+        "Why is my balance still the same after a cheque deposit?",
+        "My balance was not updated with my checque or cash deposit."
+      ]
+    },
+    {
+      "id": "4048",
+      "text": "I have made several unsuccessful attempts to make a transfer. I'm getting frustrated at getting error messages and it not going through.",
+      "assigned": "failed_transfer",
+      "stratum": "audit",
+      "examples": [
+        "why do i have a failed transfer",
+        "My transfer failed. Help!",
+        "I tried to make a transfer and it failed.",
+        "Can you please tell me why my transfer failed?",
+        "My transfer failed, why?"
+      ]
+    },
+    {
+      "id": "8549",
+      "text": "I can't seem to make a standard bank transfer. I have tried at least five times already but none of them are going through. Please tell me what is wrong?",
+      "assigned": "failed_transfer",
+      "stratum": "audit",
+      "examples": [
+        "why do i have a failed transfer",
+        "My transfer failed. Help!",
+        "I tried to make a transfer and it failed.",
+        "Can you please tell me why my transfer failed?",
+        "My transfer failed, why?"
+      ]
+    },
+    {
+      "id": "9908",
+      "text": "I bough an item and the exchange rate was incorrect.",
+      "assigned": "card_payment_wrong_exchange_rate",
+      "stratum": "audit",
+      "examples": [
+        "My card payment has the wrong exchange rate",
+        "the exchange rate on my payment was wrong",
+        "Exchange rate for my card payment is wrong",
+        "My payment had a wrong exchange rate.",
+        "Why is the exchange rate on my card wrong?"
+      ]
+    },
+    {
+      "id": "7766",
+      "text": "My ID verification hasn't gone through yet, but can I use my account anyway?",
+      "assigned": "unable_to_verify_identity",
+      "stratum": "audit",
+      "examples": [
+        "Why am I unable to verify my id?",
+        "I can't verify identity through the app.",
+        "I will not be able to verify my identity.",
+        "I am unable to prove my identity",
+        "I am having trouble to verify my identity"
+      ]
+    },
+    {
+      "id": "7244",
+      "text": "Why is the payment showing as pending from things I bought this morning?",
+      "assigned": "pending_card_payment",
+      "stratum": "audit",
+      "examples": [
+        "Why is the payment from my card still pending?",
+        "How come my card payment is still pending?",
+        "My card payment still pending",
+        "I have a pending payment on my card. Why?",
+        "Why is my card payment pending?"
+      ]
+    },
+    {
+      "id": "3762",
+      "text": "I could not get money from an ATM",
+      "assigned": "declined_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "What caused my cash withdrawal to be declined?",
+        "Is there a reason my cash withdrawal was declined?",
+        "My cash withdrawal was declined, why?",
+        "Why was I declined from getting cash?",
+        "My cash withdrawal was declined. Why?"
+      ]
+    },
+    {
+      "id": "1316",
+      "text": "how many uses are the disposable cards good for?",
+      "assigned": "disposable_card_limits",
+      "stratum": "audit",
+      "examples": [
+        "What are my limits on disposable cards?",
+        "How many transactions can I do with a disposable card?",
+        "I have a disposable card, how many transactions can I make?",
+        "How many transactions can I do with my disposable card?",
+        "How many purchases can I make with one disposable card?"
+      ]
+    },
+    {
+      "id": "3955",
+      "text": "Why was I charged for transferring money?",
+      "assigned": "transfer_fee_charged",
+      "stratum": "audit",
+      "examples": [
+        "Am I charged a fee to transfer funds?",
+        "I was charged a fee for a transfer.",
+        "Why did I get charged a fee for my transfer?",
+        "I made a transfer and was charged an extra fee!",
+        "why was i charged a fee to transfer"
+      ]
+    },
+    {
+      "id": "3545",
+      "text": "where can I see who sent me funds",
+      "assigned": "receiving_money",
+      "stratum": "audit",
+      "examples": [
+        "My friend wants to send me money, can she?",
+        "How can my friend send money to me?",
+        "Please show me how my friend can send me money.",
+        "How can my friend give me money?",
+        "Can I have a friend send money directly to me?"
+      ]
+    },
+    {
+      "id": "732",
+      "text": "There is a withdrawal on my account I didn't make.",
+      "assigned": "cash_withdrawal_not_recognised",
+      "stratum": "audit",
+      "examples": [
+        "Why is there a cash withdrawal I didn't make?",
+        "I did not make a cash withdrawal that is on my statement",
+        "What do I do if I do not recognise a cash withdrawal?",
+        "The app says I made a cash withdrawal that I didn't make",
+        "There's a cash withdrawal I am certain I did not make"
+      ]
+    },
+    {
+      "id": "8769",
+      "text": "If I order a card when does it arrive?",
+      "assigned": "card_delivery_estimate",
+      "stratum": "audit",
+      "examples": [
+        "How long will I have to wait for my new card?",
+        "how long should I expect to wait for my card to arrive?",
+        "When can I expect my card?",
+        "How soon will I get my card?",
+        "When will I get my card shipped to me?"
+      ]
+    },
+    {
+      "id": "6604",
+      "text": "Can I use an auto top-up option?",
+      "assigned": "automatic_top_up",
+      "stratum": "audit",
+      "examples": [
+        "Can I get an auto Top-up?",
+        "Can I set the account to auto top-up?",
+        "How do I auto top-up?",
+        "Can i set up an auto top-up?",
+        "Is there an automatic top up feature?"
+      ]
+    },
+    {
+      "id": "3759",
+      "text": "I would like to use top-up with my Apple Pay.",
+      "assigned": "apple_pay_or_google_pay",
+      "stratum": "audit",
+      "examples": [
+        "Can I top-up my google pay?",
+        "Can I use top-up with Apple pay?",
+        "Can I use Apple Pay to top-up?",
+        "How can I top up with Apple Pay?",
+        "Can I top up my account with Google Pay?"
+      ]
+    },
+    {
+      "id": "9046",
+      "text": "How do I know it is a Mastercard ATM?",
+      "assigned": "atm_support",
+      "stratum": "audit",
+      "examples": [
+        "Where can I find an ATM?",
+        "How can I find an ATM that accepts this card?",
+        "Can I use this card at any ATM?",
+        "Where can I find a Mastercard ATM?",
+        "Which ATM's can I use to make a withdrawal?"
+      ]
+    },
+    {
+      "id": "3066",
+      "text": "I'm not happy with service and would like to delete this account.",
+      "assigned": "terminate_account",
+      "stratum": "audit",
+      "examples": [
+        "Help me terminate and close my account.",
+        "The company is no good, please terminate my account.",
+        "I want to delete my account.",
+        "I want to terminate my account",
+        "How do I terminate my account."
+      ]
+    },
+    {
+      "id": "9667",
+      "text": "What should I do if I exceed my PIN tries?",
+      "assigned": "pin_blocked",
+      "stratum": "audit",
+      "examples": [
+        "My PIN has been blocked, what should I do?",
+        "My PIN has been blocked.",
+        "Can I reset my PIN if it is blocked?",
+        "Can you unblock my blocked pin?",
+        "Why was my PIN blocked?"
+      ]
+    },
+    {
+      "id": "7425",
+      "text": "What do I do if my card expires soon?",
+      "assigned": "card_about_to_expire",
+      "stratum": "audit",
+      "examples": [
+        "My card is about to expire. How do I order another?",
+        "My card will expire soon, do I need to order a new one?",
+        "My card is about to expire, what do I do?",
+        "Soon my card will expire, how do I get a new one?",
+        "My card is going to expire, what do I do?"
+      ]
+    },
+    {
+      "id": "2448",
+      "text": "what are weekend rates for getting cash",
+      "assigned": "cash_withdrawal_charge",
+      "stratum": "audit",
+      "examples": [
+        "Why have I been charged a fee for cash withdrawal?",
+        "Will I be charged for a cash withdrawal?",
+        "I should not have been charged a fee for cash withdrawal.",
+        "I have a fee for cash withdrawal",
+        "Why was there a fee for my cash withdrawal?"
+      ]
+    },
+    {
+      "id": "1234",
+      "text": "I want to change my pin number from an ATM. Is this possible?",
+      "assigned": "change_pin",
+      "stratum": "audit",
+      "examples": [
+        "Can I change my PIN remotely?",
+        "Can I change my card PIN?",
+        "Can I change my PIN abroad?",
+        "Where can I change my PIN?",
+        "I want to change my PIN."
+      ]
+    },
+    {
+      "id": "2907",
+      "text": "Where is my refund? it appears to be missing.",
+      "assigned": "refund_not_showing_up",
+      "stratum": "audit",
+      "examples": [
+        "My refund isn't showing up on my statement.",
+        "My refund is not showing up in my account. Where is it?",
+        "My refund has not shown up in my account. Where is it?",
+        "Why isn't my refund showing up in my statement?",
+        "Why is my refund not showing up on the statement?"
+      ]
+    },
+    {
+      "id": "1515",
+      "text": "Will be Apple Watch be able to let me top up?",
+      "assigned": "apple_pay_or_google_pay",
+      "stratum": "audit",
+      "examples": [
+        "Can I top-up my google pay?",
+        "Can I use top-up with Apple pay?",
+        "Can I use Apple Pay to top-up?",
+        "How can I top up with Apple Pay?",
+        "Can I top up my account with Google Pay?"
+      ]
+    },
+    {
+      "id": "2184",
+      "text": "When I made a cash transfer abroad the wrong exchange rate was applied",
+      "assigned": "wrong_exchange_rate_for_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "I found the exchange rate for my cash withdrawal is wrong",
+        "The rate of exchange for my cash withdrawal is wrong.",
+        "When I got cash the exchange rate was wrong",
+        "The wrong exchange rate was used for my cash withdrawal",
+        "Why is the exchange rate wrong for my cash withdrawal?"
+      ]
+    },
+    {
+      "id": "4805",
+      "text": "Do you have a list of businesses that accept this card?",
+      "assigned": "card_acceptance",
+      "stratum": "audit",
+      "examples": [
+        "Is there restrictions on where I can use my card?",
+        "Are there any restrictions to where I can use my card?",
+        "In what places can I use my card?",
+        "Can I use my card anywhere?",
+        "How do I know where I can use my card?"
+      ]
+    },
+    {
+      "id": "2624",
+      "text": "Where are cards available to order?",
+      "assigned": "order_physical_card",
+      "stratum": "audit",
+      "examples": [
+        "How do I order a card?",
+        "Can I get a physical card",
+        "How do i receive a physical card?",
+        "Where can I get a physical card?",
+        "Is there a fee to order a physical card?"
+      ]
+    },
+    {
+      "id": "4049",
+      "text": "How can I add money automatically?",
+      "assigned": "automatic_top_up",
+      "stratum": "audit",
+      "examples": [
+        "Can I get an auto Top-up?",
+        "Can I set the account to auto top-up?",
+        "How do I auto top-up?",
+        "Can i set up an auto top-up?",
+        "Is there an automatic top up feature?"
+      ]
+    },
+    {
+      "id": "4388",
+      "text": "I am seeing in the App a payment that its not mine",
+      "assigned": "card_payment_not_recognised",
+      "stratum": "audit",
+      "examples": [
+        "There is a payment on my card that I do not recognize.",
+        "I'm not recognizing the card payment.",
+        "I do not recognise the card payment.",
+        "There is a payment in the app I did not make",
+        "I do not recognize the card payment."
+      ]
+    },
+    {
+      "id": "5854",
+      "text": "I am not able to prove my identity",
+      "assigned": "unable_to_verify_identity",
+      "stratum": "audit",
+      "examples": [
+        "Why am I unable to verify my id?",
+        "I can't verify identity through the app.",
+        "I will not be able to verify my identity.",
+        "I am unable to prove my identity",
+        "I am having trouble to verify my identity"
+      ]
+    },
+    {
+      "id": "1666",
+      "text": "is there a way to do top up with apple pay",
+      "assigned": "apple_pay_or_google_pay",
+      "stratum": "audit",
+      "examples": [
+        "Can I top-up my google pay?",
+        "Can I use top-up with Apple pay?",
+        "Can I use Apple Pay to top-up?",
+        "How can I top up with Apple Pay?",
+        "Can I top up my account with Google Pay?"
+      ]
+    },
+    {
+      "id": "8736",
+      "text": "How can my friend pay me?",
+      "assigned": "receiving_money",
+      "stratum": "audit",
+      "examples": [
+        "My friend wants to send me money, can she?",
+        "How can my friend send money to me?",
+        "Please show me how my friend can send me money.",
+        "How can my friend give me money?",
+        "Can I have a friend send money directly to me?"
+      ]
+    },
+    {
+      "id": "3187",
+      "text": "Can you look into why my most recent top-up is showing as pending? I thought it was supposed to be instantaneous.",
+      "assigned": "pending_top_up",
+      "stratum": "audit",
+      "examples": [
+        "My top up says it is still pending",
+        "What is the reason my top-up is still pending?",
+        "My top-up is still pending",
+        "Tell my why my top-up is pending.",
+        "I believe my top up is still pending"
+      ]
+    },
+    {
+      "id": "1086",
+      "text": "ATM is broken. It did not give me the full amount (30 pounds.) I'm standing here with only 10 pounds and it's telling me it gave me 30 pounds. I need assistance now!",
+      "assigned": "wrong_amount_of_cash_received",
+      "stratum": "audit",
+      "examples": [
+        "Why is my cash request and the amount I received different?",
+        "The amount of cash I received was not the full amount",
+        "I received less cash than the amount I specified in the ATM.",
+        "I received the wrong amount of cash.",
+        "I was given the wrong amount of cash"
+      ]
+    },
+    {
+      "id": "5480",
+      "text": "What documents do I need to validate my identity?",
+      "assigned": "verify_my_identity",
+      "stratum": "audit",
+      "examples": [
+        "What can I use to verify my identity?",
+        "How do I verify my identity?",
+        "What will I need to verify my identity",
+        "I have to verify my identity. What do I need to do?",
+        "What do I use to verify my identity?"
+      ]
+    },
+    {
+      "id": "3314",
+      "text": "What's the process for terminating an account?",
+      "assigned": "terminate_account",
+      "stratum": "audit",
+      "examples": [
+        "Help me terminate and close my account.",
+        "The company is no good, please terminate my account.",
+        "I want to delete my account.",
+        "I want to terminate my account",
+        "How do I terminate my account."
+      ]
+    },
+    {
+      "id": "8098",
+      "text": "how do i get top up with cash deposit",
+      "assigned": "top_up_by_cash_or_cheque",
+      "stratum": "audit",
+      "examples": [
+        "Can I cash deposit to top up my account",
+        "How can I top up with a cheque?",
+        "How do I use a cheque to top up?",
+        "I want to top up my account with a cheque",
+        "Can I write a cheque to top up?"
+      ]
+    },
+    {
+      "id": "3076",
+      "text": "Do you have charges now when you pay with a card?",
+      "assigned": "card_payment_fee_charged",
+      "stratum": "audit",
+      "examples": [
+        "Why was I charged a fee for my card payment?",
+        "Why am I being charged a fee on a card payment?",
+        "Why have I been charged a fee for card payment?",
+        "I was mistakenly charged a fee for using my card.",
+        "What was I charged a fee for card payment?"
+      ]
+    },
+    {
+      "id": "8301",
+      "text": "My card payment did not go through.",
+      "assigned": "declined_card_payment",
+      "stratum": "audit",
+      "examples": [
+        "Do you know why my card payment has been declined?",
+        "My card payment has been declined, why?",
+        "Why did my card payment get declined?",
+        "Why was the payment on my card declined?",
+        "My card payment wasn't declined"
+      ]
+    },
+    {
+      "id": "2416",
+      "text": "Is there anyway to bypass identity verification?",
+      "assigned": "unable_to_verify_identity",
+      "stratum": "audit",
+      "examples": [
+        "Why am I unable to verify my id?",
+        "I can't verify identity through the app.",
+        "I will not be able to verify my identity.",
+        "I am unable to prove my identity",
+        "I am having trouble to verify my identity"
+      ]
+    },
+    {
+      "id": "1891",
+      "text": "Why on earth do you need so much personal id info from me?",
+      "assigned": "why_verify_identity",
+      "stratum": "audit",
+      "examples": [
+        "Why is it important to verify my identity?",
+        "Why am I being asked to verify my identity?",
+        "Why do you need verification for my identity?",
+        "Why do I need to verify my identity?",
+        "Why do you need to verify my identity?"
+      ]
+    },
+    {
+      "id": "9404",
+      "text": "Transferred to account is not successful, help please?",
+      "assigned": "failed_transfer",
+      "stratum": "audit",
+      "examples": [
+        "why do i have a failed transfer",
+        "My transfer failed. Help!",
+        "I tried to make a transfer and it failed.",
+        "Can you please tell me why my transfer failed?",
+        "My transfer failed, why?"
+      ]
+    },
+    {
+      "id": "4666",
+      "text": "I can use this card at which ATMs?",
+      "assigned": "atm_support",
+      "stratum": "audit",
+      "examples": [
+        "Where can I find an ATM?",
+        "How can I find an ATM that accepts this card?",
+        "Can I use this card at any ATM?",
+        "Where can I find a Mastercard ATM?",
+        "Which ATM's can I use to make a withdrawal?"
+      ]
+    },
+    {
+      "id": "6231",
+      "text": "Do I need to convert my currency from GBP before transferring?",
+      "assigned": "exchange_via_app",
+      "stratum": "audit",
+      "examples": [
+        "Can I exchange currencies with the app?",
+        "How can I exchange USD and GBP in the app?",
+        "Can I use your app to exchange between USD and GBP",
+        "How can I exchange currencies with this app?",
+        "How can I exchange currencies using your app?"
+      ]
+    },
+    {
+      "id": "8543",
+      "text": "I just got refunded for my purchase over two weeks ago",
+      "assigned": "refund_not_showing_up",
+      "stratum": "audit",
+      "examples": [
+        "My refund isn't showing up on my statement.",
+        "My refund is not showing up in my account. Where is it?",
+        "My refund has not shown up in my account. Where is it?",
+        "Why isn't my refund showing up in my statement?",
+        "Why is my refund not showing up on the statement?"
+      ]
+    },
+    {
+      "id": "3327",
+      "text": "Can you tell me why the card payment came back?",
+      "assigned": "reverted_card_payment?",
+      "stratum": "audit",
+      "examples": [
+        "Why would my card payment be reverted?",
+        "Was my card payment reverted?",
+        "has my card payment been reverted?",
+        "My card payment was reverted, why?",
+        "I think my card payment was reverted"
+      ]
+    },
+    {
+      "id": "1715",
+      "text": "I noticed a different charge while I was taking my money out.",
+      "assigned": "extra_charge_on_statement",
+      "stratum": "audit",
+      "examples": [
+        "Is there a reason there's an extra fee on my statement?",
+        "Why did I get a $1 extra fee on the statement?",
+        "Why is there a $1 charge on my statement?",
+        "Why do i have an extra fee on my statement?",
+        "Why is there an extra fee on my statement?"
+      ]
+    },
+    {
+      "id": "1974",
+      "text": "I made a payment and it was reverted and wanted to know why?",
+      "assigned": "reverted_card_payment?",
+      "stratum": "audit",
+      "examples": [
+        "Why would my card payment be reverted?",
+        "Was my card payment reverted?",
+        "has my card payment been reverted?",
+        "My card payment was reverted, why?",
+        "I think my card payment was reverted"
+      ]
+    },
+    {
+      "id": "5934",
+      "text": "The ATM I used for foreign currency provided the wrong exchange rate.",
+      "assigned": "wrong_exchange_rate_for_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "I found the exchange rate for my cash withdrawal is wrong",
+        "The rate of exchange for my cash withdrawal is wrong.",
+        "When I got cash the exchange rate was wrong",
+        "The wrong exchange rate was used for my cash withdrawal",
+        "Why is the exchange rate wrong for my cash withdrawal?"
+      ]
+    },
+    {
+      "id": "4423",
+      "text": "Show me how to look at the source of my current funds?",
+      "assigned": "verify_source_of_funds",
+      "stratum": "audit",
+      "examples": [
+        "I must verify the source of my funds",
+        "I would like to verify my source of funds.",
+        "How do I verify the source of my funds?",
+        "Verify my source of funds?",
+        "I have to verify my source of funds."
+      ]
+    },
+    {
+      "id": "3369",
+      "text": "Do you charge extra for exchanging currencies?",
+      "assigned": "exchange_charge",
+      "stratum": "audit",
+      "examples": [
+        "How much more do you charge for currency exchange?",
+        "What do you charge for an exchange fee?",
+        "Is there a fee for currency exchange?",
+        "IS there a fee to exchange currency?",
+        "Is there an extra charge to exchange different currencies?"
+      ]
+    },
+    {
+      "id": "9656",
+      "text": "Can I re-link a lost card with the app?",
+      "assigned": "card_linking",
+      "stratum": "audit",
+      "examples": [
+        "I received my card, how do I get it to show in the app?",
+        "How do I link my new card?",
+        "How do I link the new card?",
+        "How do I add my new card to the app?",
+        "how do I get my card to show in the app?"
+      ]
+    },
+    {
+      "id": "6843",
+      "text": "Why is top up not working if I use my American express with my apple pay?",
+      "assigned": "apple_pay_or_google_pay",
+      "stratum": "audit",
+      "examples": [
+        "Can I top-up my google pay?",
+        "Can I use top-up with Apple pay?",
+        "Can I use Apple Pay to top-up?",
+        "How can I top up with Apple Pay?",
+        "Can I top up my account with Google Pay?"
+      ]
+    },
+    {
+      "id": "3323",
+      "text": "I can't access my account.",
+      "assigned": "passcode_forgotten",
+      "stratum": "audit",
+      "examples": [
+        "I've forgotten my app passcode completely.",
+        "I've forgotten my passcode. Can I reset?",
+        "I have forgotten my passcode",
+        "I seem to of forgotten my passcode.",
+        "What do I do if I have forgotten my passcode?"
+      ]
+    },
+    {
+      "id": "6632",
+      "text": "Why couldn't I make a withdrawal from the ATM?",
+      "assigned": "declined_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "What caused my cash withdrawal to be declined?",
+        "Is there a reason my cash withdrawal was declined?",
+        "My cash withdrawal was declined, why?",
+        "Why was I declined from getting cash?",
+        "My cash withdrawal was declined. Why?"
+      ]
+    },
+    {
+      "id": "5586",
+      "text": "I have an unauthorized charge.",
+      "assigned": "card_payment_not_recognised",
+      "stratum": "audit",
+      "examples": [
+        "There is a payment on my card that I do not recognize.",
+        "I'm not recognizing the card payment.",
+        "I do not recognise the card payment.",
+        "There is a payment in the app I did not make",
+        "I do not recognize the card payment."
+      ]
+    },
+    {
+      "id": "840",
+      "text": "Help me unblock my account. I entered the PIN wrong too many times.",
+      "assigned": "pin_blocked",
+      "stratum": "audit",
+      "examples": [
+        "My PIN has been blocked, what should I do?",
+        "My PIN has been blocked.",
+        "Can I reset my PIN if it is blocked?",
+        "Can you unblock my blocked pin?",
+        "Why was my PIN blocked?"
+      ]
+    },
+    {
+      "id": "6436",
+      "text": "I think my passcode was changed",
+      "assigned": "passcode_forgotten",
+      "stratum": "audit",
+      "examples": [
+        "I've forgotten my app passcode completely.",
+        "I've forgotten my passcode. Can I reset?",
+        "I have forgotten my passcode",
+        "I seem to of forgotten my passcode.",
+        "What do I do if I have forgotten my passcode?"
+      ]
+    },
+    {
+      "id": "8037",
+      "text": "Looks like my top-up has been cancelled",
+      "assigned": "top_up_reverted",
+      "stratum": "audit",
+      "examples": [
+        "The app reverted my top up",
+        "Why did my top up get reverted?",
+        "Why was my top up reverted?",
+        "I think you reverted my top up.",
+        "I think my top up has been reverted"
+      ]
+    },
+    {
+      "id": "3227",
+      "text": "How do I know if my top-up went through?",
+      "assigned": "pending_top_up",
+      "stratum": "audit",
+      "examples": [
+        "My top up says it is still pending",
+        "What is the reason my top-up is still pending?",
+        "My top-up is still pending",
+        "Tell my why my top-up is pending.",
+        "I believe my top up is still pending"
+      ]
+    },
+    {
+      "id": "4396",
+      "text": "Can you tell me why I was charged to withdraw cash?",
+      "assigned": "cash_withdrawal_charge",
+      "stratum": "audit",
+      "examples": [
+        "Why have I been charged a fee for cash withdrawal?",
+        "Will I be charged for a cash withdrawal?",
+        "I should not have been charged a fee for cash withdrawal.",
+        "I have a fee for cash withdrawal",
+        "Why was there a fee for my cash withdrawal?"
+      ]
+    },
+    {
+      "id": "4092",
+      "text": "I tried to transfer some money and it hasn't done it yet - what's going on?",
+      "assigned": "pending_transfer",
+      "stratum": "audit",
+      "examples": [
+        "My transfer is pending, why?",
+        "I have a transfer that is still pending.",
+        "Why is my transfer pending?",
+        "Is my transfer pending?",
+        "A transfer is pending."
+      ]
+    },
+    {
+      "id": "8973",
+      "text": "Why did the person I transferred money to not receive the correct amount? What should I do to get them the right amount, do I have to transfer more money to them?",
+      "assigned": "transfer_not_received_by_recipient",
+      "stratum": "audit",
+      "examples": [
+        "Why has my transfer not arrived yet?",
+        "My recipient hasn't received the money",
+        "Why did the funds not transfer to another recipient?",
+        "The recipient can not locate funds.",
+        "My transfer didn't arrive to the recipient"
+      ]
+    },
+    {
+      "id": "4576",
+      "text": "And do you have virtual cards instead of physical ones?",
+      "assigned": "getting_virtual_card",
+      "stratum": "audit",
+      "examples": [
+        "Where do I get a virtual card?",
+        "How do I go about getting hold of a virtual card?",
+        "how to i go about getting my virtual card",
+        "How can I receive a virtual card?",
+        "I'm interested in getting a virtual card. How do I get one?"
+      ]
+    },
+    {
+      "id": "8399",
+      "text": "Where are the ATMs that accept this card?",
+      "assigned": "atm_support",
+      "stratum": "audit",
+      "examples": [
+        "Where can I find an ATM?",
+        "How can I find an ATM that accepts this card?",
+        "Can I use this card at any ATM?",
+        "Where can I find a Mastercard ATM?",
+        "Which ATM's can I use to make a withdrawal?"
+      ]
+    },
+    {
+      "id": "178",
+      "text": "There are funds showing in my app that I did not receive.",
+      "assigned": "receiving_money",
+      "stratum": "audit",
+      "examples": [
+        "My friend wants to send me money, can she?",
+        "How can my friend send money to me?",
+        "Please show me how my friend can send me money.",
+        "How can my friend give me money?",
+        "Can I have a friend send money directly to me?"
+      ]
+    },
+    {
+      "id": "2232",
+      "text": "I changed my mind on something I purchased through you and I need the transaction canceled and a refund as soon as possible. Can you help me please?",
+      "assigned": "request_refund",
+      "stratum": "audit",
+      "examples": [
+        "How do I get a refund for an item I bought?",
+        "I want a refund for an item",
+        "How can I get a refund for a purchase?",
+        "Can I exchange an item for a refund?",
+        "How do I get a refund for something I bought?"
+      ]
+    },
+    {
+      "id": "4320",
+      "text": "What is this fee debit on my account?",
+      "assigned": "extra_charge_on_statement",
+      "stratum": "audit",
+      "examples": [
+        "Is there a reason there's an extra fee on my statement?",
+        "Why did I get a $1 extra fee on the statement?",
+        "Why is there a $1 charge on my statement?",
+        "Why do i have an extra fee on my statement?",
+        "Why is there an extra fee on my statement?"
+      ]
+    },
+    {
+      "id": "9080",
+      "text": "Is this card available to Americans?",
+      "assigned": "country_support",
+      "stratum": "audit",
+      "examples": [
+        "Do you support all countries?",
+        "can I use it in any country?",
+        "Please list the countries you support.",
+        "Are you available in my country?",
+        "Which countries do you currently support?"
+      ]
+    },
+    {
+      "id": "5679",
+      "text": "What should I do if I have used all of my PIN tries?",
+      "assigned": "pin_blocked",
+      "stratum": "audit",
+      "examples": [
+        "My PIN has been blocked, what should I do?",
+        "My PIN has been blocked.",
+        "Can I reset my PIN if it is blocked?",
+        "Can you unblock my blocked pin?",
+        "Why was my PIN blocked?"
+      ]
+    },
+    {
+      "id": "898",
+      "text": "Do I have to manually top-up my account each time or will it do it on its own?",
+      "assigned": "automatic_top_up",
+      "stratum": "audit",
+      "examples": [
+        "Can I get an auto Top-up?",
+        "Can I set the account to auto top-up?",
+        "How do I auto top-up?",
+        "Can i set up an auto top-up?",
+        "Is there an automatic top up feature?"
+      ]
+    },
+    {
+      "id": "9412",
+      "text": "Money was taken out without my consent,",
+      "assigned": "card_payment_not_recognised",
+      "stratum": "audit",
+      "examples": [
+        "There is a payment on my card that I do not recognize.",
+        "I'm not recognizing the card payment.",
+        "I do not recognise the card payment.",
+        "There is a payment in the app I did not make",
+        "I do not recognize the card payment."
+      ]
+    },
+    {
+      "id": "4158",
+      "text": "What's the time frame on EU transfers? I purchased something a couple of days ago but the seller hasn't received my payment.",
+      "assigned": "transfer_timing",
+      "stratum": "audit",
+      "examples": [
+        "How long does it take for a transfer to be in my account?",
+        "How long will a transfer from Europe take?",
+        "How long will a transfer take from Europe?",
+        "My Bank is in Europe, how long will the transfer take?",
+        "How long does a transfer from the US take?"
+      ]
+    },
+    {
+      "id": "5345",
+      "text": "I did a transfer earlier but see that it failed to go through.",
+      "assigned": "failed_transfer",
+      "stratum": "audit",
+      "examples": [
+        "why do i have a failed transfer",
+        "My transfer failed. Help!",
+        "I tried to make a transfer and it failed.",
+        "Can you please tell me why my transfer failed?",
+        "My transfer failed, why?"
+      ]
+    },
+    {
+      "id": "9978",
+      "text": "Can I possibly change my currency to another?",
+      "assigned": "exchange_via_app",
+      "stratum": "audit",
+      "examples": [
+        "Can I exchange currencies with the app?",
+        "How can I exchange USD and GBP in the app?",
+        "Can I use your app to exchange between USD and GBP",
+        "How can I exchange currencies with this app?",
+        "How can I exchange currencies using your app?"
+      ]
+    },
+    {
+      "id": "957",
+      "text": "I ordered a card and would like to know how to track the delivery progress of it.",
+      "assigned": "card_arrival",
+      "stratum": "audit",
+      "examples": [
+        "What can I do to track the card you sent me?",
+        "Why haven't I received my new card yet?",
+        "Can I track the card you sent to me?",
+        "How do I track the card you sent to me?",
+        "Could you send me and up date on the arrival of my card?"
+      ]
+    },
+    {
+      "id": "6258",
+      "text": "What are the charges for recieving SEPA transfers?",
+      "assigned": "top_up_by_bank_transfer_charge",
+      "stratum": "audit",
+      "examples": [
+        "Is there a fee to top up by bank transfers?",
+        "How much does it cost to top up by transfer?",
+        "If I top up by transfer, am I going to be charged?",
+        "Am I going to see a charge for a SEPA transfer?",
+        "What is the charge for receiving a SEPA transfer?"
+      ]
+    },
+    {
+      "id": "2201",
+      "text": "What's going on? I was just recently charged for an ATM withdrawal. I've never seen this charge before and before it's always been free.",
+      "assigned": "cash_withdrawal_charge",
+      "stratum": "audit",
+      "examples": [
+        "Why have I been charged a fee for cash withdrawal?",
+        "Will I be charged for a cash withdrawal?",
+        "I should not have been charged a fee for cash withdrawal.",
+        "I have a fee for cash withdrawal",
+        "Why was there a fee for my cash withdrawal?"
+      ]
+    },
+    {
+      "id": "5349",
+      "text": "phone is gone",
+      "assigned": "lost_or_stolen_phone",
+      "stratum": "audit",
+      "examples": [
+        "What do I do if my phone is stolen?",
+        "My phone was stolen, what should I do?",
+        "Help me. My phone has been lost or stolen!",
+        "Help! I think my phone may be stolen or lost!",
+        "My phone has been lost or stolen"
+      ]
+    },
+    {
+      "id": "9195",
+      "text": "Is it possible to cancel my transfer?",
+      "assigned": "cancel_transfer",
+      "stratum": "audit",
+      "examples": [
+        "I made a mistake and need to cancel a transfer.",
+        "I need to cancel a transfer",
+        "I want to cancel a transfer I just made.",
+        "I need to cancel a transfer I made.",
+        "I wish to cancel a transfer"
+      ]
+    },
+    {
+      "id": "4649",
+      "text": "Whats types of currency can I exchange?",
+      "assigned": "fiat_currency_support",
+      "stratum": "audit",
+      "examples": [
+        "What currencies do you support?",
+        "Please tell me which fiat currencies you support.",
+        "How can I hold and exchange fiat currencies?",
+        "What fiat currencies do you support?",
+        "What fiat currencies can I use for holding and exchanging?"
+      ]
+    },
+    {
+      "id": "5703",
+      "text": "Why wasn't it obvious that you charge for payments? If you put the fees in an easy to read format, this could have been avoided.",
+      "assigned": "card_payment_fee_charged",
+      "stratum": "audit",
+      "examples": [
+        "Why was I charged a fee for my card payment?",
+        "Why am I being charged a fee on a card payment?",
+        "Why have I been charged a fee for card payment?",
+        "I was mistakenly charged a fee for using my card.",
+        "What was I charged a fee for card payment?"
+      ]
+    },
+    {
+      "id": "8162",
+      "text": "i dont recognize a charge on my card",
+      "assigned": "card_payment_not_recognised",
+      "stratum": "audit",
+      "examples": [
+        "There is a payment on my card that I do not recognize.",
+        "I'm not recognizing the card payment.",
+        "I do not recognise the card payment.",
+        "There is a payment in the app I did not make",
+        "I do not recognize the card payment."
+      ]
+    },
+    {
+      "id": "9184",
+      "text": "What is this cash withdrawal on my statement?",
+      "assigned": "cash_withdrawal_not_recognised",
+      "stratum": "audit",
+      "examples": [
+        "Why is there a cash withdrawal I didn't make?",
+        "I did not make a cash withdrawal that is on my statement",
+        "What do I do if I do not recognise a cash withdrawal?",
+        "The app says I made a cash withdrawal that I didn't make",
+        "There's a cash withdrawal I am certain I did not make"
+      ]
+    },
+    {
+      "id": "355",
+      "text": "Been trying to transfer money this morning but keep getting rejected. I don't understand why this is happening.",
+      "assigned": "declined_transfer",
+      "stratum": "audit",
+      "examples": [
+        "I see my transfer was declined.",
+        "I saw that my transfer was declined.",
+        "Tell me why my transfer was declined.",
+        "I noticed my transfer was declined.",
+        "Why did my transfer get declined?"
+      ]
+    },
+    {
+      "id": "4404",
+      "text": "When I made a transfer I was charged extra.",
+      "assigned": "transfer_fee_charged",
+      "stratum": "audit",
+      "examples": [
+        "Am I charged a fee to transfer funds?",
+        "I was charged a fee for a transfer.",
+        "Why did I get charged a fee for my transfer?",
+        "I made a transfer and was charged an extra fee!",
+        "why was i charged a fee to transfer"
+      ]
+    },
+    {
+      "id": "8110",
+      "text": "I was unable to transfer money to a beneficiary.",
+      "assigned": "beneficiary_not_allowed",
+      "stratum": "audit",
+      "examples": [
+        "Why would my beneficiary not be allowed?",
+        "My beneficiary is not allowed? Why?",
+        "I want a reason as to why my beneficiary is not allowed?",
+        "What are the reasons for my beneficiary not being allowed?",
+        "Can you please explain why my beneficiary is not allowed?"
+      ]
+    },
+    {
+      "id": "1359",
+      "text": "The app reverted the payment I made.",
+      "assigned": "reverted_card_payment?",
+      "stratum": "audit",
+      "examples": [
+        "Why would my card payment be reverted?",
+        "Was my card payment reverted?",
+        "has my card payment been reverted?",
+        "My card payment was reverted, why?",
+        "I think my card payment was reverted"
+      ]
+    },
+    {
+      "id": "7493",
+      "text": "My card is about to expire. What do I need to do to keep using my card?",
+      "assigned": "card_about_to_expire",
+      "stratum": "audit",
+      "examples": [
+        "My card is about to expire. How do I order another?",
+        "My card will expire soon, do I need to order a new one?",
+        "My card is about to expire, what do I do?",
+        "Soon my card will expire, how do I get a new one?",
+        "My card is going to expire, what do I do?"
+      ]
+    },
+    {
+      "id": "4530",
+      "text": "How are cash withdrawals pending?",
+      "assigned": "pending_cash_withdrawal",
+      "stratum": "audit",
+      "examples": [
+        "What is the reason my cash withdrawal is still pending?",
+        "My cash withdrawal says pending, why?",
+        "My cash withdrawal is showing as pending, why?",
+        "Why is the cash withdrawal under pending?",
+        "My cash withdrawal shows pending, why?"
+      ]
+    },
+    {
+      "id": "875",
+      "text": "How does my top-up got cancelled?",
+      "assigned": "top_up_reverted",
+      "stratum": "audit",
+      "examples": [
+        "The app reverted my top up",
+        "Why did my top up get reverted?",
+        "Why was my top up reverted?",
+        "I think you reverted my top up.",
+        "I think my top up has been reverted"
+      ]
+    },
+    {
+      "id": "4798",
+      "text": "i need to proof my identity to you why and how?",
+      "assigned": "verify_my_identity",
+      "stratum": "audit",
+      "examples": [
+        "What can I use to verify my identity?",
+        "How do I verify my identity?",
+        "What will I need to verify my identity",
+        "I have to verify my identity. What do I need to do?",
+        "What do I use to verify my identity?"
+      ]
+    },
+    {
+      "id": "8506",
+      "text": "Would I be able to use SWIFT transfers?",
+      "assigned": "transfer_into_account",
+      "stratum": "audit",
+      "examples": [
+        "I want to transfer money into my account, what do I do?",
+        "How can I transfer money into my account?",
+        "How do I transfer money into my account?",
+        "Can I use a bank transfer to add money to my account?",
+        "I can't figure out how to transfer money into my account."
+      ]
+    }
+  ]
+}

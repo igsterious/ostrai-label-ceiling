@@ -1,0 +1,9 @@
+{
+  "assigned": "visa_or_mastercard",
+  "at": "2026-09-05T08:57:22.403Z",
+  "benchmark": "calibration",
+  "item_id": "p8114",
+  "note": "user does not ask whether visa or mastercard, specifically asks for visa",
+  "stratum": "pseudo",
+  "verdict": "bad"
+}

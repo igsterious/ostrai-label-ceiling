@@ -1,0 +1,1718 @@
+{
+  "benchmark": "benchmark_b",
+  "model_dir": "artifacts/benchmark_b/model",
+  "intents": [
+    "accept_reservations",
+    "account_blocked",
+    "alarm",
+    "application_status",
+    "apr",
+    "are_you_a_bot",
+    "balance",
+    "bill_balance",
+    "bill_due",
+    "book_flight",
+    "book_hotel",
+    "calculator",
+    "calendar",
+    "calendar_update",
+    "calories",
+    "cancel",
+    "cancel_reservation",
+    "car_rental",
+    "card_declined",
+    "carry_on",
+    "change_accent",
+    "change_ai_name",
+    "change_language",
+    "change_speed",
+    "change_user_name",
+    "change_volume",
+    "confirm_reservation",
+    "cook_time",
+    "credit_limit",
+    "credit_limit_change",
+    "credit_score",
+    "current_location",
+    "damaged_card",
+    "date",
+    "definition",
+    "direct_deposit",
+    "directions",
+    "distance",
+    "do_you_have_pets",
+    "exchange_rate",
+    "expiration_date",
+    "find_phone",
+    "flight_status",
+    "flip_coin",
+    "food_last",
+    "freeze_account",
+    "fun_fact",
+    "gas",
+    "gas_type",
+    "goodbye",
+    "greeting",
+    "how_busy",
+    "how_old_are_you",
+    "improve_credit_score",
+    "income",
+    "ingredient_substitution",
+    "ingredients_list",
+    "insurance",
+    "insurance_change",
+    "interest_rate",
+    "international_fees",
+    "international_visa",
+    "jump_start",
+    "last_maintenance",
+    "lost_luggage",
+    "make_call",
+    "maybe",
+    "meal_suggestion",
+    "meaning_of_life",
+    "measurement_conversion",
+    "meeting_schedule",
+    "min_payment",
+    "mpg",
+    "new_card",
+    "next_holiday",
+    "next_song",
+    "no",
+    "nutrition_info",
+    "oil_change_how",
+    "oil_change_when",
+    "order",
+    "order_checks",
+    "order_status",
+    "pay_bill",
+    "payday",
+    "pin_change",
+    "play_music",
+    "plug_type",
+    "pto_balance",
+    "pto_request",
+    "pto_request_status",
+    "pto_used",
+    "recipe",
+    "redeem_rewards",
+    "reminder",
+    "reminder_update",
+    "repeat",
+    "replacement_card_duration",
+    "report_fraud",
+    "report_lost_card",
+    "reset_settings",
+    "restaurant_reservation",
+    "restaurant_reviews",
+    "restaurant_suggestion",
+    "rewards_balance",
+    "roll_dice",
+    "rollover_401k",
+    "routing",
+    "schedule_maintenance",
+    "schedule_meeting",
+    "share_location",
+    "shopping_list",
+    "shopping_list_update",
+    "smart_home",
+    "spelling",
+    "spending_history",
+    "sync_device",
+    "taxes",
+    "tell_joke",
+    "text",
+    "thank_you",
+    "time",
+    "timer",
+    "timezone",
+    "tire_change",
+    "tire_pressure",
+    "todo_list",
+    "todo_list_update",
+    "traffic",
+    "transactions",
+    "transfer",
+    "translate",
+    "travel_alert",
+    "travel_notification",
+    "travel_suggestion",
+    "uber",
+    "update_playlist",
+    "user_name",
+    "vaccines",
+    "w2",
+    "weather",
+    "what_are_your_hobbies",
+    "what_can_i_ask_you",
+    "what_is_your_name",
+    "what_song",
+    "where_are_you_from",
+    "whisper_mode",
+    "who_do_you_work_for",
+    "who_made_you",
+    "yes"
+  ],
+  "items": [
+    {
+      "id": "10063",
+      "text": "is it possible for a hotel to be booked by you for me in afghanistan at the zoo for the 10th to the 15th",
+      "assigned": "book_hotel",
+      "stratum": "audit",
+      "examples": [
+        "book me a hotel with good ratings in nashville",
+        "can you find me a hotel in columbus with good reviews",
+        "could you book me a hotel in tampa from may 2 to may 4",
+        "find me a hotel in kansas city with good reviews",
+        "help me find a hotel in columbus with good reviews"
+      ]
+    },
+    {
+      "id": "5135",
+      "text": "is there a meeting room available between one and two",
+      "assigned": "schedule_meeting",
+      "stratum": "audit",
+      "examples": [
+        "how can i schedule a meeting",
+        "can you schedule a meeting with john for 12",
+        "how can you schedule a meeting for me",
+        "i want to schedule a meeting with tom for 6pm",
+        "i need to schedule a meeting"
+      ]
+    },
+    {
+      "id": "17808",
+      "text": "can i apply for a discover card",
+      "assigned": "new_card",
+      "stratum": "audit",
+      "examples": [
+        "i must apply for a new credit card",
+        "i would like to apply for a new credit card",
+        "am i able to apply for a new credit card",
+        "i would like to apply for a new card",
+        "i wanna apply for a new credit card"
+      ]
+    },
+    {
+      "id": "8043",
+      "text": "when was the last time i got my oil changed",
+      "assigned": "last_maintenance",
+      "stratum": "audit",
+      "examples": [
+        "when was my car in the shop last",
+        "when did i last do maintenance on my car",
+        "how long has it been since my last auto maintenance",
+        "when was the last time my car was in the shop",
+        "when did i last take my car in for maintenance"
+      ]
+    },
+    {
+      "id": "5505",
+      "text": "i want to know how nutritious an avocado typically is",
+      "assigned": "nutrition_info",
+      "stratum": "audit",
+      "examples": [
+        "what's the nutritional info for a banana",
+        "i want to know the nutrition info for chicken nuggets",
+        "share the nutrition info for french fries with me",
+        "what's the nutritional info for spaghetti",
+        "share the nutrition info for brownies with me"
+      ]
+    },
+    {
+      "id": "11023",
+      "text": "will you allow more spending on my visa",
+      "assigned": "credit_limit_change",
+      "stratum": "audit",
+      "examples": [
+        "change my credit limit, please",
+        "how do i change my credit limit",
+        "how can i make a change to my credit limit",
+        "what do i do to change my credit limit",
+        "can you help me change my credit limit"
+      ]
+    },
+    {
+      "id": "6894",
+      "text": "how many mpg does an equinox get",
+      "assigned": "mpg",
+      "stratum": "audit",
+      "examples": [
+        "what is the city mpg for this car",
+        "what mpg does this car get on the highway",
+        "what is the mpg on this car",
+        "what's the mpg of this car",
+        "what mpg does this car get on the expressway"
+      ]
+    },
+    {
+      "id": "408",
+      "text": "i enjoyed speaking with you",
+      "assigned": "thank_you",
+      "stratum": "audit",
+      "examples": [
+        "thank you for helping me",
+        "thank you for the answer",
+        "thank you for your time",
+        "i really appreciate your help, thank you",
+        "i appreciate your help, thank you"
+      ]
+    },
+    {
+      "id": "8022",
+      "text": "what's a fun fact about eggs",
+      "assigned": "fun_fact",
+      "stratum": "audit",
+      "examples": [
+        "tell me a fun fact about computer",
+        "tell me a fun fact about the olympics",
+        "please tell me a really fun fact about facebook",
+        "tell me a fun fact about tigers",
+        "tell me a fun fact about butterflies"
+      ]
+    },
+    {
+      "id": "6018",
+      "text": "how to set up direct deposit for paychecks",
+      "assigned": "direct_deposit",
+      "stratum": "audit",
+      "examples": [
+        "how do i get direct deposit set up",
+        "how do i set up direct deposit for my cefcu account",
+        "how do i set up direct deposit for my paycheck",
+        "what do i need to set up direct deposit",
+        "i need to set up direct deposit"
+      ]
+    },
+    {
+      "id": "15906",
+      "text": "i want you to skip past this song to the next track",
+      "assigned": "next_song",
+      "stratum": "audit",
+      "examples": [
+        "could you skip to the next song on this playlist",
+        "skip this song and play the next",
+        "change the song to the next one on this playlist",
+        "jump to the next song on this playlist",
+        "i want you to play the next song on this playlist"
+      ]
+    },
+    {
+      "id": "10619",
+      "text": "i need to know how many vacation days i have used up please",
+      "assigned": "pto_used",
+      "stratum": "audit",
+      "examples": [
+        "how many days of pto have i used",
+        "what is the amount of pto have i used",
+        "i've used how much pto so far",
+        "up to this point, how much of my pto have i used",
+        "how much pto have i used"
+      ]
+    },
+    {
+      "id": "4657",
+      "text": "please book me an uber and enter destination penn station, new york",
+      "assigned": "uber",
+      "stratum": "audit",
+      "examples": [
+        "get an uber to the airport",
+        "i need an uber to the movies",
+        "i need to get an uber for three people to go to the zoo",
+        "can i get an uber for 4 to the mall",
+        "get me an uber to the airport"
+      ]
+    },
+    {
+      "id": "5029",
+      "text": "give me an answer to who made you",
+      "assigned": "who_made_you",
+      "stratum": "audit",
+      "examples": [
+        "could you let me know who made you",
+        "let me know who made you",
+        "tell me who made you",
+        "will you tell me who made the ai",
+        "i want to know who made you"
+      ]
+    },
+    {
+      "id": "5490",
+      "text": "recipe for beef stroganoff",
+      "assigned": "recipe",
+      "stratum": "audit",
+      "examples": [
+        "i need you to find me a recipe for fried shrimp",
+        "can you find me a recipe for honey ham",
+        "can you find me a recipe for cheese cake",
+        "can you find me a recipe for pie",
+        "can you find me a recipe for ribs"
+      ]
+    },
+    {
+      "id": "14064",
+      "text": "do you know anything funny about cats",
+      "assigned": "fun_fact",
+      "stratum": "audit",
+      "examples": [
+        "tell me a fun fact about computer",
+        "tell me a fun fact about the olympics",
+        "please tell me a really fun fact about facebook",
+        "tell me a fun fact about tigers",
+        "tell me a fun fact about butterflies"
+      ]
+    },
+    {
+      "id": "4920",
+      "text": "what's the equivalent of 1 cup to pounds",
+      "assigned": "measurement_conversion",
+      "stratum": "audit",
+      "examples": [
+        "what's the conversion from inches to centimeters",
+        "how many ounces are in a cup",
+        "what is the conversion of inches to centimeters",
+        "how many tablespoons are in a cup",
+        "tell me the conversion between tablespoons and cups"
+      ]
+    },
+    {
+      "id": "12977",
+      "text": "how long is the restaurant line before we go",
+      "assigned": "how_busy",
+      "stratum": "audit",
+      "examples": [
+        "how busy will panera be at noon",
+        "how busy is jiro at 12 lunch time",
+        "how busy is shokudo at 12",
+        "how busy is ihop at 5 pm",
+        "how busy is imanas tei at 7 dinner"
+      ]
+    },
+    {
+      "id": "17138",
+      "text": "what's the traffic like on the way to the amusement park",
+      "assigned": "traffic",
+      "stratum": "audit",
+      "examples": [
+        "is the traffic bad on the way to work",
+        "what is the traffic like on the way to town",
+        "what is the traffic like on the way to work",
+        "how is the traffic like on the way to the beach",
+        "how is the traffic on the way to the campsite"
+      ]
+    },
+    {
+      "id": "2492",
+      "text": "can you tell me the tire pressure in my car",
+      "assigned": "tire_pressure",
+      "stratum": "audit",
+      "examples": [
+        "what is my tire pressure",
+        "what is the tire pressure in my car",
+        "how much pressure is in my car's tire",
+        "what's the current tire pressure of my tires",
+        "how is my tire pressure"
+      ]
+    },
+    {
+      "id": "10049",
+      "text": "how many days off have i used",
+      "assigned": "pto_used",
+      "stratum": "audit",
+      "examples": [
+        "how many days of pto have i used",
+        "what is the amount of pto have i used",
+        "i've used how much pto so far",
+        "up to this point, how much of my pto have i used",
+        "how much pto have i used"
+      ]
+    },
+    {
+      "id": "14503",
+      "text": "can you figure out how many vacation days i have left",
+      "assigned": "pto_balance",
+      "stratum": "audit",
+      "examples": [
+        "how many pto days do i have for the year",
+        "could you tell me how many pto days do i have left",
+        "can you let me know how many pto days do i have left",
+        "do i have any pto days left",
+        "how many pto days do i have left"
+      ]
+    },
+    {
+      "id": "14421",
+      "text": "text a message to alice",
+      "assigned": "text",
+      "stratum": "audit",
+      "examples": [
+        "i want you to send a text message for me",
+        "i have to send a text",
+        "i need to send a text",
+        "i want to send a text",
+        "send a text message to alice"
+      ]
+    },
+    {
+      "id": "7860",
+      "text": "send sal a text and tell them thanks",
+      "assigned": "text",
+      "stratum": "audit",
+      "examples": [
+        "i want you to send a text message for me",
+        "i have to send a text",
+        "i need to send a text",
+        "i want to send a text",
+        "send a text message to alice"
+      ]
+    },
+    {
+      "id": "3838",
+      "text": "change to factory settings",
+      "assigned": "reset_settings",
+      "stratum": "audit",
+      "examples": [
+        "i need you to reset your factory settings",
+        "i'd like to reset to factory settings",
+        "i want to reset your settings to the original",
+        "you need to reset your factory settings",
+        "i want you reset to factory settings"
+      ]
+    },
+    {
+      "id": "11736",
+      "text": "am i able to place a pto request for february 20-25",
+      "assigned": "pto_request",
+      "stratum": "audit",
+      "examples": [
+        "can i put in a pto request for may 1 to may 5",
+        "can you put in a pto request for march 4 to march 6 for me",
+        "i want to put in a request for pto from may 5 to may 12",
+        "when can i put a pto request in for feb 22 to march 1",
+        "put in a pto request for march 4 to march 6"
+      ]
+    },
+    {
+      "id": "14097",
+      "text": "where is my delivery order",
+      "assigned": "order_status",
+      "stratum": "audit",
+      "examples": [
+        "what is the status of my most recent order",
+        "check up on the status of my online order",
+        "what is the status of my delivery order",
+        "what is the status of my recent order",
+        "what's the status of my order"
+      ]
+    },
+    {
+      "id": "3966",
+      "text": "please make a reservation for us at joy bar for 4 adults",
+      "assigned": "restaurant_reservation",
+      "stratum": "audit",
+      "examples": [
+        "can you book a table at the restaurant for me and my husband",
+        "can i make a reservation for 8 pm at red robin for 3",
+        "can you make me a reservation for 4 pm on the 22nd at ruth's",
+        "i gotta make a reservation for 8 pm at red robin for 3",
+        "can i make a reservation for 2 at state bird for 8:30"
+      ]
+    },
+    {
+      "id": "5781",
+      "text": "bloomingdale's declined my card and i'd like to know why",
+      "assigned": "card_declined",
+      "stratum": "audit",
+      "examples": [
+        "let me know why my card was declined yesterday",
+        "i wish to know why my card was declined yesterday",
+        "tell me why my card was declined yesterday",
+        "so why was my card declined yesterday",
+        "why was my card declined"
+      ]
+    },
+    {
+      "id": "10545",
+      "text": "can a 401k be rolled over",
+      "assigned": "rollover_401k",
+      "stratum": "audit",
+      "examples": [
+        "i need to rollover my 401k because i got a new job",
+        "what do i do to rollover my 401k",
+        "how should i rollover my 401k",
+        "how do i rollover my 401k",
+        "i need to rollover my 401k to a new job"
+      ]
+    },
+    {
+      "id": "5041",
+      "text": "can you turn my lights down just a bit",
+      "assigned": "smart_home",
+      "stratum": "audit",
+      "examples": [
+        "turn lights on in the garage",
+        "on the lounge lights turn",
+        "turn the fan on please",
+        "can you turn on the lights in the backyard",
+        "turn on the tv please"
+      ]
+    },
+    {
+      "id": "7056",
+      "text": "what do you think i am called",
+      "assigned": "user_name",
+      "stratum": "audit",
+      "examples": [
+        "so what name do you have for me",
+        "what do you have my name saved under",
+        "what name do you call me",
+        "the name you have for me is what",
+        "what is the name you call me"
+      ]
+    },
+    {
+      "id": "13737",
+      "text": "is there an event titled anniversary dinner on my calendar",
+      "assigned": "calendar",
+      "stratum": "audit",
+      "examples": [
+        "what do i have on my calendar for monday the 1st of march",
+        "what's on my calendar for tuesday",
+        "do i have anything on my calendar for march 2nd",
+        "what do i have planned on my calendar for next sunday",
+        "what do i have on my calendar for february 8"
+      ]
+    },
+    {
+      "id": "10150",
+      "text": "how much did i get paid",
+      "assigned": "payday",
+      "stratum": "audit",
+      "examples": [
+        "when's my next payday",
+        "i am trying to find out when is the next payday",
+        "what is my next payday",
+        "what day is my next payday",
+        "when was my last payday"
+      ]
+    },
+    {
+      "id": "9786",
+      "text": "you need to respond to a new name called joey",
+      "assigned": "change_ai_name",
+      "stratum": "audit",
+      "examples": [
+        "i want change your name to russ",
+        "i want to change your name to another name",
+        "please change the ai name",
+        "i want to change your name, please",
+        "please change the ai name for me"
+      ]
+    },
+    {
+      "id": "12884",
+      "text": "will my vacation be approved soon",
+      "assigned": "pto_request_status",
+      "stratum": "audit",
+      "examples": [
+        "what is the current status of my vacation request",
+        "what is the status of my vacation time request",
+        "give me the status of my vacation request",
+        "check on the status of my vacation request please",
+        "the status of my day off request, please"
+      ]
+    },
+    {
+      "id": "635",
+      "text": "what can i do in nashville",
+      "assigned": "travel_suggestion",
+      "stratum": "audit",
+      "examples": [
+        "what's the best place to travel to this time of year",
+        "can you suggest some of the most popular travel destination",
+        "i want to travel this year but i need some suggestions",
+        "what are some hot travel destinations",
+        "give me some awesome travel destinations"
+      ]
+    },
+    {
+      "id": "11201",
+      "text": "how much farther can i drive on the gas i have",
+      "assigned": "distance",
+      "stratum": "audit",
+      "examples": [
+        "how long will it take the bus to get to stop 23",
+        "how long will it take to get to phoenix",
+        "how long will it take me to get to phoenix",
+        "how long will it take to get to tacoma",
+        "how long does it take to get to houston by bus"
+      ]
+    },
+    {
+      "id": "9717",
+      "text": "how old are you as of today",
+      "assigned": "how_old_are_you",
+      "stratum": "audit",
+      "examples": [
+        "how old are you alexa",
+        "how old are you, again",
+        "how old are you again",
+        "how old are you today",
+        "how old are you in 2019"
+      ]
+    },
+    {
+      "id": "11545",
+      "text": "can you provide me my credit score",
+      "assigned": "credit_score",
+      "stratum": "audit",
+      "examples": [
+        "find my credit score",
+        "give me my credit score",
+        "how is my credit score",
+        "i need my credit score",
+        "what is my credit score"
+      ]
+    },
+    {
+      "id": "11082",
+      "text": "find me a rental car from 3/6 - 3/9 in port charles",
+      "assigned": "car_rental",
+      "stratum": "audit",
+      "examples": [
+        "i need you to get me a rental car in nashville",
+        "in nashville, i need a rental car booked",
+        "help me to book a car rental in sacremento",
+        "book me a car rental in nashville",
+        "can you help me book a car rental in paris"
+      ]
+    },
+    {
+      "id": "12800",
+      "text": "can you tell me the amount of gas i have remaining",
+      "assigned": "gas",
+      "stratum": "audit",
+      "examples": [
+        "what is the amount of gas i have",
+        "what do i have left in the gas tank",
+        "what amount of gas do i have left",
+        "what amount of gas do i have in my car",
+        "how much gas do i have"
+      ]
+    },
+    {
+      "id": "8931",
+      "text": "please change the language",
+      "assigned": "change_language",
+      "stratum": "audit",
+      "examples": [
+        "change your language to spanish please",
+        "change your language setting to spanish",
+        "please change your language setting to spanish now",
+        "please change your language setting to spanish",
+        "can you change your language to japanese"
+      ]
+    },
+    {
+      "id": "4764",
+      "text": "let's try whisper mode",
+      "assigned": "whisper_mode",
+      "stratum": "audit",
+      "examples": [
+        "change mode to whisper",
+        "please switch to whisper mode",
+        "change to whisper mode, please",
+        "i need you to switch to whisper mode",
+        "could you please switch to whisper mode"
+      ]
+    },
+    {
+      "id": "9221",
+      "text": "who do i work for",
+      "assigned": "who_do_you_work_for",
+      "stratum": "audit",
+      "examples": [
+        "do you work for a different employer",
+        "do you work for another individual",
+        "do you work for another person",
+        "do you work for me or is that wrong",
+        "do you work for anyone else"
+      ]
+    },
+    {
+      "id": "17563",
+      "text": "how many mpg does my car get",
+      "assigned": "mpg",
+      "stratum": "audit",
+      "examples": [
+        "what is the city mpg for this car",
+        "what mpg does this car get on the highway",
+        "what is the mpg on this car",
+        "what's the mpg of this car",
+        "what mpg does this car get on the expressway"
+      ]
+    },
+    {
+      "id": "15652",
+      "text": "my bank account must be frozen",
+      "assigned": "freeze_account",
+      "stratum": "audit",
+      "examples": [
+        "can you please freeze my account",
+        "please freeze my account",
+        "can you freeze my account, please",
+        "please freeze my bank account",
+        "can i freeze my bank account"
+      ]
+    },
+    {
+      "id": "13478",
+      "text": "what time is it in glenwood springs, co",
+      "assigned": "time",
+      "stratum": "audit",
+      "examples": [
+        "in tokyo, what time is it",
+        "in the eastern timezone, what time is it now",
+        "what is the time in london",
+        "what time is it in the pacific standard time",
+        "what time is it in the pacific timezone"
+      ]
+    },
+    {
+      "id": "10269",
+      "text": "if you don't mind, please switch to whisper mode",
+      "assigned": "whisper_mode",
+      "stratum": "audit",
+      "examples": [
+        "change mode to whisper",
+        "please switch to whisper mode",
+        "change to whisper mode, please",
+        "i need you to switch to whisper mode",
+        "could you please switch to whisper mode"
+      ]
+    },
+    {
+      "id": "16353",
+      "text": "i need to know how many carry ons i can take on a flight with southwest airlines to houston",
+      "assigned": "carry_on",
+      "stratum": "audit",
+      "examples": [
+        "what are the carry on limits for delta flights",
+        "what are the carry on rules for united",
+        "what's the carry on policy for delta",
+        "what are the carry-on restrictions for southwest airlines",
+        "what are the rules for carry on luggage"
+      ]
+    },
+    {
+      "id": "14362",
+      "text": "what is your creation date",
+      "assigned": "where_are_you_from",
+      "stratum": "audit",
+      "examples": [
+        "tell me where you were created",
+        "where were you manufactured",
+        "can you tell me where you were created",
+        "where were you created",
+        "can you tell me where you were born"
+      ]
+    },
+    {
+      "id": "7961",
+      "text": "how do i report a stolen card",
+      "assigned": "report_lost_card",
+      "stratum": "audit",
+      "examples": [
+        "my card is lost how do i report it",
+        "i need to report that my card is lost",
+        "i want to report my discover card as lost",
+        "i lost my discover card, i want to report it",
+        "what must i do to report my card lost"
+      ]
+    },
+    {
+      "id": "9927",
+      "text": "add this song to shared playlist",
+      "assigned": "update_playlist",
+      "stratum": "audit",
+      "examples": [
+        "add this song to my rainy day playlist",
+        "add this song to my post-rock playlist",
+        "add this song to my cleaning playlist",
+        "add this song to my slow jams playlist",
+        "add this song to my top 40 playlist"
+      ]
+    },
+    {
+      "id": "4267",
+      "text": "give me the length of time that i can leave milk in my fridge",
+      "assigned": "food_last",
+      "stratum": "audit",
+      "examples": [
+        "how long will chicken last in the freezer",
+        "how long can i leave pizza in the fridge",
+        "has the leftover hamburger from last saturday gone bad",
+        "so how long can pizza last in the fridge",
+        "how long will eggs last in the fridge"
+      ]
+    },
+    {
+      "id": "2187",
+      "text": "do i have reservations at o'neal's at 3 pm",
+      "assigned": "confirm_reservation",
+      "stratum": "audit",
+      "examples": [
+        "can you confirm my reservation for chillis at 8:00",
+        "confirm my reservation for red robin at 8",
+        "can you you confirm my reservation for jean at taco house",
+        "can you confirm my reservation for applebees at 2:00",
+        "please confirm my reservation for kevin at red robin"
+      ]
+    },
+    {
+      "id": "8517",
+      "text": "what is the minimum i need to pay for my cell phone bill",
+      "assigned": "min_payment",
+      "stratum": "audit",
+      "examples": [
+        "what is the minimum payment on my phone bill",
+        "what is the minimum payment i can make on my electric bill",
+        "what's the minimum payment for my internet bill",
+        "what's the minimum payment on my credit card bill",
+        "what's the minimum payment on my gas bill"
+      ]
+    },
+    {
+      "id": "6990",
+      "text": "remind me friday to call my mother",
+      "assigned": "reminder_update",
+      "stratum": "audit",
+      "examples": [
+        "set a reminder for me to request time off",
+        "set a reminder to feed the dogs",
+        "set a reminder to take out the trash",
+        "help me set a reminder to work out",
+        "set a reminder for me to do this in a bit"
+      ]
+    },
+    {
+      "id": "5380",
+      "text": "please say the apr for my credit card",
+      "assigned": "apr",
+      "stratum": "audit",
+      "examples": [
+        "what is the apr on my discover card",
+        "what is the apr on my barclay's card",
+        "what is the apr for my credit card",
+        "what is the apr on my amex card",
+        "what is the apr on my chase card"
+      ]
+    },
+    {
+      "id": "3818",
+      "text": "set reminder pay taxes on monday",
+      "assigned": "reminder_update",
+      "stratum": "audit",
+      "examples": [
+        "set a reminder for me to request time off",
+        "set a reminder to feed the dogs",
+        "set a reminder to take out the trash",
+        "help me set a reminder to work out",
+        "set a reminder for me to do this in a bit"
+      ]
+    },
+    {
+      "id": "9690",
+      "text": "i have lost my phone",
+      "assigned": "find_phone",
+      "stratum": "audit",
+      "examples": [
+        "where can i find my phone",
+        "can you find me my phone",
+        "please help me find my phone",
+        "can you help me find my phone",
+        "i lost my phone, can you help me find it"
+      ]
+    },
+    {
+      "id": "2686",
+      "text": "help me set up a direct deposit",
+      "assigned": "direct_deposit",
+      "stratum": "audit",
+      "examples": [
+        "how do i get direct deposit set up",
+        "how do i set up direct deposit for my cefcu account",
+        "how do i set up direct deposit for my paycheck",
+        "what do i need to set up direct deposit",
+        "i need to set up direct deposit"
+      ]
+    },
+    {
+      "id": "13408",
+      "text": "i need an alarm to wake me up at 8 tomorrow morning",
+      "assigned": "alarm",
+      "stratum": "audit",
+      "examples": [
+        "set an alarm for 9pm please",
+        "set an alarm for 6am, please",
+        "please set me an alarm",
+        "please set an alarm for me",
+        "please set an alarm for 2 pm for me"
+      ]
+    },
+    {
+      "id": "14526",
+      "text": "does my calendar have anything for january 1st",
+      "assigned": "calendar",
+      "stratum": "audit",
+      "examples": [
+        "what do i have on my calendar for monday the 1st of march",
+        "what's on my calendar for tuesday",
+        "do i have anything on my calendar for march 2nd",
+        "what do i have planned on my calendar for next sunday",
+        "what do i have on my calendar for february 8"
+      ]
+    },
+    {
+      "id": "1395",
+      "text": "let me know the carry on policy for alaska airlines",
+      "assigned": "carry_on",
+      "stratum": "audit",
+      "examples": [
+        "what are the carry on limits for delta flights",
+        "what are the carry on rules for united",
+        "what's the carry on policy for delta",
+        "what are the carry-on restrictions for southwest airlines",
+        "what are the rules for carry on luggage"
+      ]
+    },
+    {
+      "id": "1871",
+      "text": "are you a real person or artificial intelligence",
+      "assigned": "are_you_a_bot",
+      "stratum": "audit",
+      "examples": [
+        "are you a bot or a real person",
+        "are you a human or a bot",
+        "do you think you are a bot",
+        "are you actually a bot",
+        "are you a bot or a person"
+      ]
+    },
+    {
+      "id": "4441",
+      "text": "could you tell me a good joke",
+      "assigned": "tell_joke",
+      "stratum": "audit",
+      "examples": [
+        "tell me a joke about rats",
+        "tell me a joke about dogs",
+        "how about you tell me a joke",
+        "can you tell me a joke about politicians",
+        "tell me a joke about cats"
+      ]
+    },
+    {
+      "id": "15165",
+      "text": "help me find new insurance providers",
+      "assigned": "insurance",
+      "stratum": "audit",
+      "examples": [
+        "what benefits are associated with my insurance",
+        "what benefits do i have with my insurance",
+        "my insurance plan is what",
+        "my insurance benefits are what",
+        "what benefits does my insurance have"
+      ]
+    },
+    {
+      "id": "1673",
+      "text": "they call me josh",
+      "assigned": "change_user_name",
+      "stratum": "audit",
+      "examples": [
+        "please change my name to tom",
+        "i want you to call me this new name",
+        "how do i change the name you use to address me",
+        "is there a way i can change the name you use to address me",
+        "please change my name to loverboy"
+      ]
+    },
+    {
+      "id": "14140",
+      "text": "give me your best joke",
+      "assigned": "tell_joke",
+      "stratum": "audit",
+      "examples": [
+        "tell me a joke about rats",
+        "tell me a joke about dogs",
+        "how about you tell me a joke",
+        "can you tell me a joke about politicians",
+        "tell me a joke about cats"
+      ]
+    },
+    {
+      "id": "3469",
+      "text": "tell me how health chocolate is",
+      "assigned": "nutrition_info",
+      "stratum": "audit",
+      "examples": [
+        "what's the nutritional info for a banana",
+        "i want to know the nutrition info for chicken nuggets",
+        "share the nutrition info for french fries with me",
+        "what's the nutritional info for spaghetti",
+        "share the nutrition info for brownies with me"
+      ]
+    },
+    {
+      "id": "11955",
+      "text": "does travel to africa require any shots",
+      "assigned": "vaccines",
+      "stratum": "audit",
+      "examples": [
+        "tell me if i need any more vaccines if i go there",
+        "what vaccines do i need before i travel there",
+        "will i need vaccines for my trip",
+        "should i get any vaccines before going over to the uk",
+        "can you tell me which vaccines i need to take before mexico"
+      ]
+    },
+    {
+      "id": "15025",
+      "text": "i am needing the next song to be played",
+      "assigned": "next_song",
+      "stratum": "audit",
+      "examples": [
+        "could you skip to the next song on this playlist",
+        "skip this song and play the next",
+        "change the song to the next one on this playlist",
+        "jump to the next song on this playlist",
+        "i want you to play the next song on this playlist"
+      ]
+    },
+    {
+      "id": "10458",
+      "text": "i'd love to hear when you were born",
+      "assigned": "where_are_you_from",
+      "stratum": "audit",
+      "examples": [
+        "tell me where you were created",
+        "where were you manufactured",
+        "can you tell me where you were created",
+        "where were you created",
+        "can you tell me where you were born"
+      ]
+    },
+    {
+      "id": "17015",
+      "text": "can you add a trip to the post office to my to do list, please",
+      "assigned": "todo_list_update",
+      "stratum": "audit",
+      "examples": [
+        "take everything off my todo list",
+        "remove laundry from my todo list",
+        "blank out my todo list",
+        "delete everything on my todo list",
+        "erase all items on my todo list"
+      ]
+    },
+    {
+      "id": "15252",
+      "text": "help remind me that i need to add laundry to my list of housework",
+      "assigned": "reminder_update",
+      "stratum": "audit",
+      "examples": [
+        "set a reminder for me to request time off",
+        "set a reminder to feed the dogs",
+        "set a reminder to take out the trash",
+        "help me set a reminder to work out",
+        "set a reminder for me to do this in a bit"
+      ]
+    },
+    {
+      "id": "5759",
+      "text": "when is the date my visa card will expire",
+      "assigned": "expiration_date",
+      "stratum": "audit",
+      "examples": [
+        "whats the expiration date on my credit card",
+        "what's the expiration date on my credit card",
+        "when is the expiration date for my discover card",
+        "what is the expiration date on my visa card",
+        "what is the expiration date on my credit card"
+      ]
+    },
+    {
+      "id": "14760",
+      "text": "has the order that i placed arrived",
+      "assigned": "order_status",
+      "stratum": "audit",
+      "examples": [
+        "what is the status of my most recent order",
+        "check up on the status of my online order",
+        "what is the status of my delivery order",
+        "what is the status of my recent order",
+        "what's the status of my order"
+      ]
+    },
+    {
+      "id": "274",
+      "text": "transfer money from this account to that account",
+      "assigned": "transfer",
+      "stratum": "audit",
+      "examples": [
+        "transfer $10 from checking to savings",
+        "need to transfer from one account to my other one",
+        "please transfer $100 from my checking to my savings account",
+        "please transfer $50 to my checking account from credit",
+        "transfer $20000 from my savings account to checking account"
+      ]
+    },
+    {
+      "id": "4027",
+      "text": "i want you to flip a fair sided coin",
+      "assigned": "flip_coin",
+      "stratum": "audit",
+      "examples": [
+        "please flip a coin i select tails",
+        "please flip a coin - i call heads",
+        "i want you to flip a coin",
+        "flip a coin, i have tails",
+        "i need you to flip a coin"
+      ]
+    },
+    {
+      "id": "16288",
+      "text": "i don't know how to spell malfeasance",
+      "assigned": "spelling",
+      "stratum": "audit",
+      "examples": [
+        "what is the correct spelling of the word: dessert",
+        "how would i go about spelling malignant",
+        "what is the correct spelling of judgment",
+        "what is the correct spelling for malignant",
+        "what is the spelling of potato"
+      ]
+    },
+    {
+      "id": "3944",
+      "text": "so are you human",
+      "assigned": "are_you_a_bot",
+      "stratum": "audit",
+      "examples": [
+        "are you a bot or a real person",
+        "are you a human or a bot",
+        "do you think you are a bot",
+        "are you actually a bot",
+        "are you a bot or a person"
+      ]
+    },
+    {
+      "id": "9034",
+      "text": "how much is my water bill for",
+      "assigned": "bill_balance",
+      "stratum": "audit",
+      "examples": [
+        "how much is the bill for my water and electricity",
+        "my water and electricity bill is how much",
+        "can you check the balance on the water bill",
+        "for my water and electricity, how much is the bill",
+        "how much is my cable bill"
+      ]
+    },
+    {
+      "id": "9983",
+      "text": "am i allowed carry ons for my flight with westjet to edmonton",
+      "assigned": "carry_on",
+      "stratum": "audit",
+      "examples": [
+        "what are the carry on limits for delta flights",
+        "what are the carry on rules for united",
+        "what's the carry on policy for delta",
+        "what are the carry-on restrictions for southwest airlines",
+        "what are the rules for carry on luggage"
+      ]
+    },
+    {
+      "id": "17533",
+      "text": "what is the conversion for 500 dollars to pesos",
+      "assigned": "exchange_rate",
+      "stratum": "audit",
+      "examples": [
+        "what is the exchange rate between rubles and us dollars",
+        "what is the exchange rate between british pounds and yen",
+        "i wanna know the exchange rate between yen and dollars",
+        "what is the exchange rate for canadian dollars to us dollars",
+        "i need the exchange rate between pounds and us dollars"
+      ]
+    },
+    {
+      "id": "4336",
+      "text": "tell me how to retrieve my pin number",
+      "assigned": "pin_change",
+      "stratum": "audit",
+      "examples": [
+        "i'd like to change my pin number for my savings account",
+        "i got to change my pin number for my account",
+        "i really need to change my pin number for my account",
+        "i need to change my pin number for my savings account",
+        "i want to change my pin number for my checking account"
+      ]
+    },
+    {
+      "id": "6196",
+      "text": "can you find the exact address for where i am currently",
+      "assigned": "current_location",
+      "stratum": "audit",
+      "examples": [
+        "what do i do to find my current location",
+        "how shall i find my current location",
+        "give me my current location",
+        "tell me my current location",
+        "please tell me my current location"
+      ]
+    },
+    {
+      "id": "5937",
+      "text": "are my doors in the locked position right now",
+      "assigned": "smart_home",
+      "stratum": "audit",
+      "examples": [
+        "turn lights on in the garage",
+        "on the lounge lights turn",
+        "turn the fan on please",
+        "can you turn on the lights in the backyard",
+        "turn on the tv please"
+      ]
+    },
+    {
+      "id": "5818",
+      "text": "do you know the song on the speaker right now",
+      "assigned": "what_song",
+      "stratum": "audit",
+      "examples": [
+        "what's the name of this song",
+        "what is the track title of the song playing",
+        "what is the song that's playing",
+        "what is the name of the song playing right now",
+        "what's the name of the song you're playing"
+      ]
+    },
+    {
+      "id": "6126",
+      "text": "what's the nutritional info for a ganola bar",
+      "assigned": "nutrition_info",
+      "stratum": "audit",
+      "examples": [
+        "what's the nutritional info for a banana",
+        "i want to know the nutrition info for chicken nuggets",
+        "share the nutrition info for french fries with me",
+        "what's the nutritional info for spaghetti",
+        "share the nutrition info for brownies with me"
+      ]
+    },
+    {
+      "id": "7054",
+      "text": "what's the meeting room availability between noon and 2",
+      "assigned": "meeting_schedule",
+      "stratum": "audit",
+      "examples": [
+        "what is the meeting schedule today",
+        "what is my meeting schedule today",
+        "is a meeting with ruth on my schedule today",
+        "read me my meeting schedule",
+        "what's on my meeting schedule today"
+      ]
+    },
+    {
+      "id": "1583",
+      "text": "could you talk like a british male",
+      "assigned": "change_accent",
+      "stratum": "audit",
+      "examples": [
+        "i need you to change your accent to the male british one",
+        "change to a male british accent",
+        "please change your accent to a british male",
+        "would you change your accent to the male british one",
+        "could you please change your accent to the male british one"
+      ]
+    },
+    {
+      "id": "4356",
+      "text": "i want to know if there are meeting rooms available between 9:00 am and 11:00 am",
+      "assigned": "schedule_meeting",
+      "stratum": "audit",
+      "examples": [
+        "how can i schedule a meeting",
+        "can you schedule a meeting with john for 12",
+        "how can you schedule a meeting for me",
+        "i want to schedule a meeting with tom for 6pm",
+        "i need to schedule a meeting"
+      ]
+    },
+    {
+      "id": "14442",
+      "text": "how many days off for vacation do i have left",
+      "assigned": "pto_balance",
+      "stratum": "audit",
+      "examples": [
+        "how many pto days do i have for the year",
+        "could you tell me how many pto days do i have left",
+        "can you let me know how many pto days do i have left",
+        "do i have any pto days left",
+        "how many pto days do i have left"
+      ]
+    },
+    {
+      "id": "332",
+      "text": "please read all the items on my reminder list",
+      "assigned": "reminder",
+      "stratum": "audit",
+      "examples": [
+        "what do i have on my reminder list",
+        "read my reminder list to me",
+        "what is on my reminder list",
+        "what is now on my reminder list",
+        "tell me what is on my reminder list"
+      ]
+    },
+    {
+      "id": "2170",
+      "text": "tell me what the traffic is like on the way to phoenix",
+      "assigned": "traffic",
+      "stratum": "audit",
+      "examples": [
+        "is the traffic bad on the way to work",
+        "what is the traffic like on the way to town",
+        "what is the traffic like on the way to work",
+        "how is the traffic like on the way to the beach",
+        "how is the traffic on the way to the campsite"
+      ]
+    },
+    {
+      "id": "11597",
+      "text": "go ahead and go back to the original settings",
+      "assigned": "reset_settings",
+      "stratum": "audit",
+      "examples": [
+        "i need you to reset your factory settings",
+        "i'd like to reset to factory settings",
+        "i want to reset your settings to the original",
+        "you need to reset your factory settings",
+        "i want you reset to factory settings"
+      ]
+    },
+    {
+      "id": "14292",
+      "text": "how many miles until i get to the beach",
+      "assigned": "distance",
+      "stratum": "audit",
+      "examples": [
+        "how long will it take the bus to get to stop 23",
+        "how long will it take to get to phoenix",
+        "how long will it take me to get to phoenix",
+        "how long will it take to get to tacoma",
+        "how long does it take to get to houston by bus"
+      ]
+    },
+    {
+      "id": "9147",
+      "text": "what timezone is melbourne in",
+      "assigned": "timezone",
+      "stratum": "audit",
+      "examples": [
+        "in what timezone is nigeria",
+        "what's the timezone for brasilia",
+        "detroit is in what timezone",
+        "what's the timezone for boston",
+        "what is the timezone in las vegas"
+      ]
+    },
+    {
+      "id": "11850",
+      "text": "see you later, alligator",
+      "assigned": "goodbye",
+      "stratum": "audit",
+      "examples": [
+        "thank you for the chat, goodbye",
+        "i'm saying goodbye now",
+        "goodbye, helpful ai device!",
+        "this was a nice chat, goodbye",
+        "i have to say goodbye"
+      ]
+    },
+    {
+      "id": "8257",
+      "text": "what's the due date for the renting bill",
+      "assigned": "bill_due",
+      "stratum": "audit",
+      "examples": [
+        "i cant remember when my bill is due",
+        "what is the due date of my bill",
+        "when is the bill due",
+        "when is my electric bill due",
+        "when is my xfinity bill due"
+      ]
+    },
+    {
+      "id": "7234",
+      "text": "my card was rejected at shakey's and i am wondering why",
+      "assigned": "card_declined",
+      "stratum": "audit",
+      "examples": [
+        "let me know why my card was declined yesterday",
+        "i wish to know why my card was declined yesterday",
+        "tell me why my card was declined yesterday",
+        "so why was my card declined yesterday",
+        "why was my card declined"
+      ]
+    },
+    {
+      "id": "16764",
+      "text": "is there traffic on my way to work",
+      "assigned": "traffic",
+      "stratum": "audit",
+      "examples": [
+        "is the traffic bad on the way to work",
+        "what is the traffic like on the way to town",
+        "what is the traffic like on the way to work",
+        "how is the traffic like on the way to the beach",
+        "how is the traffic on the way to the campsite"
+      ]
+    },
+    {
+      "id": "3539",
+      "text": "how is this car rated for fuel economy",
+      "assigned": "mpg",
+      "stratum": "audit",
+      "examples": [
+        "what is the city mpg for this car",
+        "what mpg does this car get on the highway",
+        "what is the mpg on this car",
+        "what's the mpg of this car",
+        "what mpg does this car get on the expressway"
+      ]
+    },
+    {
+      "id": "2369",
+      "text": "how is the traffic at the nearest wal-mart pharmacy",
+      "assigned": "traffic",
+      "stratum": "audit",
+      "examples": [
+        "is the traffic bad on the way to work",
+        "what is the traffic like on the way to town",
+        "what is the traffic like on the way to work",
+        "how is the traffic like on the way to the beach",
+        "how is the traffic on the way to the campsite"
+      ]
+    },
+    {
+      "id": "5829",
+      "text": "where is the closest red lobster to my location right now, which is 5th avenue",
+      "assigned": "directions",
+      "stratum": "audit",
+      "examples": [
+        "what are the directions to get to olympia by bus",
+        "i need directions to get to olympia by bus",
+        "give me directions to the nearest gas station",
+        "how do i get to the beach by bus",
+        "how do i get to the museum by bus"
+      ]
+    },
+    {
+      "id": "15935",
+      "text": "how many kilos are in 150 pounds",
+      "assigned": "measurement_conversion",
+      "stratum": "audit",
+      "examples": [
+        "what's the conversion from inches to centimeters",
+        "how many ounces are in a cup",
+        "what is the conversion of inches to centimeters",
+        "how many tablespoons are in a cup",
+        "tell me the conversion between tablespoons and cups"
+      ]
+    },
+    {
+      "id": "1351",
+      "text": "my luggage is nowhere in sight, it might be lost",
+      "assigned": "lost_luggage",
+      "stratum": "audit",
+      "examples": [
+        "help, i lost my luggage",
+        "i lost my luggage, what now",
+        "what do i do if my luggage is lost",
+        "what to do if i lost my luggage",
+        "what can i do if i lost my luggage"
+      ]
+    },
+    {
+      "id": "5250",
+      "text": "how much are the international transaction fees for my chase card",
+      "assigned": "international_fees",
+      "stratum": "audit",
+      "examples": [
+        "are there international transactions fees for rainbow card",
+        "give me a list of international transaction fees for my amex",
+        "what are the international transaction fees on my amex",
+        "does my visa have international transaction fees",
+        "what are my chase cards fees for international transactions"
+      ]
+    },
+    {
+      "id": "10950",
+      "text": "when does my amex expire",
+      "assigned": "expiration_date",
+      "stratum": "audit",
+      "examples": [
+        "whats the expiration date on my credit card",
+        "what's the expiration date on my credit card",
+        "when is the expiration date for my discover card",
+        "what is the expiration date on my visa card",
+        "what is the expiration date on my credit card"
+      ]
+    },
+    {
+      "id": "15915",
+      "text": "when can i expect my new card",
+      "assigned": "replacement_card_duration",
+      "stratum": "audit",
+      "examples": [
+        "how long before i can get a replacement card",
+        "how long does it take to get a replacement card",
+        "when will i get my replacement card",
+        "how long until i get a replacement card",
+        "when will you send me a replacement card"
+      ]
+    },
+    {
+      "id": "3619",
+      "text": "why is my bank account blocking me",
+      "assigned": "account_blocked",
+      "stratum": "audit",
+      "examples": [
+        "help, my account is blocked",
+        "do you know why my account is blocked",
+        "i don't know the reason my account is blocked",
+        "i think my account is blocked",
+        "can you confirm my account's blocked and tell me why"
+      ]
+    },
+    {
+      "id": "9455",
+      "text": "are there international transaction fees for using my chase card",
+      "assigned": "international_fees",
+      "stratum": "audit",
+      "examples": [
+        "are there international transactions fees for rainbow card",
+        "give me a list of international transaction fees for my amex",
+        "what are the international transaction fees on my amex",
+        "does my visa have international transaction fees",
+        "what are my chase cards fees for international transactions"
+      ]
+    },
+    {
+      "id": "7139",
+      "text": "how old are you, ai",
+      "assigned": "how_old_are_you",
+      "stratum": "audit",
+      "examples": [
+        "how old are you alexa",
+        "how old are you, again",
+        "how old are you again",
+        "how old are you today",
+        "how old are you in 2019"
+      ]
+    },
+    {
+      "id": "5865",
+      "text": "put on bended knee on my reflection playlist",
+      "assigned": "update_playlist",
+      "stratum": "audit",
+      "examples": [
+        "add this song to my rainy day playlist",
+        "add this song to my post-rock playlist",
+        "add this song to my cleaning playlist",
+        "add this song to my slow jams playlist",
+        "add this song to my top 40 playlist"
+      ]
+    },
+    {
+      "id": "4034",
+      "text": "send a text message",
+      "assigned": "text",
+      "stratum": "audit",
+      "examples": [
+        "i want you to send a text message for me",
+        "i have to send a text",
+        "i need to send a text",
+        "i want to send a text",
+        "send a text message to alice"
+      ]
+    },
+    {
+      "id": "17196",
+      "text": "pay my insurance bill",
+      "assigned": "pay_bill",
+      "stratum": "audit",
+      "examples": [
+        "i need to pay my water bill",
+        "i want to pay my gas bill",
+        "i want to pay my bill, please",
+        "i need to pay my cable bill",
+        "i want to pay my car bill"
+      ]
+    },
+    {
+      "id": "14678",
+      "text": "what's my income tax",
+      "assigned": "taxes",
+      "stratum": "audit",
+      "examples": [
+        "do you know how much i pay in taxes",
+        "how much money do i pay in taxes",
+        "how much do i pay in taxes, please",
+        "how much money do i pay in taxes, please",
+        "how much will i pay in state taxes"
+      ]
+    },
+    {
+      "id": "5356",
+      "text": "how many day of my vacation are left for the year",
+      "assigned": "pto_balance",
+      "stratum": "audit",
+      "examples": [
+        "how many pto days do i have for the year",
+        "could you tell me how many pto days do i have left",
+        "can you let me know how many pto days do i have left",
+        "do i have any pto days left",
+        "how many pto days do i have left"
+      ]
+    },
+    {
+      "id": "4170",
+      "text": "what is my old navy card's rewards balance",
+      "assigned": "rewards_balance",
+      "stratum": "audit",
+      "examples": [
+        "what is my maurices card's rewards balance",
+        "what is my amazon card's rewards balance",
+        "what is my american express card's rewards balance",
+        "what is my gymboree card's rewards balance",
+        "how do i get my rewards balance on my diner's club card"
+      ]
+    },
+    {
+      "id": "3361",
+      "text": "why do you think we're here",
+      "assigned": "meaning_of_life",
+      "stratum": "audit",
+      "examples": [
+        "what is the real meaning of life",
+        "tell the meaning of life",
+        "what is the meaning of my life",
+        "what is the meaning of life here",
+        "can you tell me, what is the meaning of life"
+      ]
+    }
+  ]
+}

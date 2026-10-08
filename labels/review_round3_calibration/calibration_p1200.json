@@ -1,0 +1,9 @@
+{
+  "assigned": "card_payment_wrong_exchange_rate",
+  "at": "2026-09-05T08:48:51.462Z",
+  "benchmark": "calibration",
+  "item_id": "p1200",
+  "note": "the user message doesn´t mention card",
+  "stratum": "pseudo",
+  "verdict": "bad"
+}

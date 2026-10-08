@@ -1,0 +1,9 @@
+{
+  "assigned": "pending_card_payment",
+  "at": "2026-09-05T07:40:33.739Z",
+  "benchmark": "benchmark_a",
+  "item_id": "100",
+  "note": "",
+  "stratum": "typical",
+  "verdict": "ok"
+}

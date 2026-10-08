@@ -1,0 +1,497 @@
+text	intent
+How can I add my physical debit card to my existing profile in the app so I can see the transactions there?	card_linking
+I just got a replacement card with a new number — how do I link this one to my account in the app?	card_linking
+Where in the app do I go to connect my new bank card so it shows up on the home screen?	card_linking
+hi, I received my card in the mail but it’s not visible in the app yet, how do I link it?	card_linking
+Can you explain step by step how to pair my new card with the app on my phone?	card_linking
+I changed my card recently, how do I make the new card appear in the app instead of the old one?	card_linking
+My debit card expires next month, will you send me a replacement automatically or do I have to request it somewhere in the app?	card_about_to_expire
+Hey, my card runs out at the end of this month, how can I get a new one before it stops working?	card_about_to_expire
+Card expiring soon, need instructions to renew it please	card_about_to_expire
+I noticed my bank card expires in a few weeks, what steps do I take to get a new card issued?	card_about_to_expire
+Hi, my card is due to expire on 10/31, when will the new one be sent out?	card_about_to_expire
+my card expires soon how do i replace it	card_about_to_expire
+The expiry date on my card is coming up, do I need to do anything or will a new card arrive automatically?	card_about_to_expire
+My current card will expire shortly and I’m abroad – how can I order a replacement card to a different address?	card_about_to_expire
+I see that my card is going to expire next month, where in the app can I request a new one?	card_about_to_expire
+How do I locate ATMs in my area that work with my card?	atm_support
+Is there a map in the app that shows which ATMs I can withdraw cash from?	atm_support
+Can I use international ATMs with this card when I travel abroad?	atm_support
+Which bank ATMs are compatible with my debit card for taking out cash?	atm_support
+Does this account give me access to any partner network ATMs?	atm_support
+How can I see if a specific ATM will let me check my balance with this card?	atm_support
+Are there certain ATMs I should use for cash withdrawals with this card only?	atm_support
+Can I withdraw money from non-bank ATMs like the ones in gas stations with this card?	atm_support
+I’m in another city, how do I find the nearest ATM where I can get cash using this card?	atm_support
+Does my card work at all ATMs that show the Visa logo or only some of them?	atm_support
+Can I use your app to find surcharge‑free ATMs that accept this card?	atm_support
+Is it possible to deposit cash at an ATM using this card, and if so which ATMs?	atm_support
+How do I know if an overseas ATM is compatible with my card network?	atm_support
+My town has only credit union ATMs, will those allow withdrawals with my card?	atm_support
+What type of ATMs (bank brand or network) should I look for to use my card safely?	atm_support
+Are there specific ATM networks I must use for cash withdrawals with this account?	atm_support
+Can you tell me which nearby ATMs support both withdrawals and balance inquiries for my card?	atm_support
+When will my physical debit card be sent out and how do I activate it once it arrives?	get_physical_card
+I’ve just opened an account – how do I order a physical card and get the PIN for it?	get_physical_card
+Do you automatically ship a physical card or do I need to request one somewhere in the app?	get_physical_card
+Card arrived today, how do I actually start using it and where do I see the PIN?	get_physical_card
+how long after sign up do i get the actual plastic card and the pin code in the mail	get_physical_card
+I only have a virtual card right now, what’s the process to get a physical card with its PIN?	get_physical_card
+Can I use this card for both in-store and online purchases or just one of them?	card_acceptance
+Does my card work everywhere that takes debit cards, or only with certain merchants?	card_acceptance
+Are there any types of shops or services where my card won’t be accepted?	card_acceptance
+Is it possible to use this card on subscription services like Netflix or Spotify?	card_acceptance
+Can I use my card to pay at gas stations and parking meters?	card_acceptance
+Where exactly am I allowed to use this card to make payments?	card_acceptance
+Is this card accepted in restaurants, supermarkets and pharmacies?	card_acceptance
+Are there any restrictions on using my card for hotel or car rental payments?	card_acceptance
+Can I link this card to my PayPal or other payment wallets for purchases?	card_acceptance
+Can I use the card for online shopping on sites like Amazon and eBay?	card_acceptance
+Is this card only for everyday purchases or can I also use it for larger transactions, like electronics?	card_acceptance
+Are there any merchants or business categories that you block by default for card payments?	card_acceptance
+Can I use this card to pay for digital services like app stores and gaming platforms?	card_acceptance
+Does my card work for contactless payments everywhere contactless is available?	card_acceptance
+Can I use this card to pay recurring bills, like utilities or phone contracts?	card_acceptance
+Is my card allowed for payments at bars, clubs and entertainment venues?	card_acceptance
+Are there restrictions on using the card for things like lottery tickets or gambling sites?	card_acceptance
+Can I use the card to pay for ride-hailing services like Uber or Bolt?	card_acceptance
+Is my card accepted for paying at toll booths and public transport ticket machines?	card_acceptance
+Can I use this card to book flights and pay airlines directly?	card_acceptance
+Are there any places or types of shops where my card won’t be accepted?	card_acceptance
+Can I use my card to pay in online stores as well as in physical shops?	card_acceptance
+Is my card ok to use in restaurants, supermarkets and gas stations, or are some merchants blocked?	card_acceptance
+Can this card be used for contactless payments everywhere they accept cards?	card_acceptance
+Are there any limits on using my card for subscriptions like Netflix or Spotify?	card_acceptance
+Can I use this card on payment terminals that only support credit cards, or does it have to say debit?	card_acceptance
+Will my card work on public transport ticket machines and parking meters?	card_acceptance
+Are there certain merchant categories where this card is not allowed, like gambling or adult sites?	card_acceptance
+Can I pay with my card on ride‑hailing apps like Uber or Bolt?	card_acceptance
+Is my card accepted on all online payment gateways like PayPal or Stripe checkouts?	card_acceptance
+Can I use this card to pay at hotels and car rental companies or are those blocked?	card_acceptance
+Does my card work in ATMs and POS terminals that just say “bank card accepted”?	card_acceptance
+Are there any restrictions on using my card for in‑app purchases on Apple or Google stores?	card_acceptance
+Can I add this card to digital wallets and then pay anywhere that accepts those wallets?	card_acceptance
+Is my card allowed for recurring payments at gyms or utility companies, or only for one‑time purchases?	card_acceptance
+Can you tell me how to set up a virtual card in the app?	getting_virtual_card
+I’d like to request a new virtual card, where do I do that?	getting_virtual_card
+How do I generate a virtual card for online purchases?	getting_virtual_card
+where in the app can i create a virtual card	getting_virtual_card
+I just joined, what are the steps to obtain a virtual debit card from you?	getting_virtual_card
+Is there an option to get a virtual card instead of a physical one, and how can I apply for it?	getting_virtual_card
+I want to add a virtual card to my account, can you guide me through the process?	getting_virtual_card
+Can I get a virtual card immediately after opening my account, and how do I activate it?	getting_virtual_card
+The ATM kept my card and didn’t give it back, what am I supposed to do now?	card_swallowed
+Your cash machine just swallowed my debit card, how can I recover it or get a new one?	card_swallowed
+Help, the ATM retained my card and shut down, how do I report this?	card_swallowed
+I was withdrawing money and the machine took my card and never returned it	card_swallowed
+The card reader at the ATM ate my card, can you advise how to proceed?	card_swallowed
+My card got captured by one of your ATMs, how do I get it back?	card_swallowed
+atm has kept my card, it didnt come out after the transaction, what now	card_swallowed
+The machine at the supermarket branch has taken my bank card, who do I contact?	card_swallowed
+Hi, an ATM just swallowed my card after saying there was an error, please tell me what to do	card_swallowed
+What happens if the ATM keeps hold of my card and doesn’t spit it out?	card_swallowed
+Your ATM retained my card and cancelled the operation, can you block it and send a replacement?	card_swallowed
+My card has been taken by an ATM and I can't retrieve it, how do I report this in the app?	card_swallowed
+The machine sucked my card in and won’t release it, how do I get a new card?	card_swallowed
+I inserted my card and the ATM never gave it back, how can I secure my account and replace the card?	card_swallowed
+The cashpoint confiscated my card, do I need to visit a branch to sort this out?	card_swallowed
+atm swallowed my card after entering pin, how do i get another one	card_swallowed
+I used an ATM abroad and it kept my card inside, what steps should I follow now?	card_swallowed
+The terminal said “card retained” and took my card, who do I speak to about this?	card_swallowed
+My bank card was taken by the ATM and it shut down, how do I request a new card quickly?	card_swallowed
+What do I need to do if the ATM just kept my card and I can’t get it back?	card_swallowed
+The ATM kept my card and didn’t give it back, what should I do now?	card_swallowed
+Your cash machine just retained my debit card, how can I retrieve it?	card_swallowed
+The machine at the station swallowed my card, can you help me get it back?	card_swallowed
+My card was taken by an ATM and it never came out, what’s the next step?	card_swallowed
+atm ate my card what do i do	card_swallowed
+I was using an ATM and it suddenly captured my card, how can I report this?	card_swallowed
+The ATM at Tesco withheld my card after I entered my PIN, how do I get a replacement?	card_swallowed
+An ATM retained my card and displayed a security message, who do I contact?	card_swallowed
+My card got stuck inside the ATM and it shut down, how can I cancel this card?	card_swallowed
+The machine took my card and said it would not be returned, what are my options?	card_swallowed
+Help, the bankomat has taken my card and didn’t dispense it back	card_swallowed
+The ATM has confiscated my card, how quickly can you issue me a new one?	card_swallowed
+I put my card in the ATM, it showed an error and kept the card, how do I proceed?	card_swallowed
+An ATM just captured my card and I can’t retrieve it from the slot, please advise	card_swallowed
+I need assistance, the cash point swallowed my card while checking my balance	card_swallowed
+My credit card was held by an ATM and it never ejected, how do I block it and get another?	card_swallowed
+The card reader at your ATM pulled in my card and didn’t return it, what do I need to do?	card_swallowed
+Your ATM took my card and the branch is closed, how can I report the swallowed card?	card_swallowed
+The machine retained my card because it said it was expired, can you send me a new one?	card_swallowed
+My card was swallowed by an ATM abroad, how do I get a replacement sent to me?	card_swallowed
+The cash machine froze and then kept my debit card, how can I retrieve it?	card_swallowed
+Help, the ATM just sucked in my card and never gave it back, what am I supposed to do now	card_swallowed
+Your ATM at the train station swallowed my card, can you tell me how to get it back or cancel it?	card_swallowed
+The machine took my card and didn’t return it after the transaction was cancelled, what steps should I take?	card_swallowed
+My card got retained by an ATM abroad, how do I report this and order a replacement?	card_swallowed
+atm ate my card, cant get it out, what do i do	card_swallowed
+The app says this beneficiary is not allowed, can you tell me why?	beneficiary_not_allowed
+Why does it keep telling me “beneficiary not allowed” when I try to set up this payee?	beneficiary_not_allowed
+I’m trying to add my landlord as a beneficiary and it says not allowed, what’s the issue?	beneficiary_not_allowed
+Your system won’t let me add this person as a beneficiary, why is that?	beneficiary_not_allowed
+I keep getting a message that my chosen beneficiary is not permitted, please explain.	beneficiary_not_allowed
+Why is the beneficiary I entered being blocked by the app?	beneficiary_not_allowed
+It says I’m not allowed to use this account as a beneficiary, what’s the reason?	beneficiary_not_allowed
+The bank is refusing to let me add my new beneficiary, why is it restricted?	beneficiary_not_allowed
+Hi, can you clarify why my selected beneficiary is flagged as not allowed?	beneficiary_not_allowed
+Every time I try to confirm this beneficiary, I’m told it’s not allowed – what’s going on?	beneficiary_not_allowed
+I want to know the criteria that make a beneficiary “not allowed” in your app.	beneficiary_not_allowed
+Why can’t I register this company as a beneficiary on my account?	beneficiary_not_allowed
+It says “you are not allowed to add this beneficiary” when I try to save their details, why?	beneficiary_not_allowed
+The beneficiary I’m trying to set up is apparently not allowed by the bank, please advise.	beneficiary_not_allowed
+Your app rejects this beneficiary as not allowed, how do I fix that?	beneficiary_not_allowed
+Is there a reason this particular beneficiary is not authorized on my profile?	beneficiary_not_allowed
+Can you tell me why your system marks my beneficiary as disallowed?	beneficiary_not_allowed
+What could cause your app to say that a beneficiary is not allowed on my account?	beneficiary_not_allowed
+I’m not allowed to select my usual payee as a beneficiary anymore, why has this changed?	beneficiary_not_allowed
+Please explain why adding this specific beneficiary is prohibited in your system.	beneficiary_not_allowed
+The app says "beneficiary not allowed" when I try to add my mom’s account, what does that mean?	beneficiary_not_allowed
+Why is your system telling me this beneficiary is not permitted?	beneficiary_not_allowed
+I’m trying to set up a new beneficiary and it keeps saying they’re not allowed, can you clarify why?	beneficiary_not_allowed
+Your app won’t let me add this beneficiary at all, is there a specific reason for this restriction?	beneficiary_not_allowed
+Beneficiary blocked – why is this person not allowed on my profile?	beneficiary_not_allowed
+It says I cannot use this beneficiary, can you explain what’s wrong with this payee?	beneficiary_not_allowed
+Why would a certain beneficiary be restricted on my account?	beneficiary_not_allowed
+I keep getting a message that the selected beneficiary is not allowed, what’s the issue here?	beneficiary_not_allowed
+The bank is refusing this beneficiary, how come I’m not allowed to add them?	beneficiary_not_allowed
+When I try to save this beneficiary it says “not allowed by bank” – why is that?	beneficiary_not_allowed
+Can you tell me why your system marks my chosen beneficiary as not allowed?	beneficiary_not_allowed
+Hi, my new beneficiary is being rejected as “not allowed”, what could cause that?	beneficiary_not_allowed
+I don’t understand why my husband’s account is listed as a disallowed beneficiary, please explain	beneficiary_not_allowed
+Why am I seeing an error that this beneficiary is not permitted under your rules?	beneficiary_not_allowed
+The app won’t let me register this beneficiary and just says they’re not allowed, what are the criteria?	beneficiary_not_allowed
+Im not allowed to use this beneficiar?? it keeps refusing them, why	beneficiary_not_allowed
+Please clarify why this specific beneficiary is being blocked and not allowed on my account	beneficiary_not_allowed
+What makes a beneficiary “not allowed” because that’s what I get when I try to add this one	beneficiary_not_allowed
+Why does it say this payee can’t be added as a beneficiary on my profile?	beneficiary_not_allowed
+Your system flags my intended beneficiary as not allowed, can you give me the reason for that?	beneficiary_not_allowed
+When I try to add my landlord as a beneficiary, the app says this beneficiary is not allowed – can you tell me the reason for this restriction?	beneficiary_not_allowed
+The system keeps blocking this new beneficiary and marks them as “not allowed”, why is that happening and how can I fix it	beneficiary_not_allowed
+Where in the app can I generate a new disposable virtual card?	get_disposable_virtual_card
+I want to start using a disposable virtual card for online shopping, how do I set one up?	get_disposable_virtual_card
+Can you activate a disposable virtual card for my account?	get_disposable_virtual_card
+How do I request a disposable virtual card from you guys?	get_disposable_virtual_card
+I’d like to use a one‑time virtual card, how can I get that?	get_disposable_virtual_card
+Please show me the steps to create a disposable virtual card.	get_disposable_virtual_card
+I can’t find the option, how do I make a disposable virtual card?	get_disposable_virtual_card
+Is it possible to issue a disposable virtual card for me today?	get_disposable_virtual_card
+I need a disposable virtual card for a single purchase, how do I obtain one?	get_disposable_virtual_card
+Could you tell me where to tap to get a disposable virtual card in the app?	get_disposable_virtual_card
+Hi, I’m trying to get a disposable virtual card linked to my account, what do I need to do?	get_disposable_virtual_card
+How can I generate a new disposable virtual card number?	get_disposable_virtual_card
+I’d like to add a disposable virtual card, can you help me set it up?	get_disposable_virtual_card
+Can I create a disposable virtual card right now, and if so, how?	get_disposable_virtual_card
+Need instructions on how to get a disposable virtual card for safer payments	get_disposable_virtual_card
+please i want to get a disposable virtual card how do i do that	get_disposable_virtual_card
+Is there a way for me to instantly get a disposable virtual card through this app?	get_disposable_virtual_card
+I’m signing up for a trial and want to use a disposable virtual card, how can I get one?	get_disposable_virtual_card
+How do I enable disposable virtual cards on my profile?	get_disposable_virtual_card
+Can you guide me to the menu where I can request a disposable virtual card?	get_disposable_virtual_card
+I’d like to start using a disposable virtual card, how do I request one in the app?	get_disposable_virtual_card
+Is it possible to add a disposable virtual card to my account right now?	get_disposable_virtual_card
+please tell me how to create a new disposable virtual card	get_disposable_virtual_card
+Can you set me up with a disposable virtual card linked to my main account?	get_disposable_virtual_card
+Where in the app can I generate a disposable virtual card for online purchases?	get_disposable_virtual_card
+I want a disposable virtual card for one-time payments, how can I get it?	get_disposable_virtual_card
+How do I apply for a disposable virtual card with you guys?	get_disposable_virtual_card
+Can I activate a disposable virtual card today, and if so, how?	get_disposable_virtual_card
+I need a disposable virtual card ASAP, what do I need to do to get one?	get_disposable_virtual_card
+Hi, I’m trying to find the option to create a disposable virtual card, can you guide me?	get_disposable_virtual_card
+Could you tell me the steps to get a new disposable virtual card on my profile?	get_disposable_virtual_card
+I can’t see where to make a disposable virtual card, can you help me get one?	get_disposable_virtual_card
+How can I issue a disposable virtual card for safer online shopping?	get_disposable_virtual_card
+Is there a way for me to generate a new disposable virtual card for each purchase?	get_disposable_virtual_card
+I want to use a disposable virtual card instead of my main card, how do I set that up?	get_disposable_virtual_card
+please can you enable a disposable virtual card on my account	get_disposable_virtual_card
+I’d like to request a disposable virtual card number for a single transaction, how do I do that?	get_disposable_virtual_card
+Can I be given a disposable virtual card directly through the app or do I need support?	get_disposable_virtual_card
+Show me how to get another disposable virtual card for my next online payment	get_disposable_virtual_card
+I can’t find my debit card anywhere, how do I report it missing and get a replacement?	lost_or_stolen_card
+My wallet was stolen and my bank card was inside, can you block it immediately?	lost_or_stolen_card
+I lost my bank card on the train today, how do I freeze it and order a new one?	lost_or_stolen_card
+Pretty sure I dropped my card somewhere in the street, need to cancel it asap	lost_or_stolen_card
+My card has gone missing, I think I left it at a restaurant, what should I do now?	lost_or_stolen_card
+I had my purse taken last night and my card was in it, please tell me how to report it stolen	lost_or_stolen_card
+I can’t locate my physical card at all, I think it’s lost, can you help me deactivate it?	lost_or_stolen_card
+Hey, my card was stolen from my bag at the gym, how do I get it blocked and replaced?	lost_or_stolen_card
+I misplaced my card and can’t remember where, how do I mark it as lost in the app?	lost_or_stolen_card
+Card lost!! need to stop anyone from using it and get a new one sent	lost_or_stolen_card
+My credit card disappeared after a night out, I need to report it as lost or stolen	lost_or_stolen_card
+I believe my card has been stolen from my car, how can I cancel it right away?	lost_or_stolen_card
+Hi, I can’t find my card since yesterday, assume it’s lost, what’s the process to get a new one?	lost_or_stolen_card
+I had my backpack stolen with my card inside, how do I notify the bank and get a replacement card?	lost_or_stolen_card
+Just tried to use my card and it says my PIN is blocked, how can I unblock it?	pin_blocked
+I entered the wrong PIN three times and now it’s blocked, what’s the next step?	pin_blocked
+My ATM receipt says “PIN blocked” – can you tell me how to reset it?	pin_blocked
+Pin blocked please help me remove the block	pin_blocked
+The machine told me my PIN is locked for security reasons, how do I get a new one?	pin_blocked
+Why did my PIN suddenly get blocked even though I’m sure I typed it correctly?	pin_blocked
+I can’t use my PIN anymore because it’s blocked, can you reset it remotely?	pin_blocked
+My PIN code got blocked after multiple wrong attempts, how long will it stay blocked and what do I do?	pin_blocked
+It says my PIN has been disabled, how do I set up a new PIN so I can use my card again?	pin_blocked
+Please go ahead and permanently close and terminate my banking account associated with this app.	terminate_account
+hi i want my account cancelled and removed from your system asap	terminate_account
+Could you please provide an overview of which bank cards and currencies are compatible with your service?	supported_cards_and_currencies
+What kinds of cards can I link to my account, and in what currencies can those cards be charged?	supported_cards_and_currencies
+Do you have any restrictions on card types or currencies that your app works with?	supported_cards_and_currencies
+Which payment cards are accepted on your platform, and in which currencies are they supported?	supported_cards_and_currencies
+cards n currencies u work with? want to know before I sign up	supported_cards_and_currencies
+I need a full list of supported card brands and the currencies they can operate in with your app	supported_cards_and_currencies
+Is it possible to top up my card using a cash deposit at a branch?	top_up_by_cash_or_cheque
+Can I add money to my account balance by paying in a cheque at the post office?	top_up_by_cash_or_cheque
+hi can i put cash on my account in one of your partner shops to top it up	top_up_by_cash_or_cheque
+I’d like to use a cheque to increase the funds on my account – what’s the process for that?	top_up_by_cash_or_cheque
+Can someone pay money into my account just using my IBAN, or do they need anything else?	receiving_money
+My parents want to send me some cash from their bank, how do I get it into this app?	receiving_money
+How do I receive a payment from a company that wants to pay my salary here?	receiving_money
+Can I get money from another bank account straight into this one, and how does that work?	receiving_money
+What details do I give a friend so they can transfer money to me on this app	receiving_money
+Is it possible for people who don’t use your app to send money to my account?	receiving_money
+I’m expecting a refund, how will I receive it into this account and do I need to do anything?	receiving_money
+Someone owes me money, how do I request it and have it show up in my balance?	receiving_money
+Can I receive payments from online gigs directly to this account instead of PayPal?	receiving_money
+My brother is abroad and wants to send me money here, what info do I share with him to receive it?	receiving_money
+How do I get paid into this account by my employer for the first time?	receiving_money
+How much can I top up my account in a single transaction?	top_up_limits
+Is there a daily limit on how much I’m allowed to top up?	top_up_limits
+Can you tell me the maximum top up amount per month?	top_up_limits
+Do you impose any limits on the total I can top up in a day or week?	top_up_limits
+whats the most i can top up at once?	top_up_limits
+Are there any restrictions on the amount I can top up to my card?	top_up_limits
+Is there a cap on top ups for new customers?	top_up_limits
+I keep topping up small amounts, is there an upper limit I should know about?	top_up_limits
+Please confirm if there is a maximum balance or top-up limit on this account.	top_up_limits
+Is there a limit for how many times I can top up in one day?	top_up_limits
+Do my top up limits change if I verify my identity?	top_up_limits
+What’s the overall top-up limit before I have to wait until the next day?	top_up_limits
+Can you explain the different top up limits for basic vs premium accounts?	top_up_limits
+The app keeps saying “verification failed” and won’t confirm my identity.	unable_to_verify_identity
+I tried three times already and it still won’t verify who I am, can you check this?	unable_to_verify_identity
+Your system keeps rejecting my ID and I’m stuck on the identity verification screen.	unable_to_verify_identity
+I cant complete my registration because it says my identity cannot be verified.	unable_to_verify_identity
+My identity verification keeps failing even though my details are correct.	unable_to_verify_identity
+I’m unable to pass the identity check, it just errors out every time.	unable_to_verify_identity
+The identity verification step will not go through no matter what I do.	unable_to_verify_identity
+I uploaded my ID but the app says it’s unable to verify my identity right now.	unable_to_verify_identity
+It keeps telling me “we couldn’t verify your identity” and won’t let me continue.	unable_to_verify_identity
+For some reason your app refuses to verify my identity and I’m locked out of my account.	unable_to_verify_identity
+My account shows that my recent top up was reverted, can you explain what happened?	top_up_reverted
+The top up I did this morning got reverted back, why?	top_up_reverted
+Why did you guys revert my topup after it already appeared in my balance?	top_up_reverted
+My top-up keeps getting reverted after a few minutes, what’s going on?	top_up_reverted
+I topped up my account and then it was suddenly reverted, please help	top_up_reverted
+The system has reverted my top up transaction, I need to know the reason	top_up_reverted
+It says my last top up was reverted, how long until the money comes back to my card?	top_up_reverted
+You reverted my top up without telling me, why did that happen??	top_up_reverted
+Hi, my phone shows the top up completed but in the app it says “reverted top up”	top_up_reverted
+My topup was reverted and my balance went down again, can you check this?	top_up_reverted
+The top up I made yesterday evening has been reverted today, is there a problem with my account?	top_up_reverted
+I just saw a notification saying my top up was reverted, what does that mean?	top_up_reverted
+Why has my top-up transaction been reverted instead of staying in my wallet?	top_up_reverted
+My top up appeared and then disappeared with a note saying reverted top up	top_up_reverted
+I think my last account top up was reverted by the app, can you confirm and tell me why?	top_up_reverted
+I’ve been asked to provide a source of funds verification on my account, how do I complete this?	verify_source_of_funds
+What documents do you need from me to confirm the source of my funds for compliance?	verify_source_of_funds
+I need help uploading evidence to prove where my funds come from	verify_source_of_funds
+Can you guide me through the process to validate the origin of my funds for my account?	verify_source_of_funds
+how do i show you the source of my money so it can be approved	verify_source_of_funds
+The app is asking me to confirm the source of my funds before I can continue, what should I do?	verify_source_of_funds
+I want to submit proof of income to verify the funds in my account, where do I do that?	verify_source_of_funds
+Please tell me how to get my funds source checked so I can keep using the account	verify_source_of_funds
+I’m required to clarify the origin of the money in my account, can you help me verify it?	verify_source_of_funds
+Why are you asking me to confirm my identity just to use my account?	why_verify_identity
+Can you tell me the reason you need my ID details in the first place?	why_verify_identity
+Why is identity verification necessary for this app?	why_verify_identity
+I'm curious, what’s the purpose of you needing to verify who I am?	why_verify_identity
+Why do I suddenly have to go through identity checks to keep using my card?	why_verify_identity
+Why exactly do you require identity verification before I can continue?	why_verify_identity
+Can you explain why it’s important for you to verify my identity with documents?	why_verify_identity
+Why am I being prompted to prove my identity now when I’ve been a customer for years?	why_verify_identity
+What’s the point of this identity verification you’re asking for?	why_verify_identity
+Why do you need so much personal information just to verify my identity?	why_verify_identity
+Is there a specific reason my identity has to be verified for this account?	why_verify_identity
+Why is it mandatory to have my identity verified to keep my limits?	why_verify_identity
+Why do you guys have to check my identity at all, isn’t my account enough?	why_verify_identity
+I’d like to know why you’re insisting on identity verification before I can proceed.	why_verify_identity
+Why is verifying my identity required for me to continue using all the features?	why_verify_identity
+My tap to pay suddenly stopped working today, even though the chip and PIN are fine. Can you help?	contactless_not_working
+Contactless on my card keeps failing at the supermarket terminal but swiping works, what’s wrong?	contactless_not_working
+The terminal keeps saying "card not read" whenever I try to pay contactless, how do I fix this?	contactless_not_working
+Why has my contactless stopped working on my debit card even though I’ve used it many times before?	contactless_not_working
+My phone wallet works but the physical card’s contactless doesn’t, is there something I need to reset?	contactless_not_working
+Contactless payment declined multiple times although I have enough balance, what could be the issue?	contactless_not_working
+Every time I try to tap my card, the machine beeps and asks for chip instead, is my contactless disabled?	contactless_not_working
+I can’t seem to make any contactless payments since yesterday, do I need to activate something again?	contactless_not_working
+Tap to pay on my card doesn’t work on buses or in shops, only inserting the card works, please advise.	contactless_not_working
+Contactless is not working for small amounts under the limit, it just won’t register the tap at all.	contactless_not_working
+Why is my tap function not working anymore but the card works fine when inserted with PIN?	contactless_not_working
+My contactless used to work but now all terminals ignore it, did you block it for some reason?	contactless_not_working
+I get an error every time I try to pay with contactless on my new card, do I have to enable it first?	contactless_not_working
+The card reader keeps saying "use chip" when I tap my card, how can I get contactless working again?	contactless_not_working
+I’ve tried multiple stores and the contactless never goes through, only chip and PIN, what’s happening?	contactless_not_working
+Contactless on my replacement card doesn’t seem to work anywhere, is it defective or not activated?	contactless_not_working
+My card won’t tap on the train gates or in shops, it’s like the contactless sensor is dead, please help.	contactless_not_working
+I reached some limit and now my contactless doesn’t work at all, how do I reset it?	contactless_not_working
+Tap payments from my card wallet keep failing while physical contactless works, is there a setting I missed?	contactless_not_working
+I cannot pay contactless at all, the card doesn’t respond when I tap it, how do I get this working?	contactless_not_working
+My tap to pay stopped working all of a sudden, what could be wrong with my contactless?	contactless_not_working
+Contactless was fine yesterday but today every terminal says “card not read” when I tap, how do I fix this?	contactless_not_working
+Why does my card only work when I insert it and not when I use the contactless option?	contactless_not_working
+The POS machine keeps asking me to insert the card instead of accepting my contactless, is there something I need to enable?	contactless_not_working
+I tried to pay with contactless three times at the supermarket and it just beeped red each time, what should I do?	contactless_not_working
+My phone shows the card in the wallet but the contactless payment is always declined at the reader, any idea why?	contactless_not_working
+Tap function seems dead on my card, can you check if my contactless is blocked or disabled?	contactless_not_working
+Hello, my contactless payments are consistently failing and I’m forced to use chip and PIN, how can I get tap to work again?	contactless_not_working
+Contactless used to work but now the terminal doesn’t even react when I tap my card, is my NFC broken?	contactless_not_working
+Why is it that the contactless works sometimes and then randomly stops working on other payments?	contactless_not_working
+My new card arrived and the chip works but the contactless doesn’t do anything, is there some activation step I missed?	contactless_not_working
+Cannot pay contactless on buses or in shops, only inserting the card works, please help me fix the tap function.	contactless_not_working
+The reader keeps saying “present only one card” when I try to use contactless with my card, but I only have this card, what could be wrong?	contactless_not_working
+Contactless limit not reached but every tap transaction is declined, what is preventing my contactless from working?	contactless_not_working
+I’ve cleaned the card but the contactless still won’t register on any terminal, should I request a replacement?	contactless_not_working
+My smartwatch won’t complete contactless payments with this card, it just fails at checkout every time, how do I troubleshoot this?	contactless_not_working
+Is there a reason my contactless stopped working after a declined transaction? It hasn’t worked since.	contactless_not_working
+Tap to pay on the metro gate keeps flashing red with this card, even though it works when I insert it elsewhere, what’s wrong with the contactless?	contactless_not_working
+I keep getting an error message when I try to pay via contactless in shops, can you tell me how to get tap payments working again?	contactless_not_working
+The contactless symbol shows on my card but terminals don’t detect it when I tap, is my contactless feature deactivated?	contactless_not_working
+My tap to pay suddenly stopped working even though the chip and PIN are fine, what’s going on?	contactless_not_working
+The terminal keeps telling me to insert my card instead of accepting contactless, how do I fix this?	contactless_not_working
+Contactless hasn’t worked on my last three purchases, is there a setting I need to enable again?	contactless_not_working
+Why does my card beep and then say “transaction not allowed” whenever I try to pay contactless?	contactless_not_working
+Tap function is dead, only swiping/chip works. Can you help me get contactless working again?	contactless_not_working
+My contactless worked yesterday but today every machine just refuses it, is it blocked somehow?	contactless_not_working
+I can’t use the wave feature anymore, it just errors out. How do I reset the contactless on my card?	contactless_not_working
+The card reader says “card not detected” when I tap but works when inserted, what’s wrong with contactless?	contactless_not_working
+Contactless is not working in shops or on buses, is there a limit I’ve hit that disables it?	contactless_not_working
+Why won’t my phone’s contactless with your card work even though it shows as active in the app?	contactless_not_working
+Every time I try to pay by tapping it just times out, can you check if my contactless is disabled?	contactless_not_working
+My card refuses to tap on the train gates, keeps giving a red light, how do I fix the contactless?	contactless_not_working
+Contactless stopped working right after I entered my PIN for a big purchase, is that related?	contactless_not_working
+Hey, my tap to pay on Google Pay keeps declining but the physical card works, what should I do?	contactless_not_working
+The contactless icon is on my card but no reader seems to pick it up, is the NFC broken?	contactless_not_working
+I’ve tried multiple terminals and none accept my contactless, only chip. How can I troubleshoot this?	contactless_not_working
+I can’t use payWave/payPass anymore, did you guys turn off the contactless on my card?	contactless_not_working
+My contactless payment failed three times in a row at the supermarket, why is tap not functioning?	contactless_not_working
+Contactless on Apple Pay with your card keeps saying “payment not completed”, how do I fix it?	contactless_not_working
+Tap and go is not working at all, is there a way to reactivate the contactless feature on my card?	contactless_not_working
+If I add money via bank transfer to my account, do you charge any fee for that top up?	top_up_by_bank_transfer_charge
+Is topping up my balance through a normal bank transfer free of charge?	top_up_by_bank_transfer_charge
+Do you apply any fees when I fund my account by making a bank transfer instead of card?	top_up_by_bank_transfer_charge
+When I send myself money by bank transfer to top up, will there be a cost on your side?	top_up_by_bank_transfer_charge
+I plan to top up using a SEPA bank transfer – is there any fee for receiving it?	top_up_by_bank_transfer_charge
+Are incoming transfers used to top up my balance completely free or do you take a commission?	top_up_by_bank_transfer_charge
+Is there a charge your end if I top up my account by doing a bank transfer from my bank?	top_up_by_bank_transfer_charge
+Just checking, do you guys charge anything when I top up my wallet using a bank transfer?	top_up_by_bank_transfer_charge
+Will a bank transfer top up show any extra fees on my Revolut statement?	top_up_by_bank_transfer_charge
+Do you guys add any fees when I receive a bank transfer as a way to top up my account?	top_up_by_bank_transfer_charge
+Is topping up through a wire transfer to my IBAN with you subject to any charges?	top_up_by_bank_transfer_charge
+If my friend sends me money by bank transfer to my account to top it up, do you deduct a fee?	top_up_by_bank_transfer_charge
+I want to know if top ups done via domestic bank transfer are free or if you charge something	top_up_by_bank_transfer_charge
+Are SEPA bank transfers used to top up my account charged in any way by you?	top_up_by_bank_transfer_charge
+Do incoming local bank transfers that I use for topping up incur any fees from your side?	top_up_by_bank_transfer_charge
+Is there any difference in fees between topping up by bank transfer and not topping up at all?	top_up_by_bank_transfer_charge
+Could you confirm that adding funds by transferring from my bank account won’t cost me anything?	top_up_by_bank_transfer_charge
+If I regularly top up by sending bank transfers to my account, will I get charged a top up fee?	top_up_by_bank_transfer_charge
+Does your bank transfer top up option have any hidden charges or is it completely free?	top_up_by_bank_transfer_charge
+What’s the fee, if any, for topping up my balance with a regular bank transfer instead of a card?	top_up_by_bank_transfer_charge
+If I top up my account via a bank transfer, will there be any fees from your side?	top_up_by_bank_transfer_charge
+Do you charge anything when I add money by bank transfer instead of card?	top_up_by_bank_transfer_charge
+Is there a fee for topping up my balance through a bank transfer from another bank?	top_up_by_bank_transfer_charge
+I want to load my account using a SEPA bank transfer – will that cost me anything?	top_up_by_bank_transfer_charge
+Will you apply any charges if my friend sends me money via bank transfer to top up my account?	top_up_by_bank_transfer_charge
+Are incoming bank transfers used as top ups completely free of charge?	top_up_by_bank_transfer_charge
+How much do you charge, if at all, when I top up by sending a bank transfer?	top_up_by_bank_transfer_charge
+Before I make a bank transfer to fund my account, can you confirm there’s no top up fee?	top_up_by_bank_transfer_charge
+Am I going to be charged on your side for receiving a bank transfer as a top up?	top_up_by_bank_transfer_charge
+Does topping up by standard bank transfer incur any extra costs with you guys?	top_up_by_bank_transfer_charge
+Is an international bank transfer used to top up my account subject to any fee from you?	top_up_by_bank_transfer_charge
+I’m planning to top up using a SEPA transfer, do you take any commission for that?	top_up_by_bank_transfer_charge
+Are top ups done via regular bank transfers free, or is there some kind of charge?	top_up_by_bank_transfer_charge
+When I send money from my other bank to this account to top up, do you charge me anything?	top_up_by_bank_transfer_charge
+Does your app add a fee when my salary is transferred in and used as a top up?	top_up_by_bank_transfer_charge
+Please confirm: bank transfer top ups = zero fees on your side?	top_up_by_bank_transfer_charge
+I topped up my balance via bank transfer, should I expect any charges from you for that?	top_up_by_bank_transfer_charge
+What are your fees, if any, for receiving money by bank transfer as an account top up?	top_up_by_bank_transfer_charge
+If someone sends me a SEPA payment to increase my balance here, is there a receiving fee?	top_up_by_bank_transfer_charge
+Do you take a fee on top ups that come in through local bank transfer rather than card?	top_up_by_bank_transfer_charge
+If I add money to my account via a bank transfer, will there be any fees?	top_up_by_bank_transfer_charge
+Do you charge anything when someone tops up their balance through a bank transfer?	top_up_by_bank_transfer_charge
+Is topping up my balance by sending a bank transfer completely free?	top_up_by_bank_transfer_charge
+Will my bank transfer top up incur any charges on your side?	top_up_by_bank_transfer_charge
+Are there any costs for receiving a bank transfer as a top up to my account?	top_up_by_bank_transfer_charge
+How much do you charge, if anything, for balance top ups made by bank transfer?	top_up_by_bank_transfer_charge
+Before I send a transfer to top up, can you confirm if there’s a fee involved?	top_up_by_bank_transfer_charge
+Is there a fee for funding my account via domestic bank transfer as a top-up?	top_up_by_bank_transfer_charge
+Will you apply any charges when I top up using a SEPA bank transfer?	top_up_by_bank_transfer_charge
+Does a top up made by Faster Payments bank transfer have any fees?	top_up_by_bank_transfer_charge
+I want to top up via a wire transfer – do you take a fee for that?	top_up_by_bank_transfer_charge
+Are incoming bank transfers used as top ups subject to any charges from you?	top_up_by_bank_transfer_charge
+If my friend transfers money to my IBAN to top up my account, is that free?	top_up_by_bank_transfer_charge
+Do bank transfer topups cost anything, or are they free like regular transfers?	top_up_by_bank_transfer_charge
+Is there any additional charge on your side for a SEPA credit transfer top up?	top_up_by_bank_transfer_charge
+I’m planning to top up by local bank transfer, will that be charged at all?	top_up_by_bank_transfer_charge
+Please tell me if topping up my account balance via bank transfer is free of charge.	top_up_by_bank_transfer_charge
+Will my account be debited a fee when I receive a bank transfer as a top-up?	top_up_by_bank_transfer_charge
+Are there any hidden fees when I use a bank transfer to add funds to my account?	top_up_by_bank_transfer_charge
+Does topping up with a bank transfer from another bank incur any charges from you?	top_up_by_bank_transfer_charge
+My virtual card keeps getting declined everywhere I try to use it online.	virtual_card_not_working
+The virtual card in my app suddenly stopped working, transactions keep failing.	virtual_card_not_working
+Why won't my virtual card go through for this subscription payment?	virtual_card_not_working
+My disposable virtual card keeps getting rejected even though I have enough balance.	virtual_card_not_working
+I’m trying to pay with my virtual card but it keeps saying “payment failed”.	virtual_card_not_working
+The temporary virtual card I generated is not being accepted by the website.	virtual_card_not_working
+My virtual card doesn’t work with Apple Pay, it keeps saying card not valid.	virtual_card_not_working
+Every time I use the disposable virtual card, the merchant says it’s invalid.	virtual_card_not_working
+hi, my virtual card stopped working today, it worked fine yesterday	virtual_card_not_working
+I cannot complete any purchases using my virtual card, it always gets declined.	virtual_card_not_working
+The merchant says my virtual card number is incorrect but I copied it from the app.	virtual_card_not_working
+My virtual card keeps failing on international websites, what’s wrong with it?	virtual_card_not_working
+Why is every online store declining my disposable card, it’s not working at all.	virtual_card_not_working
+My virtual debit card is not working for online payments or in apps.	virtual_card_not_working
+The virtual card you issued isn’t working for my Netflix payment, it keeps failing.	virtual_card_not_working
+help, my new disposable virtual card won’t process any transaction	virtual_card_not_working
+I tried 3 different websites and my virtual card is still not working.	virtual_card_not_working
+My virtual card was working earlier but now all payments are blocked for some reason.	virtual_card_not_working
+The virtual card attached to my account doesn’t work at AT ALL, every charge is refused.	virtual_card_not_working
+My disposable virtual card keeps showing “transaction not permitted” when I try to pay.	virtual_card_not_working
+My virtual card keeps getting declined whenever I try to pay online, can you check what’s wrong?	virtual_card_not_working
+The virtual card in my app suddenly stopped working at checkout.	virtual_card_not_working
+Why wont my virtual card go through on any website?	virtual_card_not_working
+My disposable card was accepted before but now every transaction fails.	virtual_card_not_working
+I’m trying to pay with my virtual card on Uber and it keeps saying “payment method invalid”.	virtual_card_not_working
+The virtual card number I generated is not being recognized by the merchant.	virtual_card_not_working
+I can’t complete any purchases with my virtual card, it gets rejected every time.	virtual_card_not_working
+Hi, my single-use virtual card isn’t working for this online purchase, please help.	virtual_card_not_working
+My virtual card is declining even though I have enough balance on my account.	virtual_card_not_working
+For some reason, my temporary virtual card doesn’t work on Netflix, it just errors out.	virtual_card_not_working
+why is my virtual card not going thru for contactless payments on my phone	virtual_card_not_working
+The merchant keeps saying my virtual card is invalid, but it shows as active in the app.	virtual_card_not_working
+My disposable virtual card failed three times at checkout and I don’t know why.	virtual_card_not_working
+I tried to use my virtual card for a subscription and it keeps saying “card not supported”.	virtual_card_not_working
+Can you tell me why my virtual card payment was refused at two different online stores?	virtual_card_not_working
+My virtual card stopped working after one purchase, now every attempt is declined.	virtual_card_not_working
+The virtual card linked to my account won’t process payments on Apple Pay anymore.	virtual_card_not_working
+I generated a new virtual card but it still doesn’t work, the transaction is always declined.	virtual_card_not_working
+virtual card not working for online booking keeps failing payment	virtual_card_not_working
+My virtual card used to work fine, but now all online payments are rejected without explanation.	virtual_card_not_working
+My virtual card keeps getting declined whenever I try to pay online, what’s wrong with it?	virtual_card_not_working
+The disposable virtual card you issued me yesterday is not being accepted anywhere	virtual_card_not_working
+why is my virtual card being rejected on every website I try	virtual_card_not_working
+My virtual card doesn’t work on Uber or Netflix, payments keep failing	virtual_card_not_working
+The temporary virtual card in my app says “active” but transactions are not going through	virtual_card_not_working
+Can you check why my virtual card is not working for online purchases	virtual_card_not_working
+I’ve tried multiple times but my virtual card payment keeps failing at checkout	virtual_card_not_working
+My virtual card was working earlier and now every transaction is declined	virtual_card_not_working
+The virtual card number I’m using is correct but it still won’t process payments	virtual_card_not_working
+my disposable card stopped working after one purchase and now I can’t use it again	virtual_card_not_working
+I cannot complete any transaction with my virtual card, it just errors out each time	virtual_card_not_working
+Hello, my virtual card keeps getting refused by merchants, please help	virtual_card_not_working
+The app shows my virtual card as valid but stores say the payment can’t be authorized	virtual_card_not_working
+This new virtual card doesn’t seem to work on Apple Pay or normal online payments	virtual_card_not_working
+My virtual debit card is not going through on Steam or Google Play	virtual_card_not_working
+Why does my virtual card fail when I try to pay for my subscription	virtual_card_not_working
+My one-use virtual card isn’t working for the transaction I created it for	virtual_card_not_working
+Virtual card declines every time I attempt a contactless payment online, what’s the issue	virtual_card_not_working
+I can’t make any online purchases because my virtual card always gets declined	virtual_card_not_working
+My disposable virtual card stopped working before I could finish my booking	virtual_card_not_working

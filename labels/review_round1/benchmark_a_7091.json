@@ -1,0 +1,9 @@
+{
+  "assigned": "card_acceptance",
+  "at": "2026-09-05T08:04:57.856Z",
+  "benchmark": "benchmark_a",
+  "item_id": "7091",
+  "note": "customer wants use their card to pay for their family member, doesn´t ask about where their card is accepted",
+  "stratum": "long",
+  "verdict": "bad"
+}

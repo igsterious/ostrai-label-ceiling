@@ -1,0 +1,9 @@
+{
+  "assigned": "direct_debit_payment_not_recognised",
+  "at": "2026-09-05T08:42:44.786Z",
+  "benchmark": "calibration",
+  "item_id": "g1612",
+  "note": "",
+  "stratum": "gold",
+  "verdict": "ok"
+}

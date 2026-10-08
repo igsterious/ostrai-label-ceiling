@@ -1,0 +1,101 @@
+id	assigned	verdict	note	text
+100	pending_card_payment	ok		I made a payment but it's still pending
+1005	pending_transfer	ok		The transfer finally worked, but how long does it stay pending?
+1200	card_payment_wrong_exchange_rate	bad	the user message doesn´t mention card	My client was converting their Russian ruble into UK pound currency when they noticed their bill was much too high for the exchange. What happened?
+1305	extra_charge_on_statement	bad	customer complains about being charged fees, not about extra charge	I am tired of getting charged fees, and I have no idea why, please let me know what/when you charge fees for.
+1307	extra_charge_on_statement	ok		When do you charge fees on accounts? I just saw a charge on my statement.
+1362	balance_not_updated_after_cheque_or_cash_deposit	bad	cash transaction on receipt, this is not cheque or cash deposit	My cash transaction isn't showing on my receipt
+1472	top_up_failed	ok		Hello, I have tried using crypto top up but it is not working. I had some money in my account but I'm not sure what happened
+1602	disposable_card_limits	ok		How many disposable virtual cards can you have?
+1661	top_up_limits	ok		is there a limit on top ups
+1683	transaction_charged_twice	ok		Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you remove one of them as it's wrong and clearly was declined?
+1783	pending_card_payment	ok		There is a pending payment on my account that is very strange. I don't remember making this and it won't go away. Can you help me figure this out?
+1807	declined_card_payment	ok		I was out today looking forward to paying with my new card, but the payment just kept getting declined. This is really sad, what's going on?
+1953	transfer_not_received_by_recipient	ok		My friend says he hasn't received my transaction
+2133	beneficiary_not_allowed	bad	the user message doesn´t say anything about beneficiary	i accidentally entered in my retailers information, what should i do next
+2137	unable_to_verify_identity	bad	identity has not been verified yet, this doesn´t mean that the customer is unable to verify their identity	Can I go ahead and use my account even though my identify hasn't been verified yet?
+2286	reverted_card_payment?	ok		I seem to have a problem here, I bought something about a 2 weeks ago and just now received the payment back into my account and I've already received the item. Can you tell me what is going on here?
+2297	card_swallowed	ok		My card got trapped inside an ATM, what should I do?
+2315	top_up_failed	ok		My top up was rejected. Why?
+2335	passcode_forgotten	ok		Are there directions to get a new passcode if I forgot mine?
+2420	card_not_working	ok		What should I do if my physical card isn't working?
+2671	cash_withdrawal_not_recognised	ok		There's a cash withdrawal that didn't make that is showing up.
+2831	cancel_transfer	bad	transaction doesn´t automatically equal a transfer	How do I go about cancelling a transaction?
+2886	visa_or_mastercard	ok		I want to get a Visa card
+29	direct_debit_payment_not_recognised	ok		There was a direct debit from my account and I didn't authorise it
+2978	declined_transfer	ok		What stopped my transfer, from being accepted?
+3009	top_up_limits	ok		How much am I allowed to top-up?
+3018	request_refund	ok		Can i cancel this purchase?
+3073	top_up_failed	ok		I was under the impression that you offer crypto top up; however, it doesn't appear to be working. The money has now disappeared from my account so I need to know what the deal is?
+3106	verify_top_up	ok		why do i have to verify top up?
+3114	card_payment_not_recognised	ok		There are a couple payments with my card shown that I'm not responsible for. What is going on? Maybe someone has access to my account.
+3147	pin_blocked	ok		Can someone assist me with explaining how I can unblock my pin?
+3250	cancel_transfer	maybe	user wants to cancel last transaction, doesn´t mention specificalls transfer	Please cancel my last transaction.
+3756	card_not_working	ok		what is the matter?
+3769	reverted_card_payment?	bad	a reverted payment can be both a payment done via transfer or by card IMO	Why was a payment I made reverted?
+3936	getting_spare_card	maybe		I would like more physical cards
+3945	pending_top_up	ok		My top up keeps showing pending? How long will things be like this? Days, weeks, months? I need the money quite urgently for an important coffee purchase, can you please let me know when top up will work?
+3978	card_about_to_expire	ok		Does it cost anything to get a new card? Mine's about to expire and I'd also like to know how long it takes to get the new one.
+4010	lost_or_stolen_phone	ok		How do I use my card if I lost my phone?
+410	pending_cash_withdrawal	ok		How long does it take for a pending cash withdrawal?
+4189	declined_cash_withdrawal	ok		The ATM cancelled a transaction on me when I was trying to get some cash out.
+432	card_linking	bad	user wants to unblock or re-link an card they previously deleted from the app	Okay, I found my card, can I put it back in the app?
+4367	declined_cash_withdrawal	ok		I was getting some cash out of the ATM but it cancelled on me without warning.
+4694	top_up_by_card_charge	ok		how much for topping up by card?
+4889	request_refund	ok		Hello I changed my mind and really need a refund on something I bought recently. Can you please cancel the transaction and get me my money back. Please it's urgent.
+4897	cash_withdrawal_not_recognised	ok		My account shows that I made a cash withdrawal but I cannot remember doing so!
+4908	get_physical_card	ok		Where do I find my card PIN?
+534	card_payment_not_recognised	ok		Hello, I noticed there is a payment from my card to a business that I am not familiar with. I definitely did not make this payment.
+5372	exchange_rate	ok		Tell me your opinion on the exchange rate.
+5386	supported_cards_and_currencies	ok		I only have a card from the US is that okay?
+5434	card_delivery_estimate	ok		When will my card be here?
+5460	pin_blocked	ok		I punched in the wrong pin too many times and I'm locked out.
+5569	wrong_amount_of_cash_received	ok		I attempted to withdraw some money from an ATM this morning and received the wrong amount. Your app says I have enough money available in the account. Can someone tell me what's wrong?
+5659	top_up_failed	ok		I need some help, I thought you guys accepted crypto top ups?? It won't seem to let me do it. I put money in my account and now it's gone and I didn't spend it. Where did it go??
+5680	pin_blocked	ok		I accidentally put in the wrong pin too many times and now I need to unblock it. Can you assist with this?
+5778	cash_withdrawal_not_recognised	ok		I am using the app, and I see cash withdrawals that I did not authorize.
+587	terminate_account	ok		Can you close my account please?
+5966	lost_or_stolen_phone	ok		hello I have lost my phone and I'm worried someone's going to steal money from me
+6078	getting_spare_card	maybe		If I get another card, what kind of fees am I looking at?
+6217	declined_card_payment	ok		Why does my card continually get declined? I thought I had enough money in there but I've tried several times now and it still isn't working.
+6229	lost_or_stolen_phone	ok		I lost my phone. What do I do to block someone else from using my account?
+6270	transfer_timing	maybe		When will the transaction be done?
+6335	cash_withdrawal_charge	ok		Hello, in these holidays i have been overcharged on the amount i have withdrawn on one of your ATMs. I did not had any clue about the horrible charges otherwise i would not have withdrawn.
+644	top_up_failed	ok		Problems with my top up
+6446	failed_transfer	ok		I need assistance completing a transfer. I'm trying to purchase a flat and need the money for the initial mortgage payment. I keep getting an error and the transfer is not going through. What is going on here?
+6483	pin_blocked	ok		I mistook my pin and now I am locked. Can you unlock me?
+6517	transfer_fee_charged	ok		I do not like this, I made a simple transfer but I have an additional charge for doing so.
+671	verify_top_up	ok		How can I verify my top up?
+6884	get_disposable_virtual_card	ok		Where do I get a disposable card
+691	verify_top_up	ok		I am having trouble finding the top-up card verification code.
+7052	get_disposable_virtual_card	ok		Can you point me in the right direction of where to go to roder a disposable virtual card, I can't seem to find it.
+7091	card_acceptance	bad	customer wants use their card to pay for their family member, doesn´t ask about where their card is accepted	I would like to use one of my cards for a family member. Is that allowed?
+7127	country_support	ok		Can an American resident apply to get a card?
+7178	direct_debit_payment_not_recognised	ok		I have a direct debit on my records that is strange and I need help.
+7247	transfer_into_account	ok		I have zero dollars in my account. Can I submit additional funds via bank transfer?
+7312	card_linking	ok		I finally got my card. Now I want to link it. Is that something you have to do or can I do that?
+7331	activate_my_card	ok		Hi, would you please activate my card?
+738	refund_not_showing_up	ok		When will my returned transaction show up on my account?
+744	compromised_card	ok		Hi, It's urgent, please freeze my card. As someone has withdrawn money using my card in odd remote town. Since i have not done this withdrawal. Do it fast.
+7457	transaction_charged_twice	ok		I was charged twice for a few things this week when I only bought one. What do I do?
+7481	activate_my_card	ok		I want to reactivate my card, I thought I had lost it but I found it.
+7683	declined_cash_withdrawal	ok		The ATM keeps declining my Transaction . I tried two different ATMs already Would you please check if everything is okay with my account?
+7686	top_up_by_card_charge	ok		What fees are there for adding money using an international card
+7900	exchange_rate	ok		I question today's exchange rate for rubles into pounds. I was hoping for a better return.
+8114	visa_or_mastercard	bad	user does not ask whether visa or mastercard, specifically asks for visa	I'd like to apply for a Visa Card.
+8132	compromised_card	ok		My card has been compromised. I see a bunch of online shopping charges that I didn't make. I need to freeze it immediately.
+8229	refund_not_showing_up	ok		I'm supposed to be getting a refund but it hasn't shown up, now what?
+8437	transfer_fee_charged	ok		Why is there a fee for my transfer?
+8494	fiat_currency_support	ok		Do you offer services that hold money in different types of currency?
+8678	exchange_via_app	ok		Is currency exchange possible?
+8807	balance_not_updated_after_cheque_or_cash_deposit	ok		I made a deposit a couple of days back it's, as of yet, not gone in! It would be ideal if you assist me with this
+8857	wrong_amount_of_cash_received	ok		In a recent withdrawal I received less cash than I expected to receive. Did someone make an error with the exchange rate?
+8869	unable_to_verify_identity	ok		I am having a problem with verifying my identity.
+8888	card_arrival	ok		My new card has not been delivered to my home yet. What is going on?
+9355	exchange_rate	ok		Where can I find the exchange rate for my transfer?
+9380	card_arrival	ok		My card has not been delivered yet and its been a week since I ordered it, please help
+9403	pending_card_payment	ok		How long does a payment usually show as pending? Is it normal that mine is still pending?
+941	exchange_via_app	bad	the question doesn´t specifically mention exchange via app, just asks about possibility of exchange	Can I exchange from USD to GBP?
+9436	visa_or_mastercard	ok		Am I able to get both a Visa and MasterCard from you?
+9637	transaction_charged_twice	ok		Hi. I noticed I have a duplicate charge which I have not made twice. Who should I talk to take care of this?
+985	receiving_money	ok		Can my account be topped-up by friends of mine.

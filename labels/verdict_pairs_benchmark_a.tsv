@@ -1,0 +1,150 @@
+id	category	verdict	round	note	text
+178	receiving_money	ok	audit_contaminated		There are funds showing in my app that I did not receive.
+355	declined_transfer	ok	audit_contaminated		Been trying to transfer money this morning but keep getting rejected. I don't understand why this is happening.
+556	card_not_working	maybe	roberta_v2		I tried to get money out of the Notting Hill ATM earlier, but I wasn't able to get it to work. Is my card with issue? It's the first time I tried using it.
+556	declined_cash_withdrawal	ok	audit_contaminated		I tried to get money out of the Notting Hill ATM earlier, but I wasn't able to get it to work. Is my card with issue? It's the first time I tried using it.
+732	cash_withdrawal_not_recognised	ok	audit_contaminated		There is a withdrawal on my account I didn't make.
+840	pin_blocked	ok	audit_contaminated		Help me unblock my account. I entered the PIN wrong too many times.
+849	declined_card_payment	ok	audit_contaminated		I had a decline on my card. Why?
+875	top_up_reverted	ok	audit_contaminated		How does my top-up got cancelled?
+898	automatic_top_up	ok	audit_contaminated		Do I have to manually top-up my account each time or will it do it on its own?
+957	card_arrival	ok	audit_contaminated		I ordered a card and would like to know how to track the delivery progress of it.
+957	card_delivery_estimate	ok	audit_current		I ordered a card and would like to know how to track the delivery progress of it.
+1086	wrong_amount_of_cash_received	ok	audit_contaminated		ATM is broken. It did not give me the full amount (30 pounds.) I'm standing here with only 10 pounds and it's telling me it gave me 30 pounds. I need assistance now!
+1234	change_pin	ok	audit_contaminated		I want to change my pin number from an ATM. Is this possible?
+1316	disposable_card_limits	ok	audit_contaminated		how many uses are the disposable cards good for?
+1359	reverted_card_payment?	ok	audit_contaminated		The app reverted the payment I made.
+1363	verify_my_identity	ok	audit_current		Is identity verification required for me to use my account?
+1363	why_verify_identity	bad	audit_contaminated	the user is not asking about a reason why, asks whether identity verification is needed at all	Is identity verification required for me to use my account?
+1383	compromised_card	ok	audit_contaminated		I have transactions that I don't recognize - I think someone is using my card.
+1515	apple_pay_or_google_pay	ok	audit_contaminated		Will be Apple Watch be able to let me top up?
+1526	top_up_by_card_charge	ok	audit_contaminated		If US cards have a top up charge, what is it?
+1666	apple_pay_or_google_pay	ok	audit_contaminated		is there a way to do top up with apple pay
+1715	cash_withdrawal_charge	ok	audit_current		I noticed a different charge while I was taking my money out.
+1715	extra_charge_on_statement	bad	audit_contaminated	customer noticed a discrepancy while making a withdrawal, not on the account statement	I noticed a different charge while I was taking my money out.
+1891	why_verify_identity	ok	audit_contaminated		Why on earth do you need so much personal id info from me?
+1973	pending_card_payment	bad	audit_contaminated	ambiguous to say the least, customer might be waiting for a payment from somebody else	Why haven't I gotten my payment yet?
+1974	reverted_card_payment?	ok	audit_contaminated		I made a payment and it was reverted and wanted to know why?
+2163	extra_charge_on_statement	bad	audit_current	this message most likely contains an error, "physical charge" was supposed to be "physical card"	Is a physical charge extra
+2163	order_physical_card	ok	audit_contaminated		Is a physical charge extra
+2184	wrong_exchange_rate_for_cash_withdrawal	ok	audit_contaminated		When I made a cash transfer abroad the wrong exchange rate was applied
+2201	cash_withdrawal_charge	ok	audit_contaminated		What's going on? I was just recently charged for an ATM withdrawal. I've never seen this charge before and before it's always been free.
+2232	request_refund	ok	audit_contaminated		I changed my mind on something I purchased through you and I need the transaction canceled and a refund as soon as possible. Can you help me please?
+2416	unable_to_verify_identity	bad	audit_contaminated	user wants to skip and bypass identity verification, this is not abou a failed identity verification	Is there anyway to bypass identity verification?
+2416	verify_my_identity	bad	roberta_v2	the user wants to bypass identity verification, not asking about ways and prerequisites to do so	Is there anyway to bypass identity verification?
+2416	why_verify_identity	bad	audit_current	the user wants to bypass identity verification, does not ask why identity verification is required	Is there anyway to bypass identity verification?
+2448	atm_support	bad	deberta	most likely this is cash_withdrawal_charge	what are weekend rates for getting cash
+2448	cash_withdrawal_charge	ok	audit_contaminated		what are weekend rates for getting cash
+2448	exchange_rate	bad	audit_current	in my opinion, the "getting cash" aspect has no obvious connection to exchange rates	what are weekend rates for getting cash
+2475	refund_not_showing_up	ok	audit_contaminated		Hi! A seller that I requested a refund from a long time ago has yet to send the money into my account, even though I keep checking it. Can the seller be contacted by you guys to see what's going on?
+2624	order_physical_card	ok	audit_contaminated		Where are cards available to order?
+2907	refund_not_showing_up	ok	audit_contaminated		Where is my refund? it appears to be missing.
+3012	balance_not_updated_after_cheque_or_cash_deposit	ok	audit_contaminated		What happened to the money that I deposited?
+3066	terminate_account	ok	audit_contaminated		I'm not happy with service and would like to delete this account.
+3076	card_payment_fee_charged	bad	audit_contaminated	a fee was not charged yet, this is just an explorative general question	Do you have charges now when you pay with a card?
+3083	balance_not_updated_after_cheque_or_cash_deposit	ok	audit_contaminated		I deposited a check yesterday to up my account balance, but that deposit hasn't shown up yet. It's been a day already!
+3187	pending_top_up	ok	audit_contaminated		Can you look into why my most recent top-up is showing as pending? I thought it was supposed to be instantaneous.
+3227	pending_top_up	bad	audit_contaminated	the customer is asking a hypothetical question, they don´t ask about an actual pending top-up	How do I know if my top-up went through?
+3227	top_up_failed	bad	roberta_v2	the user does not say their top up failed, they ask about how to track whether a top-up was successful	How do I know if my top-up went through?
+3314	terminate_account	ok	audit_contaminated		What's the process for terminating an account?
+3323	passcode_forgotten	maybe	audit_contaminated		I can't access my account.
+3323	unable_to_verify_identity	bad	audit_current	user is unable to access their account, doesn't mention anything about identity verification	I can't access my account.
+3327	declined_card_payment	bad	deberta	this sounds more like reverted_card_payment?	Can you tell me why the card payment came back?
+3327	reverted_card_payment?	ok	audit_contaminated		Can you tell me why the card payment came back?
+3369	exchange_charge	ok	audit_contaminated		Do you charge extra for exchanging currencies?
+3375	card_payment_wrong_exchange_rate	bad	audit_current	this should be "exchange_charge" class, the user does not mention any card payments	I don't think the charges made when I had currency exchanged are right.
+3375	exchange_charge	ok	audit_contaminated		I don't think the charges made when I had currency exchanged are right.
+3545	receiving_money	ok	audit_contaminated		where can I see who sent me funds
+3759	apple_pay_or_google_pay	ok	audit_contaminated		I would like to use top-up with my Apple Pay.
+3762	declined_cash_withdrawal	ok	audit_contaminated		I could not get money from an ATM
+3797	exchange_via_app	ok	audit_contaminated		I need Australian dollars instead of UK currency.
+3797	fiat_currency_support	bad	audit_current	this should be exchange_via_app class	I need Australian dollars instead of UK currency.
+3955	transfer_fee_charged	ok	audit_contaminated		Why was I charged for transferring money?
+4048	failed_transfer	ok	audit_contaminated		I have made several unsuccessful attempts to make a transfer. I'm getting frustrated at getting error messages and it not going through.
+4049	automatic_top_up	ok	audit_contaminated		How can I add money automatically?
+4056	terminate_account	ok	audit_contaminated		I want to deactivate my account.
+4073	card_not_working	ok	audit_contaminated		What do I do now that I can't use this card?
+4092	failed_transfer	bad	lr2e5	should be probably pending_transfer, exact state of the transaction is not explicitly confirmed	I tried to transfer some money and it hasn't done it yet - what's going on?
+4092	pending_transfer	ok	audit_contaminated		I tried to transfer some money and it hasn't done it yet - what's going on?
+4092	transfer_not_received_by_recipient	maybe	audit_current		I tried to transfer some money and it hasn't done it yet - what's going on?
+4158	transfer_not_received_by_recipient	ok	audit_current		What's the time frame on EU transfers? I purchased something a couple of days ago but the seller hasn't received my payment.
+4158	transfer_timing	ok	audit_contaminated		What's the time frame on EU transfers? I purchased something a couple of days ago but the seller hasn't received my payment.
+4293	activate_my_card	ok	audit_contaminated		Do I have to go somewhere to activate my card?
+4320	extra_charge_on_statement	ok	audit_contaminated		What is this fee debit on my account?
+4388	card_payment_not_recognised	ok	audit_contaminated		I am seeing in the App a payment that its not mine
+4396	cash_withdrawal_charge	ok	audit_contaminated		Can you tell me why I was charged to withdraw cash?
+4404	transfer_fee_charged	ok	audit_contaminated		When I made a transfer I was charged extra.
+4423	verify_source_of_funds	ok	audit_contaminated		Show me how to look at the source of my current funds?
+4530	pending_cash_withdrawal	ok	audit_contaminated		How are cash withdrawals pending?
+4576	getting_virtual_card	ok	audit_contaminated		And do you have virtual cards instead of physical ones?
+4649	fiat_currency_support	ok	audit_contaminated		Whats types of currency can I exchange?
+4666	atm_support	ok	audit_contaminated		I can use this card at which ATMs?
+4798	verify_my_identity	ok	audit_contaminated		i need to proof my identity to you why and how?
+4798	why_verify_identity	ok	audit_current		i need to proof my identity to you why and how?
+4805	card_acceptance	ok	audit_contaminated		Do you have a list of businesses that accept this card?
+5345	failed_transfer	ok	audit_contaminated		I did a transfer earlier but see that it failed to go through.
+5349	lost_or_stolen_phone	ok	audit_contaminated		phone is gone
+5480	verify_my_identity	ok	audit_contaminated		What documents do I need to validate my identity?
+5586	card_payment_not_recognised	ok	audit_contaminated		I have an unauthorized charge.
+5586	extra_charge_on_statement	bad	audit_current	this is an unrecognized charge, not extra charge	I have an unauthorized charge.
+5679	pin_blocked	ok	audit_contaminated		What should I do if I have used all of my PIN tries?
+5703	card_payment_fee_charged	ok	audit_contaminated		Why wasn't it obvious that you charge for payments? If you put the fees in an easy to read format, this could have been avoided.
+5854	unable_to_verify_identity	ok	audit_contaminated		I am not able to prove my identity
+5934	wrong_exchange_rate_for_cash_withdrawal	ok	audit_contaminated		The ATM I used for foreign currency provided the wrong exchange rate.
+6231	exchange_via_app	ok	audit_contaminated		Do I need to convert my currency from GBP before transferring?
+6258	top_up_by_bank_transfer_charge	ok	audit_contaminated		What are the charges for recieving SEPA transfers?
+6436	passcode_forgotten	ok	audit_contaminated		I think my passcode was changed
+6604	automatic_top_up	ok	audit_contaminated		Can I use an auto top-up option?
+6632	declined_cash_withdrawal	ok	audit_contaminated		Why couldn't I make a withdrawal from the ATM?
+6843	apple_pay_or_google_pay	maybe	audit_contaminated		Why is top up not working if I use my American express with my apple pay?
+6905	balance_not_updated_after_cheque_or_cash_deposit	ok	audit_contaminated		Online banking is not showing my cheque or cash deposit so the balance is incorrect.
+6971	apple_pay_or_google_pay	ok	audit_contaminated		What currencies does google pay top up accept?
+6971	supported_cards_and_currencies	bad	deberta	I would say this is apple_pay_or_google_pay	What currencies does google pay top up accept?
+6977	card_delivery_estimate	ok	audit_contaminated		Is there a specific date it can be delivered by?
+7244	pending_card_payment	ok	audit_contaminated		Why is the payment showing as pending from things I bought this morning?
+7400	balance_not_updated_after_bank_transfer	ok	audit_contaminated		Bank transfer to account did not show up, please help?
+7400	transfer_not_received_by_recipient	bad	roberta_v2	transfer_not_received_by_recipient is when a payment is done to somebody else, this user message sounds like a transfer into the user's own account	Bank transfer to account did not show up, please help?
+7425	card_about_to_expire	ok	audit_contaminated		What do I do if my card expires soon?
+7443	pending_cash_withdrawal	ok	audit_contaminated		Looking at my account I've noticed a charge that appears to still be in progress. I had attempted to get money out of the machine earlier but the machine seemed to have been broken. I never received my money so will you please look into this for me? I don't want to be charged for money I never actually received.
+7493	card_about_to_expire	ok	audit_contaminated		My card is about to expire. What do I need to do to keep using my card?
+7766	unable_to_verify_identity	bad	audit_contaminated	the verification has not happened yet, this does not mean the user was unable to verify identity	My ID verification hasn't gone through yet, but can I use my account anyway?
+7787	exchange_rate	ok	audit_contaminated		Do you have the best exchange rate?
+7810	why_verify_identity	ok	audit_contaminated		Why is there an identity check?
+8037	top_up_reverted	ok	audit_contaminated		Looks like my top-up has been cancelled
+8098	top_up_by_cash_or_cheque	ok	audit_contaminated		how do i get top up with cash deposit
+8110	beneficiary_not_allowed	maybe	audit_contaminated		I was unable to transfer money to a beneficiary.
+8162	card_payment_not_recognised	ok	audit_contaminated		i dont recognize a charge on my card
+8184	card_payment_fee_charged	ok	audit_contaminated		Explain the extra fee on my card when paying.
+8210	cancel_transfer	bad	audit_contaminated	this was most likely a purchase made with a card, not a transfer	I need to cancel a purchase that I made the other day.
+8210	request_refund	ok	audit_current		I need to cancel a purchase that I made the other day.
+8211	card_payment_wrong_exchange_rate	ok	audit_contaminated		My rate is not right when I used my card in a different country's money.
+8301	declined_card_payment	ok	audit_contaminated		My card payment did not go through.
+8318	automatic_top_up	ok	audit_contaminated		Can I auto top up multiple times?
+8399	atm_support	ok	audit_contaminated		Where are the ATMs that accept this card?
+8506	transfer_into_account	ok	audit_contaminated		Would I be able to use SWIFT transfers?
+8543	refund_not_showing_up	bad	audit_contaminated	customer was refunded, so a refund has showed up in their account	I just got refunded for my purchase over two weeks ago
+8549	failed_transfer	ok	audit_contaminated		I can't seem to make a standard bank transfer. I have tried at least five times already but none of them are going through. Please tell me what is wrong?
+8671	pending_card_payment	bad	audit_contaminated	the message is not clear whether this is about a payment made with a card or whether a payment is expected from someone else	What's taking so long for this payment to go through?
+8736	receiving_money	ok	audit_contaminated		How can my friend pay me?
+8769	card_delivery_estimate	ok	audit_contaminated		If I order a card when does it arrive?
+8769	order_physical_card	bad	audit_current	the customer asks about card_arrival	If I order a card when does it arrive?
+8858	pending_top_up	maybe	roberta_v1		Help, I don't see my money i just added.
+8858	top_up_failed	ok	audit_contaminated		Help, I don't see my money i just added.
+8858	topping_up_by_card	maybe	audit_current		Help, I don't see my money i just added.
+8973	transfer_not_received_by_recipient	bad	audit_contaminated	recipient received a transfer, but not the correct amount	Why did the person I transferred money to not receive the correct amount? What should I do to get them the right amount, do I have to transfer more money to them?
+9046	atm_support	ok	audit_contaminated		How do I know it is a Mastercard ATM?
+9080	country_support	ok	audit_contaminated		Is this card available to Americans?
+9109	top_up_by_bank_transfer_charge	maybe	audit_contaminated		Will there be a charge when money is added to my account?
+9109	top_up_by_card_charge	maybe	audit_current		Will there be a charge when money is added to my account?
+9184	cash_withdrawal_not_recognised	ok	audit_contaminated		What is this cash withdrawal on my statement?
+9195	cancel_transfer	ok	audit_contaminated		Is it possible to cancel my transfer?
+9404	failed_transfer	ok	audit_contaminated		Transferred to account is not successful, help please?
+9412	card_payment_not_recognised	maybe	audit_contaminated		Money was taken out without my consent,
+9412	cash_withdrawal_charge	bad	lr2e5	wrong, there is no fee mentioned	Money was taken out without my consent,
+9412	cash_withdrawal_not_recognised	maybe	audit_current		Money was taken out without my consent,
+9412	compromised_card	maybe	roberta_v2		Money was taken out without my consent,
+9418	get_physical_card	ok	audit_contaminated		still need to get card pin
+9656	card_linking	maybe	audit_contaminated		Can I re-link a lost card with the app?
+9667	pin_blocked	ok	audit_contaminated		What should I do if I exceed my PIN tries?
+9908	card_payment_wrong_exchange_rate	ok	audit_contaminated		I bough an item and the exchange rate was incorrect.
+9978	exchange_via_app	ok	audit_contaminated		Can I possibly change my currency to another?

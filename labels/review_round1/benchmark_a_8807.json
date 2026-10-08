@@ -1,0 +1,9 @@
+{
+  "assigned": "balance_not_updated_after_cheque_or_cash_deposit",
+  "at": "2026-09-05T08:08:10.517Z",
+  "benchmark": "benchmark_a",
+  "item_id": "8807",
+  "note": "",
+  "stratum": "long",
+  "verdict": "ok"
+}

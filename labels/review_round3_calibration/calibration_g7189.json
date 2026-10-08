@@ -1,0 +1,9 @@
+{
+  "assigned": "balance_not_updated_after_bank_transfer",
+  "at": "2026-09-05T08:54:14.495Z",
+  "benchmark": "calibration",
+  "item_id": "g7189",
+  "note": "",
+  "stratum": "gold",
+  "verdict": "ok"
+}

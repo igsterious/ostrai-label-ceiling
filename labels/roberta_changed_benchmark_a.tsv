@@ -1,0 +1,7 @@
+id	assigned	verdict	note
+3797	fiat_currency_support	bad	this should be exchange_via_app class
+4158	transfer_not_received_by_recipient	ok	
+5586	extra_charge_on_statement	bad	this is an unrecognized charge, not extra charge
+8858	pending_top_up	maybe	
+9109	top_up_by_card_charge	maybe	
+9412	cash_withdrawal_not_recognised	maybe	

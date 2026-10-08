@@ -1,0 +1,9 @@
+{
+  "assigned": "card_linking",
+  "at": "2026-09-05T08:53:59.433Z",
+  "benchmark": "calibration",
+  "item_id": "p432",
+  "note": "user wants to unblock or re-link an card they previously deleted from the app",
+  "stratum": "pseudo",
+  "verdict": "bad"
+}

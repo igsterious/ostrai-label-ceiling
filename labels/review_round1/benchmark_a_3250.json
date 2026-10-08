@@ -1,0 +1,9 @@
+{
+  "assigned": "cancel_transfer",
+  "at": "2026-09-05T08:20:57.543Z",
+  "benchmark": "benchmark_a",
+  "item_id": "3250",
+  "note": "user wants to cancel last transaction, doesn´t mention specificalls transfer",
+  "stratum": "typical",
+  "verdict": "maybe"
+}

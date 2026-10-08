@@ -1,0 +1,121 @@
+id	assigned	verdict	note
+178	receiving_money	ok	
+355	declined_transfer	ok	
+556	declined_cash_withdrawal	ok	
+732	cash_withdrawal_not_recognised	ok	
+840	pin_blocked	ok	
+849	declined_card_payment	ok	
+875	top_up_reverted	ok	
+898	automatic_top_up	ok	
+957	card_delivery_estimate	ok	
+1086	wrong_amount_of_cash_received	ok	
+1234	change_pin	ok	
+1316	disposable_card_limits	ok	
+1359	reverted_card_payment?	ok	
+1363	verify_my_identity	ok	
+1383	compromised_card	ok	
+1515	apple_pay_or_google_pay	ok	
+1526	top_up_by_card_charge	ok	
+1666	apple_pay_or_google_pay	ok	
+1715	cash_withdrawal_charge	ok	
+1891	why_verify_identity	ok	
+1973	pending_card_payment	bad	ambiguous to say the least, customer might be waiting for a payment from somebody else
+1974	reverted_card_payment?	ok	
+2163	extra_charge_on_statement	bad	this message most likely contains an error, "physical charge" was supposed to be "physical card"
+2184	wrong_exchange_rate_for_cash_withdrawal	ok	
+2201	cash_withdrawal_charge	ok	
+2232	request_refund	ok	
+2416	why_verify_identity	bad	the user wants to bypass identity verification, does not ask why identity verification is required
+2448	exchange_rate	bad	in my opinion, the "getting cash" aspect has no obvious connection to exchange rates
+2475	refund_not_showing_up	ok	
+2624	order_physical_card	ok	
+2907	refund_not_showing_up	ok	
+3012	balance_not_updated_after_cheque_or_cash_deposit	ok	
+3066	terminate_account	ok	
+3076	card_payment_fee_charged	bad	a fee was not charged yet, this is just an explorative general question
+3083	balance_not_updated_after_cheque_or_cash_deposit	ok	
+3187	pending_top_up	ok	
+3227	pending_top_up	bad	the customer is asking a hypothetical question, they don´t ask about an actual pending top-up
+3314	terminate_account	ok	
+3323	unable_to_verify_identity	bad	user is unable to access their account, doesn't mention anything about identity verification
+3327	reverted_card_payment?	ok	
+3369	exchange_charge	ok	
+3375	card_payment_wrong_exchange_rate	bad	this should be "exchange_charge" class, the user does not mention any card payments
+3545	receiving_money	ok	
+3759	apple_pay_or_google_pay	ok	
+3762	declined_cash_withdrawal	ok	
+3797	fiat_currency_support	bad	this should be exchange_via_app class
+3955	transfer_fee_charged	ok	
+4048	failed_transfer	ok	
+4049	automatic_top_up	ok	
+4056	terminate_account	ok	
+4073	card_not_working	ok	
+4092	transfer_not_received_by_recipient	maybe	
+4158	transfer_not_received_by_recipient	ok	
+4293	activate_my_card	ok	
+4320	extra_charge_on_statement	ok	
+4388	card_payment_not_recognised	ok	
+4396	cash_withdrawal_charge	ok	
+4404	transfer_fee_charged	ok	
+4423	verify_source_of_funds	ok	
+4530	pending_cash_withdrawal	ok	
+4576	getting_virtual_card	ok	
+4649	fiat_currency_support	ok	
+4666	atm_support	ok	
+4798	why_verify_identity	ok	
+4805	card_acceptance	ok	
+5345	failed_transfer	ok	
+5349	lost_or_stolen_phone	ok	
+5480	verify_my_identity	ok	
+5586	extra_charge_on_statement	bad	this is an unrecognized charge, not extra charge
+5679	pin_blocked	ok	
+5703	card_payment_fee_charged	ok	
+5854	unable_to_verify_identity	ok	
+5934	wrong_exchange_rate_for_cash_withdrawal	ok	
+6231	exchange_via_app	ok	
+6258	top_up_by_bank_transfer_charge	ok	
+6436	passcode_forgotten	ok	
+6604	automatic_top_up	ok	
+6632	declined_cash_withdrawal	ok	
+6843	apple_pay_or_google_pay	maybe	
+6905	balance_not_updated_after_cheque_or_cash_deposit	ok	
+6971	apple_pay_or_google_pay	ok	
+6977	card_delivery_estimate	ok	
+7244	pending_card_payment	ok	
+7400	balance_not_updated_after_bank_transfer	ok	
+7425	card_about_to_expire	ok	
+7443	pending_cash_withdrawal	ok	
+7493	card_about_to_expire	ok	
+7766	unable_to_verify_identity	bad	the verification has not happened yet, this does not mean the user was unable to verify identity
+7787	exchange_rate	ok	
+7810	why_verify_identity	ok	
+8037	top_up_reverted	ok	
+8098	top_up_by_cash_or_cheque	ok	
+8110	beneficiary_not_allowed	maybe	
+8162	card_payment_not_recognised	ok	
+8184	card_payment_fee_charged	ok	
+8210	request_refund	ok	
+8211	card_payment_wrong_exchange_rate	ok	
+8301	declined_card_payment	ok	
+8318	automatic_top_up	ok	
+8399	atm_support	ok	
+8506	transfer_into_account	ok	
+8543	refund_not_showing_up	bad	customer was refunded, so a refund has showed up in their account
+8549	failed_transfer	ok	
+8671	pending_card_payment	bad	the message is not clear whether this is about a payment made with a card or whether a payment is expected from someone else
+8736	receiving_money	ok	
+8769	order_physical_card	bad	the customer asks about card_arrival
+8858	topping_up_by_card	maybe	
+8973	transfer_not_received_by_recipient	bad	recipient received a transfer, but not the correct amount
+9046	atm_support	ok	
+9080	country_support	ok	
+9109	top_up_by_card_charge	maybe	
+9184	cash_withdrawal_not_recognised	ok	
+9195	cancel_transfer	ok	
+9404	failed_transfer	ok	
+9412	cash_withdrawal_not_recognised	maybe	
+9418	get_physical_card	ok	
+9656	card_linking	maybe	
+9667	pin_blocked	ok	
+9908	card_payment_wrong_exchange_rate	ok	
+9978	exchange_via_app	ok	

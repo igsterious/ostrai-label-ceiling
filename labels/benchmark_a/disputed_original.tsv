@@ -1,0 +1,772 @@
+id	consensus	vote_b50	vote_v2	vote_b10	n_distinct	text
+336	top_up_by_cash_or_cheque	top_up_by_cash_or_cheque	top_up_by_cash_or_cheque	transfer_into_account	2	how can i add money to my account if you don't accept cash
+338	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	pending_transfer	transfer_not_received_by_recipient	3	My transfer hasn't appeared yet
+343	verify_source_of_funds	verify_source_of_funds	receiving_money	verify_source_of_funds	2	where to i get my funds from?
+349	cancel_transfer	cancel_transfer	cancel_transfer	request_refund	2	How do i cancel a charge?
+361	pending_cash_withdrawal	pending_cash_withdrawal	verify_top_up	pending_cash_withdrawal	2	How long does it take to verify a cash withdraw?
+373	top_up_reverted	top_up_reverted	top_up_reverted	top_up_failed	2	Hello. I tried doing a topup and I thought it worked, but now the money is no longer in my account. Can you explain?
+376	exchange_rate	exchange_rate	exchange_via_app	exchange_rate	2	How can I exchange to EUR?
+235	top_up_failed	top_up_failed	card_not_working	top_up_failed	2	I tried activating my plug-in and it didn't piece of work
+238	request_refund	request_refund	request_refund	cancel_transfer	2	How do I cancel a purchase?
+240	fiat_currency_support	exchange_via_app	fiat_currency_support	fiat_currency_support	2	What currencies can I exchange?
+242	refund_not_showing_up	refund_not_showing_up	request_refund	refund_not_showing_up	2	i need a refund right away but the funds aren't available in my account
+249	exchange_via_app	exchange_via_app	exchange_via_app	fiat_currency_support	2	Can I use this app for both USD and GBP?
+263	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	get_disposable_virtual_card	2	Do I need a disposable card?
+19	country_support	country_support	country_support	order_physical_card	2	I live in the EU - can I get a card?
+21	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	The disposable cards, what are they for?
+32	pending_transfer	balance_not_updated_after_bank_transfer	pending_transfer	pending_transfer	2	I am still waiting for a transfer to show up
+46	receiving_money	receiving_money	extra_charge_on_statement	receiving_money	2	Can I track history on funds?
+119	request_refund	request_refund	cancel_transfer	request_refund	2	I'm going to cancel a purchase.
+63	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	cash_withdrawal_not_recognised	2	My app is showing a cash balance that I did not receive.
+86	card_arrival	card_delivery_estimate	card_arrival	card_arrival	2	I need my card to be delivered fast
+296	exchange_via_app	exchange_via_app	exchange_rate	exchange_via_app	2	How do you do currency exchanges?
+300	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	card_payment_wrong_exchange_rate	exchange_rate	3	My rate of exchange was wrong.
+301	transfer_not_received_by_recipient	transfer_not_received_by_recipient	wrong_amount_of_cash_received	transfer_not_received_by_recipient	2	A receiver let me know that they didn't receive the full transfer I completed and that it was actually a bit less than what I sent. At this point I have to make another transfer to make up for the amount missing. Can you please follow up with what's going on here?
+397	extra_charge_on_statement	card_payment_not_recognised	extra_charge_on_statement	extra_charge_on_statement	2	I have an unknown debit charge in my statement, why?
+419	declined_card_payment	declined_card_payment	declined_card_payment	declined_transfer	2	I tried to buy something and it was declined and my transfers keep getting declined, Why?
+663	unable_to_verify_identity	unable_to_verify_identity	verify_my_identity	why_verify_identity	3	why does it take so long to verify my id
+666	pending_card_payment	pending_card_payment	card_payment_not_recognised	pending_card_payment	2	Needed gas, been delayed for half an hour.Please fix it!
+681	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	extra_charge_on_statement	2	I looked at my statement and found a payment I and found a mistake.
+689	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	2	I've already sent the money out and still have not received money in my account.
+693	exchange_charge	exchange_charge	exchange_charge	exchange_rate	2	I have been charged way to much so something is apparently wrong with my exchange. I changed Russian Ruble into UK pounds.
+702	card_delivery_estimate	card_delivery_estimate	card_arrival	card_delivery_estimate	2	When will my new card arrive?
+507	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	2	Can you explain why I was charged extra when I used the card?
+513	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	How do I use the disposable cards?
+521	cancel_transfer	cancel_transfer	cancel_transfer	request_refund	2	I just bought an item and would like to stop payment, is this possible? The item has not been received yet.
+528	compromised_card	card_payment_not_recognised	compromised_card	compromised_card	2	There are a few transaction that I don't recognize, I think someone managed to get my card details and use it.
+538	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	What are the uses for disposable cards?
+608	top_up_limits	top_up_limits	exchange_rate	top_up_limits	2	How can I check how much free spending I have left? I have some big purchases coming up and want to know where I can look for any info.
+622	declined_cash_withdrawal	declined_cash_withdrawal	declined_cash_withdrawal	atm_support	2	I tried to use the ATM today but it would not accept my card.
+631	top_up_failed	top_up_failed	top_up_failed	top_up_limits	2	I can't add any more money.
+637	request_refund	request_refund	request_refund	cancel_transfer	2	I need a transaction reversed from my account.
+639	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	2	I am still waiting for a money transfer to appear.
+649	transfer_fee_charged	transfer_fee_charged	exchange_charge	extra_charge_on_statement	3	I was under the impression I can make transfers for free. I made an online purchase for something that was obroad and there's some additional strange fee. I've never seen this before and this isn't fair.
+440	top_up_failed	top_up_failed	top_up_failed	pending_top_up	2	I did a topup successfully but its not showing in balance. I think there is some problem in system.
+814	cash_withdrawal_charge	cash_withdrawal_charge	cash_withdrawal_charge	atm_support	2	Can i get money in my home currency at some ATM ? As I am on holiday and bit concerned because i do not have any cash with me . Is it possible to withdraw without any additional cost.
+816	order_physical_card	order_physical_card	order_physical_card	card_arrival	2	I need my card immediately.
+578	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	wrong_amount_of_cash_received	cash_withdrawal_not_recognised	2	THere is some cash that is showing up on my app.
+589	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	transfer_timing	2	What is the delivery time to the US?
+594	exchange_charge	exchange_charge	wrong_amount_of_cash_received	transfer_fee_charged	3	Hi, I have transferred money but beneficiary's account is credited with less amount. Now i have transfer the difference of the amount. I think there is some issue, could you please look into this.
+822	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_cheque_or_cash_deposit	2	i need to trace a deposit
+827	compromised_card	card_payment_not_recognised	compromised_card	compromised_card	2	Someone else charged my card!
+832	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	Do I get charged if I am receiving money?
+835	order_physical_card	order_physical_card	country_support	getting_spare_card	3	how to get a new card in china
+852	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	transfer_timing	2	When will the money show in my account?
+863	why_verify_identity	unable_to_verify_identity	why_verify_identity	why_verify_identity	2	Am I able to use my account if the identity verification is not complete?
+865	beneficiary_not_allowed	beneficiary_not_allowed	beneficiary_not_allowed	declined_transfer	2	Why would a transfer to a beneficiary not go through?
+710	unable_to_verify_identity	unable_to_verify_identity	why_verify_identity	unable_to_verify_identity	2	Can I use my account even though the identity verification has not passed yet?
+716	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	Why can't I see the top up I made?
+719	top_up_failed	top_up_failed	top_up_failed	balance_not_updated_after_bank_transfer	2	My wallet is empty even though I topped it up an hour ago.
+720	top_up_failed	top_up_failed	top_up_failed	top_up_reverted	2	Did you lose my money? I had added funds through top-up not long ago and I know they were in my account, but they seem to have disappeared. What happened?
+741	pending_transfer	pending_transfer	pending_transfer	transfer_not_received_by_recipient	2	I'm still waiting for a money transfer to show.
+748	pending_top_up	top_up_failed	pending_top_up	pending_top_up	2	Why has my top up not gone through yet?
+753	topping_up_by_card	topping_up_by_card	topping_up_by_card	supported_cards_and_currencies	2	What are my payment options for topping off my account?
+931	transfer_timing	transfer_not_received_by_recipient	transfer_timing	transfer_timing	2	How long do EU transfers take? I bought something online a couple days ago , sent the money immediately online but the seller says it is still not there yet
+932	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	balance_not_updated_after_bank_transfer	2	I can't see if the transfer I did a couple days ago is in my account yet. I double checked my info before sending, too. Can you check this?
+939	topping_up_by_card	topping_up_by_card	topping_up_by_card	transfer_into_account	2	can i use my mastercard to add money to my account
+958	reverted_card_payment?	card_payment_not_recognised	reverted_card_payment?	reverted_card_payment?	2	I didn't cancel my card payment.
+965	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	exchange_rate	2	I think the exchange rate was incorrect.
+1053	transfer_timing	transfer_timing	transfer_not_received_by_recipient	transfer_timing	2	How long does EU transfer take? I bought something online a couple days ago , sent the money immediately online but the seller says it is still not there yet
+1084	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	card_not_working	2	I tried to get gas but my money was gone!
+1088	pending_card_payment	pending_card_payment	pending_card_payment	transfer_timing	2	How long will it take for my payment to go through?
+1198	getting_spare_card	getting_spare_card	supported_cards_and_currencies	getting_spare_card	2	Will I be charged if I add more cards to the account?
+1202	exchange_rate	exchange_rate	fiat_currency_support	exchange_rate	2	Can exchanged be made to EUR?
+1218	verify_source_of_funds	verify_source_of_funds	receiving_money	verify_source_of_funds	2	Show me the source of my money.
+1220	top_up_reverted	top_up_failed	top_up_reverted	top_up_reverted	2	My money has disappeared. I had recently added money in, and saw it was there and went through. Now it's gone. What is happening?
+1164	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	transfer_timing	2	When will the money be made available in my account?
+1178	pending_top_up	pending_top_up	pending_top_up	transfer_timing	2	How long does it take for a top-up?
+1180	failed_transfer	failed_transfer	transfer_not_received_by_recipient	failed_transfer	2	Where did the money transfer go?
+904	pending_cash_withdrawal	pending_cash_withdrawal	cash_withdrawal_not_recognised	pending_cash_withdrawal	2	I tried withdrawing but my cash is not showing up?
+920	fiat_currency_support	fiat_currency_support	fiat_currency_support	receiving_money	2	Is there any way to get my salary in a different currency?
+922	refund_not_showing_up	refund_not_showing_up	refund_not_showing_up	request_refund	2	I requested a refund directly from the seller but I still don't have it. I just want you to send me my money back. I did what you said to do and I still don't have it.
+1093	order_physical_card	order_physical_card	card_arrival	order_physical_card	2	Give me my card, I need it now!
+1100	exchange_charge	extra_charge_on_statement	exchange_charge	exchange_charge	2	During the last month I used this account to make payments for my place abroad. I noticed the fees have increased and I wonder why. Shouldn't frequent users have less fees as incentive to keep using instead of increasing them out of nowhere?
+1123	transfer_fee_charged	transfer_fee_charged	transfer_fee_charged	extra_charge_on_statement	2	My transaction went through but I was charged a fee. Why?
+1143	topping_up_by_card	topping_up_by_card	topping_up_by_card	supported_cards_and_currencies	2	I have an American Express that I'd like to add money to my account with.
+1267	cancel_transfer	cancel_transfer	cancel_transfer	request_refund	2	I want to revert a transaction I did
+1268	transfer_fee_charged	transfer_fee_charged	transfer_fee_charged	extra_charge_on_statement	2	Why were there additional charges when I transferred funds?
+1280	exchange_via_app	exchange_via_app	exchange_via_app	fiat_currency_support	2	What currencies can be exchanged in the app?
+982	transfer_fee_charged	transfer_fee_charged	receiving_money	transfer_fee_charged	2	Is there a cost to receive money?
+1011	exchange_rate	exchange_rate	wrong_exchange_rate_for_cash_withdrawal	exchange_rate	2	I think the currency exchange that's been applied is wrong.
+1033	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	I am trying to transfer and it has been stopped why is that
+1313	pending_transfer	pending_transfer	pending_transfer	transfer_timing	2	How long does it take for a transfer to finish pending?
+1314	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	Can you tell me what the disposable cards are used for?
+1345	card_acceptance	card_acceptance	card_acceptance	card_not_working	2	The store card reader would not accept my card.
+1346	declined_transfer	declined_transfer	declined_transfer	failed_transfer	2	I don't understand why you aren't accepting my transfer. After a couple times trying I'm still getting an error message.
+1362	wrong_amount_of_cash_received	wrong_amount_of_cash_received	cash_withdrawal_not_recognised	wrong_amount_of_cash_received	2	My cash transaction isn't showing on my receipt
+1363	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Is identity verification required for me to use my account?
+1375	declined_cash_withdrawal	declined_cash_withdrawal	declined_cash_withdrawal	cash_withdrawal_not_recognised	2	Where did my money go? I'm not able to withdraw it from my ATM.
+1376	top_up_by_bank_transfer_charge	top_up_by_card_charge	top_up_by_bank_transfer_charge	top_up_by_bank_transfer_charge	2	Do you charge a fee for adding money in USD?
+1387	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_timing	balance_not_updated_after_bank_transfer	2	I need to know if everything is okay here. After making a transfer from a UK account it doesn't show up. How long does this normally take to process?
+1466	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	The transfer keeps rejected, I tried to transfer some money to friends but it keeps getting rejected for some reason, Would you please check the issue?
+1488	fiat_currency_support	exchange_rate	fiat_currency_support	fiat_currency_support	2	Is the EUR accepted for exchanges?
+1504	compromised_card	compromised_card	compromised_card	card_payment_not_recognised	2	I need to figure out what these charges are on my account. They've been coming out for a couple of days. Can i get all of this money back? Also, I need to freeze my card.
+1509	declined_transfer	declined_transfer	failed_transfer	declined_transfer	2	I've tried to send money to my friends and I keep getting rejected. Can you please tell me why, I don't understand.
+1427	topping_up_by_card	topping_up_by_card	topping_up_by_card	transfer_into_account	2	How can I link my bank to my top up account?
+1445	supported_cards_and_currencies	supported_cards_and_currencies	supported_cards_and_currencies	top_up_by_card_charge	2	can i add funds with a card from the united states
+1449	disposable_card_limits	disposable_card_limits	get_disposable_virtual_card	disposable_card_limits	2	Please tell me about disposable cards.
+1461	failed_transfer	failed_transfer	failed_transfer	pending_transfer	2	Why hasn't my transaction completed?
+1630	reverted_card_payment?	reverted_card_payment?	reverted_card_payment?	top_up_reverted	2	My payment did not go through because the app reverted it
+1638	topping_up_by_card	topping_up_by_card	top_up_failed	topping_up_by_card	2	Hae, I already completed my 3D secure authentication when I tried the crypto top up but it's still not working for me. I also don't understand what happened to the money in my account
+1642	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	Why is the exchange rate so high? This should have been a much higher amount of cash for that to apply.
+1645	failed_transfer	failed_transfer	declined_transfer	failed_transfer	2	Why can't I make a transfer?
+1665	card_delivery_estimate	card_arrival	card_delivery_estimate	card_delivery_estimate	2	When will I receive the card?
+1675	topping_up_by_card	topping_up_by_card	topping_up_by_card	top_up_by_card_charge	2	What options do I have when topping up a US card?
+1572	request_refund	request_refund	request_refund	card_arrival	2	My package is taking too long to arrive and I don't want it anymore. Can I get a refund?
+1579	card_arrival	card_delivery_estimate	card_arrival	card_arrival	2	i need to expedite my card
+1582	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	Why can't I see my funds after I topped up?
+1585	country_support	country_support	card_acceptance	country_support	2	What countries can I use the card in?
+1592	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	I think something is wrong with your top up. I've been waiting a little over an hour for this to go through, can you send it through for me?
+1613	request_refund	card_payment_not_recognised	request_refund	request_refund	2	A payment I made is for a wrong amount can you help me correct the mistake.
+1519	getting_spare_card	order_physical_card	getting_spare_card	getting_spare_card	2	Can I have a tangible form of my virtual card.
+1682	declined_cash_withdrawal	declined_cash_withdrawal	declined_cash_withdrawal	card_not_working	2	Why am I unable to withdraw my money through this card?
+1683	transaction_charged_twice	transaction_charged_twice	transaction_charged_twice	pending_card_payment	2	Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you remove one of them as it's wrong and clearly was declined?
+1732	exchange_rate	wrong_exchange_rate_for_cash_withdrawal	exchange_rate	exchange_rate	2	How did you arrive at the rate of exchange? I thought that I would get more cash.
+1734	transfer_not_received_by_recipient	failed_transfer	transfer_not_received_by_recipient	transfer_not_received_by_recipient	2	I don't see the transaction I made to a friend on my account.
+1760	card_not_working	declined_card_payment	card_not_working	card_not_working	2	Hello - I'm on the app and trying to purchase crypto. It's not going through. What am I doing wrong?
+1762	transfer_not_received_by_recipient	transfer_not_received_by_recipient	pending_transfer	transfer_not_received_by_recipient	2	I have done a transfer within the country the day before yesterday, but it's still not there yet. Can you please check what's going on with that, the account number is the right one, I've checked that several times already.
+1783	pending_card_payment	pending_card_payment	pending_card_payment	card_payment_not_recognised	2	There is a pending payment on my account that is very strange. I don't remember making this and it won't go away. Can you help me figure this out?
+1865	transfer_fee_charged	transfer_fee_charged	exchange_charge	transfer_fee_charged	2	I was under the impression that transfers were going to be free and here I was charged for something I bought overseas! I don't think this fee is right
+1887	fiat_currency_support	fiat_currency_support	fiat_currency_support	exchange_via_app	2	Hi, I am interested buying crypto currency but unable to purchase it through the application. I do want to do the exchange, Could you please let me know what is the problem?
+1894	declined_transfer	fiat_currency_support	declined_transfer	declined_transfer	2	i tried to transfer cryptocurrency into my account but was denied
+1906	card_payment_not_recognised	extra_charge_on_statement	card_payment_not_recognised	card_payment_not_recognised	2	Why do I have a strange payment on my statement?
+1920	compromised_card	compromised_card	compromised_card	card_payment_not_recognised	2	How do I report fraud on my card?
+1923	receiving_money	receiving_money	receiving_money	fiat_currency_support	2	I am paid by my employer in GBP; do I need to do anything in the app to indicate this?
+1955	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	2	How long do transfers from a UK bank account usually take for you? I just made a transfer and I'm not seeing anything, wondering if it worked
+1972	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	2	Why was there an additional fee on the payment I just made? I don't usually have additional fees applied to my payments.
+1992	verify_top_up	verify_top_up	verify_top_up	topping_up_by_card	2	How do i secure a top-up card?
+1797	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	How much is it to receive money?
+1804	get_physical_card	get_physical_card	get_physical_card	change_pin	2	How do I find my new pin?
+1806	card_not_working	declined_card_payment	card_not_working	card_not_working	2	My card didn't go through. It doesn't make sense. You told me that everything was ok.
+1813	lost_or_stolen_card	lost_or_stolen_card	lost_or_stolen_card	compromised_card	2	My card was stolen and used to make several purchases. Please freeze my card so no one can use it.
+1819	declined_transfer	declined_transfer	declined_transfer	beneficiary_not_allowed	2	please help me with this transfer, for some reason i can't transfer to a cryptocurency account
+1823	extra_charge_on_statement	exchange_charge	extra_charge_on_statement	extra_charge_on_statement	2	So I've been using my account frequently to manage payments for my vacation house in a different country, and now I'm getting hit with ridiculously high fees! What's with that? Ought not I be rewarded as a frequent user?
+1832	verify_my_identity	unable_to_verify_identity	verify_my_identity	verify_my_identity	2	I am still waiting for verification. Can I use my account before I am verified?
+2018	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	wrong_amount_of_cash_received	2	Cash I did not get showed up in my account
+2027	card_not_working	cash_withdrawal_not_recognised	card_not_working	card_not_working	2	My money I had was gone and I could not get gas!
+2048	declined_card_payment	declined_card_payment	declined_card_payment	declined_transfer	2	It's declining my transfers. Normally this works, but my card is being declined now and I've tried more than once.
+2058	pending_transfer	transfer_into_account	pending_transfer	pending_transfer	2	Where is my last money transaction
+2082	failed_transfer	failed_transfer	declined_transfer	failed_transfer	2	I couldn't transfer to an account.
+2099	top_up_failed	topping_up_by_card	top_up_failed	top_up_failed	2	I tried using my credit card with top up but it didn't work! I thought it was supposed to?
+2109	transfer_timing	transfer_timing	transfer_not_received_by_recipient	transfer_timing	2	How long do EU transfers actually take? I bought something online a couple days ago, sent the money immediately online but the seller says it's still not there yet.
+2120	exchange_charge	exchange_charge	extra_charge_on_statement	card_payment_fee_charged	3	Transfers are supposed to be free. I just got a fee tacked on to something I bought abroad. Not cool. Figure out how to remove it.
+2133	beneficiary_not_allowed	beneficiary_not_allowed	beneficiary_not_allowed	edit_personal_details	2	i accidentally entered in my retailers information, what should i do next
+2141	failed_transfer	failed_transfer	failed_transfer	declined_transfer	2	Could you please explain why I received a message that my transfer is not possible? I've never had any problems making a transfer in the past.
+2153	declined_card_payment	declined_card_payment	card_not_working	declined_card_payment	2	Why didn;t my payment work
+2159	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	2	What fees do you charge for the standard card?
+2219	transfer_timing	transfer_timing	transfer_not_received_by_recipient	transfer_timing	2	Why is my transfer taking so long. I thought it was supposed to only take 1 day if I made a transfer to someone. Can you wee what went wrong?
+2249	transfer_into_account	fiat_currency_support	transfer_into_account	transfer_into_account	2	Am I able to do a SWIFT transfer with you?
+2259	cancel_transfer	cancel_transfer	cancel_transfer	failed_transfer	2	I goofed up and used the wrong account. Please help.
+2263	top_up_failed	top_up_failed	top_up_failed	pending_top_up	2	Could you tell me why my top up isn't showing in my wallet?
+2333	country_support	country_support	order_physical_card	country_support	2	Where in the European Union can I get a card?
+2340	top_up_reverted	extra_charge_on_statement	top_up_reverted	top_up_reverted	2	The $1.00 has still not been reverted as indicated in the previous email.
+2345	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	2	What am I supposed to do if the funds haven't show up from a transfer completed this morning?
+2346	card_not_working	declined_card_payment	card_not_working	card_not_working	2	If my card payment isn't working what do I do?
+2349	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	What can you use the disposable cards for?
+2163	top_up_by_card_charge	top_up_by_card_charge	top_up_by_card_charge	order_physical_card	2	Is a physical charge extra
+2173	topping_up_by_card	topping_up_by_card	transfer_into_account	topping_up_by_card	2	How can I fund another account with my American Express?
+2182	activate_my_card	activate_my_card	lost_or_stolen_card	card_not_working	3	I would like to re-activate my card, it was previously reported lost but I found it this morning.
+2211	country_support	country_support	country_support	card_acceptance	2	Are there restrictions on new cards in China?
+2214	transfer_fee_charged	transfer_fee_charged	exchange_charge	transfer_fee_charged	2	Why am I being charged fees on some transactions but not on others? What am I missing here? I cannot find where to see the fee structure on my account. Help!
+2281	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	transfer_fee_charged	2	I made a transfer and the receiver said an amount was received, but less than the right amount. I now have to transfer more to get the remainder to the receiver. Can you tell me about this. What's been going on?
+2291	card_payment_not_recognised	card_payment_not_recognised	transfer_into_account	failed_transfer	3	Please help me, there is a transaction in the incorrect account.
+2306	transfer_fee_charged	transfer_fee_charged	top_up_by_bank_transfer_charge	transfer_fee_charged	2	is there a fee for swift transfer
+2308	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	declined_cash_withdrawal	2	I can't get any money from my account.
+2313	supported_cards_and_currencies	supported_cards_and_currencies	supported_cards_and_currencies	fiat_currency_support	2	I am adding money, what currencies do you accept to do this?
+2390	card_not_working	card_not_working	lost_or_stolen_card	card_not_working	2	The card I thought I lost was in my jacket pocket this morning, so can I reactivate that?
+2403	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	top_up_failed	2	My money I added isn't on my card.
+2416	unable_to_verify_identity	unable_to_verify_identity	why_verify_identity	unable_to_verify_identity	2	Is there anyway to bypass identity verification?
+2425	topping_up_by_card	top_up_failed	topping_up_by_card	topping_up_by_card	2	Hi, I am experiencing problems while trying to top-up with my card. I have never experienced any problems doing this before. Could you please help me?
+2440	transfer_timing	transfer_timing	transfer_into_account	transfer_timing	2	When will the money reach my account?
+2583	failed_transfer	failed_transfer	failed_transfer	declined_transfer	2	I had everything lined up to make a transfer, and then it rejected it.
+2587	card_delivery_estimate	card_arrival	card_delivery_estimate	card_delivery_estimate	2	I would like to make sure it is delivered on a certain date.
+2489	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	cash_withdrawal_charge	2	that fee should not be there, you charged my cash for an unnecessary thing.
+2519	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	wrong_amount_of_cash_received	2	I made a transfer and the person I transferred the money to didn't receive the right amount? Why did this happen and how do I get the rest of the money to them?
+2534	exchange_via_app	exchange_via_app	exchange_via_app	exchange_rate	2	Can you make exchanges using the EUR?
+2599	top_up_reverted	top_up_reverted	top_up_failed	top_up_reverted	2	I topped up my account but the money isn't there now.
+2606	transfer_into_account	transfer_into_account	transfer_into_account	transfer_timing	2	Can I do a SWIFT transfer?
+2618	transfer_not_received_by_recipient	transfer_not_received_by_recipient	pending_transfer	failed_transfer	3	Why has my payment not transferred?
+2624	order_physical_card	order_physical_card	order_physical_card	country_support	2	Where are cards available to order?
+2631	transfer_into_account	transfer_into_account	transfer_into_account	receiving_money	2	Can I have money transferred into my account at different intervals along my trip?
+2639	failed_transfer	failed_transfer	card_not_working	failed_transfer	2	WHAT IS THE MAIN REASON OF THIS PROBLEM
+2668	card_delivery_estimate	card_delivery_estimate	card_arrival	card_delivery_estimate	2	I ordered my card and it isn't here yet. I need it ASAP. When can I expect to get it?
+2681	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	verify_source_of_funds	2	Can I use my salary for this?
+2686	card_not_working	card_not_working	card_not_working	declined_card_payment	2	What do I do if the machine rejects my card?
+2696	pending_transfer	pending_transfer	pending_transfer	transfer_timing	2	I have been waiting for my transfer, shouldn't it be here already?
+2698	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	fiat_currency_support	2	i want to get my salary deposited as pesos?
+2816	pending_top_up	pending_top_up	transfer_timing	pending_top_up	2	How long do top-ups take to go through
+2818	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	pending_cash_withdrawal	2	The cash I deposited using the ATM is still pending
+2820	card_payment_not_recognised	card_payment_not_recognised	direct_debit_payment_not_recognised	extra_charge_on_statement	3	There is a mysterious debit transaction on my statement
+2822	change_pin	change_pin	get_physical_card	passcode_forgotten	3	I don't know my PIN, how can I find that out?
+2834	supported_cards_and_currencies	topping_up_by_card	supported_cards_and_currencies	supported_cards_and_currencies	2	I wish to use my American Express to put funds into my account.
+2854	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	failed_transfer	2	WHAT IS THE REASON FOR THAT
+2860	country_support	country_support	card_delivery_estimate	country_support	2	Do you ship your cards anywhere?
+2861	card_acceptance	country_support	card_acceptance	card_acceptance	2	Can I use it outside of Europe?
+2864	lost_or_stolen_card	compromised_card	lost_or_stolen_card	lost_or_stolen_card	2	Can you provide information for freezing my card immediately?
+2868	transfer_timing	transfer_timing	transfer_not_received_by_recipient	transfer_timing	2	How long should a transfer normally take to process completely? I have a friend that needs it right away, but it's already been 2 hours and she hasn't received it.
+2877	verify_my_identity	verify_my_identity	verify_my_identity	why_verify_identity	2	Can I use my account before my Identity verification has passed?
+2888	extra_charge_on_statement	extra_charge_on_statement	exchange_charge	extra_charge_on_statement	2	I have used this account overseas recently. Has there been an increase in fees that I am unaware of?
+2901	atm_support	atm_support	cash_withdrawal_not_recognised	declined_cash_withdrawal	3	Why can't I withdraw cash from this ATM?
+2918	card_payment_not_recognised	card_payment_not_recognised	cancel_transfer	compromised_card	3	I have cancelled payments to this card.
+2717	card_payment_fee_charged	extra_charge_on_statement	card_payment_fee_charged	card_payment_fee_charged	2	How can I tell if there will be a fee added to my payment or not?
+2720	pending_transfer	pending_transfer	pending_transfer	transfer_timing	2	How long do transfers take, mine just says pending?
+2732	topping_up_by_card	topping_up_by_card	topping_up_by_card	top_up_failed	2	I am having a huge problem with my card being declined and it's really important that I top-up today. Would you please look into this further and let me know how I can get this fixed?
+2735	passcode_forgotten	passcode_forgotten	edit_personal_details	card_not_working	3	How can I change my Rowlock ?
+2736	request_refund	request_refund	cancel_transfer	request_refund	2	I need to cancel a payment. Something i purchased a while ago still has not arrived and i'm not going to pay them if they won't send me what I purchased.
+2919	topping_up_by_card	top_up_failed	topping_up_by_card	topping_up_by_card	2	I thought you offer crypto top up but it doesn't seem to be right ? Money just disappeared from my account, How it would work ?
+2925	exchange_charge	exchange_charge	exchange_charge	card_payment_wrong_exchange_rate	2	The amount of exchange was not correct for the item i bought.
+2930	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	compromised_card	2	My identity has been stolen. I still have my physical card but there are charges I didn't make on my account. How do I cancel this card or dispute the charges?
+2940	transfer_into_account	transfer_into_account	transfer_into_account	top_up_by_bank_transfer_charge	2	How do I go forth with bank transfers for top up accounts?
+2959	passcode_forgotten	passcode_forgotten	passcode_forgotten	change_pin	2	What do I do if I forgot my PIN?
+2963	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	compromised_card	2	There are a couple of payments with my card shown in the app that in reality I didn't make. Maybe someone has access to my card?Can you check whats the issue ?
+2755	transfer_timing	transfer_timing	transfer_not_received_by_recipient	transfer_timing	2	Where's the money from my transfer from Europe?
+2779	top_up_by_card_charge	top_up_by_card_charge	topping_up_by_card	top_up_by_bank_transfer_charge	3	Is topping up free?
+2797	get_physical_card	get_physical_card	get_physical_card	change_pin	2	What can you tell me about the card PIN?
+2798	card_not_working	declined_cash_withdrawal	card_not_working	card_not_working	2	I can't get money out of the ATM. Is my card actually working? It's the first time I tried using it
+2806	refund_not_showing_up	request_refund	refund_not_showing_up	refund_not_showing_up	2	I keep checking my statements but nothing shows up.I requested a refund a long time ago but seems like it's not submitting my account for some reason. Can you please help me get the money back from the seller for me
+3097	top_up_reverted	top_up_reverted	topping_up_by_card	top_up_reverted	2	My money has gone missing. I had recently added money in, and saw it was there and went through. Now it's missing. What is happening?
+3099	extra_charge_on_statement	extra_charge_on_statement	pending_card_payment	extra_charge_on_statement	2	What is the dollar that I have pending on my statement there?
+3102	card_arrival	card_arrival	card_arrival	country_support	2	Will you send me a new card in China?
+3103	card_linking	card_linking	card_linking	lost_or_stolen_card	2	If my card was lost or stolen can I re-link it?
+3036	fiat_currency_support	fiat_currency_support	fiat_currency_support	supported_cards_and_currencies	2	Which currencies do you accept for adding money?
+3051	activate_my_card	activate_my_card	activate_my_card	card_not_working	2	How long does it take to activate the card, as it does not look like its working?
+3065	verify_top_up	passcode_forgotten	verify_top_up	verify_top_up	2	I can't find my code
+3077	verify_my_identity	verify_my_identity	passcode_forgotten	verify_my_identity	2	What is the first step I need to make for being able to access my account?
+3087	unable_to_verify_identity	unable_to_verify_identity	verify_my_identity	unable_to_verify_identity	2	If I don't have all my documents can they still verify my identity?
+3144	extra_charge_on_statement	extra_charge_on_statement	transaction_charged_twice	extra_charge_on_statement	2	Why am I being charged again?
+3176	pending_card_payment	pending_card_payment	pending_card_payment	pending_transfer	2	I was wondering how long does it take for a payment to go thru? It seems my last payment is stuck and hasn't moved.
+3195	top_up_by_card_charge	top_up_by_card_charge	order_physical_card	top_up_by_card_charge	2	how much does a card cost and why do you charge me
+3202	pending_transfer	pending_transfer	transfer_timing	pending_transfer	2	How long does it take for pending to go through
+3212	pending_cash_withdrawal	pending_cash_withdrawal	cash_withdrawal_charge	pending_cash_withdrawal	2	The cash I got at the ATM is still in my account.
+3213	disposable_card_limits	disposable_card_limits	disposable_card_limits	get_disposable_virtual_card	2	Can you tell me more info about virtual disposable cards?
+3216	exchange_via_app	exchange_via_app	exchange_via_app	transfer_into_account	2	Can I transfer money using a different currency?
+3217	cancel_transfer	transfer_not_received_by_recipient	cancel_transfer	cancel_transfer	2	I made a transaction to the wrong account!
+3249	transfer_timing	transfer_timing	receiving_money	transfer_timing	2	I need to know why a money transfer is available.
+3309	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	When I tried to transfer funds to my friend today I was unable to do so, why?
+3351	transfer_into_account	transfer_into_account	transfer_into_account	topping_up_by_card	2	Hoe do i use my credit card to transfer money?
+3379	card_delivery_estimate	card_delivery_estimate	country_support	card_delivery_estimate	2	Can the card be mailed to Europe?
+3381	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	transfer_not_received_by_recipient	2	I made a transfer and according to the receiver 'they haven't received the right amount' Its lesser than it should be.Now I have to transfer more money to make up for the missing amount . Can you please help me about this,what should be done
+3387	refund_not_showing_up	refund_not_showing_up	refund_not_showing_up	pending_card_payment	2	My refund is still pending
+3402	supported_cards_and_currencies	supported_cards_and_currencies	supported_cards_and_currencies	visa_or_mastercard	2	Does it matter which card I use
+3403	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	Could you please recommend what I should do if my card keeps getting declined? I planned to top-up today but I am unable to get it to work. I need a fast solution to this problem.
+3408	direct_debit_payment_not_recognised	direct_debit_payment_not_recognised	direct_debit_payment_not_recognised	card_payment_not_recognised	2	I don't know where this debit transaction on my statement came from.
+3428	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	exchange_charge	2	I have a service fee that I've never seen before. It showed up after I bought something from an international seller online.
+3432	exchange_rate	exchange_rate	fiat_currency_support	exchange_rate	2	Which currencies will you exchange?
+3442	receiving_money	receiving_money	topping_up_by_card	receiving_money	2	How can my friends top up my account?
+3445	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	How was I charged extra when I used my card to pay?
+3451	reverted_card_payment?	reverted_card_payment?	reverted_card_payment?	declined_card_payment	2	What should I do if my card payment was cancelled?
+3458	exchange_via_app	exchange_via_app	exchange_via_app	exchange_rate	2	I am from X but am traveling to Y - how do I get currency for Y?
+3256	topping_up_by_card	top_up_limits	topping_up_by_card	topping_up_by_card	2	I need to add a serious amount of cash to my card, how do I do that?
+3260	pending_transfer	pending_transfer	transfer_not_received_by_recipient	pending_transfer	2	I completed I transfer the day before yesterday in this country. The transfer still is not complete. I've checked on the account number multiple times to make sure that it is the right one. Can you check to see what's going on with this?
+3265	extra_charge_on_statement	pending_card_payment	extra_charge_on_statement	extra_charge_on_statement	2	How long will the $1 charge show as pending?
+3301	declined_card_payment	reverted_card_payment?	declined_card_payment	declined_card_payment	2	Why did my payment not go through why did it cancel?
+3516	transfer_timing	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	2	What's the time frame normally for a UK account transfer? I just made one and it's not showing up anywhere. I want to be sure that everything is good.
+3521	transaction_charged_twice	pending_card_payment	transaction_charged_twice	transaction_charged_twice	2	It seems my card payment was completed twice. I paid at the store previously and the first one did not seem to go through. After a second attempt, it did go through. I now see within the app that I have been charged twice with one of them pending. Can you please remove the pending amount because it is clearly something that was declined?
+3529	declined_card_payment	declined_card_payment	declined_card_payment	card_not_working	2	Can you tell me why my card keeps getting declined every time I try to use it?
+3541	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	transfer_timing	2	How long does it take for the money to show up in my account?
+3549	lost_or_stolen_card	lost_or_stolen_card	card_not_working	compromised_card	3	I thought I lost my card so I cancelled it, but recently I found it in my jacket and I would like to re-establish the card.
+3558	card_delivery_estimate	card_delivery_estimate	card_arrival	card_delivery_estimate	2	I haven't received my card yet, how long does it normally take?
+3569	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	extra_charge_on_statement	2	My statement shows a 1£ purchase pending. I do not remember making this purchase, please let me know what this is about.
+3583	fiat_currency_support	exchange_via_app	fiat_currency_support	fiat_currency_support	2	Are you okay with exchanges to EUR?
+3623	declined_transfer	declined_transfer	declined_transfer	failed_transfer	2	I got a message that my transfer is not possible. What is happening? I need this to go through please.
+3626	verify_source_of_funds	verify_source_of_funds	verify_source_of_funds	receiving_money	2	is there a way i can see source of money?
+3645	transfer_timing	transfer_not_received_by_recipient	transfer_timing	transfer_timing	2	How long do transfers take? I sent money to a friend who needs it urgently. It's been hours and has not gone through.
+3660	direct_debit_payment_not_recognised	direct_debit_payment_not_recognised	direct_debit_payment_not_recognised	card_payment_not_recognised	2	What do I do about a debit on my account that I didn't make?
+3662	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	Why am I charged an extra fee on my card?
+3664	lost_or_stolen_card	lost_or_stolen_card	lost_or_stolen_card	cash_withdrawal_not_recognised	2	Hello, Please look into this matter urgently. As i have lost my wallet and i can see one withdrawal, now i do not want to loose more money.
+3665	declined_transfer	declined_transfer	failed_transfer	declined_transfer	2	why wasn't a transfer to account approved
+3671	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	I want this fee reversed from my account.
+3673	transfer_fee_charged	receiving_money	transfer_fee_charged	transfer_fee_charged	2	If someone sends me money, will I be charged?
+3683	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	card_arrival	2	Are cards delivered to my location?
+3715	card_payment_not_recognised	wrong_amount_of_cash_received	card_payment_not_recognised	card_payment_not_recognised	2	I made the incorrect payment for my rent yesterday and this needs to be fixed by no later than tomorrow. How can you help?
+3735	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	transfer_not_received_by_recipient	2	I tried to transfer money to a receiver and they didn't get the right amount. What is going on and who do I contact to help me?
+3794	balance_not_updated_after_bank_transfer	transfer_timing	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	2	How long does it typically take to make a transfer from a UK bank? I just made one and it hasn't shown up in my account yet.
+3814	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	I topped up and now my money is not there anymore! What happened to it?
+3815	top_up_limits	top_up_limits	card_not_working	top_up_limits	2	What is the daily limit on my card?
+3831	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	Am I charged for receiving money?
+3756	card_not_working	card_not_working	card_not_working	extra_charge_on_statement	2	what is the matter?
+3781	transfer_timing	pending_transfer	transfer_timing	transfer_timing	2	What is the average pending time for a transaction?
+3862	card_arrival	card_arrival	card_delivery_estimate	card_arrival	2	How do I know when my new card is going to arrive?
+3882	extra_charge_on_statement	exchange_charge	extra_charge_on_statement	extra_charge_on_statement	2	What are the fees imposed when I make a transaction?
+3885	transfer_timing	card_delivery_estimate	transfer_timing	transfer_timing	2	How long will it take to get to the US?
+3915	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	compromised_card	2	I just got an email in confirming my purchase with my card. I login to the mobile app on the card and found out there are several purchase were made without me aware of it. Evidently someone had stole my card information and made these fraudulent purchase. I need the transaction to be reverse and have my card suspended.
+3932	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	Help me! When I was abroad, the exchange rate was wrong.
+3933	card_not_working	card_not_working	declined_card_payment	card_not_working	2	Can you please advise if there is something wrong with my card? I have had multiple rejections and do not know the reason. Thanks!
+3958	exchange_rate	exchange_via_app	exchange_rate	exchange_rate	2	When I exchanged currencies the value of my money changed.
+3979	top_up_by_bank_transfer_charge	top_up_by_bank_transfer_charge	top_up_by_bank_transfer_charge	top_up_by_card_charge	2	Is there a fee to add money to an international card?
+4011	declined_transfer	beneficiary_not_allowed	declined_transfer	declined_transfer	2	My transfer to a beneficiary was rejected.
+4034	card_not_working	pin_blocked	card_not_working	card_not_working	2	I found my card, how can I use it again?
+4141	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	pending_transfer	transfer_timing	3	I am still waiting for a transfer to show
+4143	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	compromised_card	2	There seems to be a couple of payments listed in the app I know weren't made by me. Is there a possibility someone has access to my card? Can you find out what's going on?
+4158	transfer_timing	transfer_timing	transfer_timing	transfer_not_received_by_recipient	2	What's the time frame on EU transfers? I purchased something a couple of days ago but the seller hasn't received my payment.
+4159	exchange_via_app	exchange_via_app	exchange_via_app	fiat_currency_support	2	My salary comes in GBP can I change my options somewhere?
+4177	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_into_account	2	Please check to see if the band transfer I made a while ago from my UK account has safely arrived.
+4202	top_up_reverted	top_up_failed	top_up_reverted	top_up_reverted	2	My money is gone. I had topped up recently and saw it was there and went through, but now it's disappeared, what's going on?
+4225	getting_virtual_card	getting_virtual_card	getting_virtual_card	virtual_card_not_working	2	Can I use my virtual card to complete transactions for memberships?
+4238	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	exchange_charge	2	I transferred money to a receiver within the EU and they received a lesser amount than expected. Now I will have to send additional money to the receiver in order to make up the difference. I'm not sure what went wrong, can you please advise?
+4252	reverted_card_payment?	transfer_not_received_by_recipient	reverted_card_payment?	reverted_card_payment?	2	Hello, I was contacted by a seller who let me know my money didn't come through on their side. It most certainly came out of my account so I need this looked at immediately because now it has been returned to me!
+4271	exchange_rate	exchange_rate	exchange_rate	exchange_charge	2	When exchanging, how much are the rates?
+4279	verify_source_of_funds	receiving_money	verify_source_of_funds	verify_source_of_funds	2	Can I see the source of my available money?
+4287	declined_card_payment	declined_card_payment	declined_card_payment	card_not_working	2	Why does is payment not going through? Did my account get frozen or some other issue I don't know about. What can I do to fix this problem?
+4289	exchange_rate	card_payment_wrong_exchange_rate	exchange_rate	exchange_rate	2	I'm on holiday and I noticed a different amount for exchange rate. Can you explain?
+4318	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_timing	2	How long does a bank transfer take to show up in available funds?
+4321	extra_charge_on_statement	extra_charge_on_statement	wrong_amount_of_cash_received	receiving_money	3	There is random cash in my account.
+4328	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	wrong_amount_of_cash_received	2	I made a transfer and the receiver said they haven't actually received the right amount, but it's a bit less. Now I have to transfer more money to make up for the missing bit. Can you please alert me about this, what has been going on?
+4333	balance_not_updated_after_cheque_or_cash_deposit	extra_charge_on_statement	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	2	Some cash shows up on my app.
+4354	exchange_rate	exchange_rate	exchange_rate	card_payment_wrong_exchange_rate	2	My currency rate is inaccurate.
+4355	unable_to_verify_identity	unable_to_verify_identity	unable_to_verify_identity	why_verify_identity	2	I refuse to verify my identity.
+4359	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	exchange_rate	2	I thought I was going to receive more currency?
+4360	card_not_working	card_not_working	card_not_working	pin_blocked	2	How do I take a block off my card?
+4373	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_timing	2	What is the time frame that transfers normally take from a UK account? I just completed a transfer and nothing shows up. I need to know if everything is alright.
+4378	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	exchange_rate	card_payment_wrong_exchange_rate	2	I want to change the wrong exchange rate.
+4380	declined_transfer	failed_transfer	declined_transfer	declined_transfer	2	Why can I not do a transfer
+4384	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	cash_withdrawal_charge	2	This past holiday I made a withdraw at the ATM machine, and it seems I've been charged too much.
+4387	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	When I was traveling abroad, the exchange rate was applied wrong.
+4389	card_not_working	card_not_working	card_not_working	pin_blocked	2	Can I use app to unblock my card?
+4468	reverted_card_payment?	reverted_card_payment?	card_payment_not_recognised	declined_card_payment	3	What does it mean if it says my card payment has been cancelled?
+4471	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	card_arrival	2	Help! When will the card arrive at my home?
+4492	supported_cards_and_currencies	supported_cards_and_currencies	supported_cards_and_currencies	card_acceptance	2	I need to know if you will accept my credit card.
+4507	reverted_card_payment?	reverted_card_payment?	card_payment_not_recognised	reverted_card_payment?	2	I made a payment with my card that was cancelled?
+4510	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_not_recognised	2	I was charged extra or a hidden fee when I purchased something from you. What's the deal? I didn't authorize that charge.
+4518	receiving_money	receiving_money	receiving_money	transfer_into_account	2	Can my salary be received and transferred to my current currency in my country?
+4546	card_linking	card_not_working	card_linking	card_linking	2	if i found a lost card can i put it back in app
+4560	visa_or_mastercard	visa_or_mastercard	order_physical_card	visa_or_mastercard	2	I'm wanting to get a Visa card today.
+4074	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	I couldn't transfer money to a beneficiery
+4081	compromised_card	compromised_card	compromised_card	card_payment_not_recognised	2	Please tell me how you can stop unauthorized payments from being made on my card since on this bill I see that this has happened. There are transactions that I never made from a place I've never been to.
+4098	card_payment_fee_charged	extra_charge_on_statement	card_payment_fee_charged	card_payment_fee_charged	2	Please tell me why I was charged additionally when I used the card.
+4111	card_not_working	card_arrival	card_not_working	card_not_working	2	I'm in China and need a new card. Please help.
+4403	transaction_charged_twice	declined_card_payment	transaction_charged_twice	transaction_charged_twice	2	My card was declined but it shows as multiple charges?
+4414	card_arrival	card_arrival	card_arrival	order_physical_card	2	Is there a way to order a new card while in China?
+4415	exchange_rate	exchange_rate	exchange_rate	exchange_charge	2	I wanted to know what discounts were offered for current exchanges as it is something that occurs frequently.
+4417	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	exchange_rate	card_payment_wrong_exchange_rate	2	Why is the exchange rate different than expected on my transaction?
+4418	exchange_charge	exchange_rate	exchange_charge	exchange_charge	2	Do I get any sort of discount on volume for a lot fo currency exchanges?
+4444	top_up_failed	top_up_failed	topping_up_by_card	top_up_failed	2	I topped up recently and saw the money go through, but now it's just gone? What's going on
+4449	transfer_not_received_by_recipient	transfer_not_received_by_recipient	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	2	I transferred some money but it is not here yet
+4571	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	How do I make my top up complete?
+4574	exchange_rate	exchange_rate	wrong_exchange_rate_for_cash_withdrawal	exchange_rate	2	I did not receive the correct amount for the exchange rate.
+4580	fiat_currency_support	exchange_via_app	fiat_currency_support	fiat_currency_support	2	what currencies can i exchange between on your app?
+4600	pending_card_payment	pending_card_payment	pending_card_payment	transfer_timing	2	When will my payment go through?
+4625	card_payment_not_recognised	compromised_card	card_payment_not_recognised	card_payment_not_recognised	2	Someone must have found my card details as I don't recognize these transactions.
+4635	declined_card_payment	declined_card_payment	declined_card_payment	declined_transfer	2	I'm getting an error when trying to make a payment. I want to purchase a flat but my mortgage payment needs to go through. Can you help me?
+4642	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	transfer_timing	2	How long will it take for a bank transfer to show up on my account? It's been a couple hours but I havnt seen anything yet. Also it's from a UK account if that makes any difference.
+4650	lost_or_stolen_card	lost_or_stolen_card	compromised_card	card_not_working	3	I found my lost card in my jacket pocket this morning so I'd like to reactivate it please.
+4653	transaction_charged_twice	transaction_charged_twice	transaction_charged_twice	pending_card_payment	2	Looks like my card payment was made twice by mistake. I went to pay at the store earlier which rejected once, second time it worked. App is on pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?
+4667	verify_my_identity	why_verify_identity	verify_my_identity	verify_my_identity	2	Do i have to verify who I am?
+4674	transfer_fee_charged	receiving_money	transfer_fee_charged	transfer_fee_charged	2	Is there any fees associated with receiving money with this account?
+4675	compromised_card	compromised_card	lost_or_stolen_card	compromised_card	2	Could you please freeze my card immediately?
+4678	declined_card_payment	reverted_card_payment?	declined_card_payment	declined_card_payment	2	I noticed my card payment was cancelled, can you tell me why?
+4686	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	2	Let me know when applying extra charges for payments. I just checked the app and saw a fee that I wasn't warned about.
+4689	lost_or_stolen_card	lost_or_stolen_card	card_payment_not_recognised	lost_or_stolen_card	2	I misplaced my card and I dont know where the last place is where I used the card last. Can you look at my account and tell me the last place I used the card?
+4705	transaction_charged_twice	transaction_charged_twice	transaction_charged_twice	pending_card_payment	2	The first payment I attempted for my card at the store earlier did not process so I had to make a second attempt. The second time it worked. It now appears I was charged twice. After looking at the app I see a pending charge. Please remove the pending amount because it is clearly not accurate and was declined.
+4706	topping_up_by_card	topping_up_by_card	topping_up_by_card	automatic_top_up	2	Can I add money in intervals to my account? I will be traveling.
+4713	card_arrival	card_arrival	card_arrival	card_delivery_estimate	2	Please send my card as quickly as possible.
+4714	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	Why was I charged a fee? I thought shopping was free?
+4717	exchange_via_app	exchange_via_app	exchange_via_app	exchange_rate	2	Do you allow exchanges of EUR?
+4740	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	wrong_amount_of_cash_received	2	The amount of cash I requested to withdrawal did not match what I received when exchanged
+4743	lost_or_stolen_card	lost_or_stolen_card	compromised_card	card_not_working	3	I found the card I thought I lost this morning. Can I reactivate this card?
+4751	exchange_charge	exchange_charge	exchange_charge	transfer_fee_charged	2	So, I see a strange fee that I've never seen before after making an online purchase from abroad. I was under the impression transfers could be made for free. I don't think this seems fair.
+4753	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	2	Why did you give me so little currency?
+4773	receiving_money	receiving_money	verify_source_of_funds	receiving_money	2	Do I need to add my salary?
+4781	pending_card_payment	pending_card_payment	transaction_charged_twice	pending_card_payment	2	It appears as though my card payment was duplicated. I paid at the store earlier today. The first time it was declined and the second time it worked. The app is still showing one of the payments to be pending. Please take one of these off because clearly the first was declined and is not correct.
+4791	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	My top up is not showing up in my wallet!
+4794	wrong_amount_of_cash_received	wrong_amount_of_cash_received	declined_cash_withdrawal	wrong_amount_of_cash_received	2	It didn't give me my cash
+4800	getting_spare_card	order_physical_card	getting_spare_card	getting_spare_card	2	how do i get a new card
+4827	transfer_timing	pending_transfer	transfer_timing	transfer_timing	2	When will my transfer process?
+4893	top_up_failed	top_up_failed	top_up_failed	pending_top_up	2	I don't see my top up in my wallet.
+4896	transfer_timing	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	2	Hi. About two hours ago I made a transfer from my bank which is in the UK, but I don't see it yet! Would you check what's going on with it, please?
+4903	refund_not_showing_up	refund_not_showing_up	request_refund	refund_not_showing_up	2	I was refunded the money for something I bought already.
+4915	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	cash_withdrawal_not_recognised	2	Why is there some cash that I did not deposit in my account?
+4932	order_physical_card	order_physical_card	order_physical_card	country_support	2	Are cards available in the EU?
+4843	pending_top_up	pending_top_up	balance_not_updated_after_cheque_or_cash_deposit	pending_top_up	2	Why is my deposit still pending?
+4858	declined_card_payment	card_not_working	declined_card_payment	declined_card_payment	2	For some reason my card payment didn't work
+4865	declined_transfer	failed_transfer	declined_transfer	declined_transfer	2	My account transfer was blocked.
+4941	cash_withdrawal_charge	cash_withdrawal_charge	atm_support	cash_withdrawal_charge	2	Can I get money in my home currency at some ATM? I'm on holiday and am a bit concerned because I don't have any cash with me, it is possible to withdraw here already without any additional cost?
+4957	activate_my_card	activate_my_card	card_linking	activate_my_card	2	How do I activate and link my new card?
+4964	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_bank_transfer	balance_not_updated_after_cheque_or_cash_deposit	2	My friend deposited $100 into my account, but it is not showing up!
+4978	declined_transfer	failed_transfer	declined_transfer	declined_transfer	2	What are the reasons that my mortgage payment won't go through? I'm getting an error and don't know how to correct to get this transfer to go through.
+4990	pending_transfer	pending_transfer	pending_transfer	pending_card_payment	2	Why hasn't my transaction been completed?
+5005	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	Will you tell me how I am supposed to use the disposable cards?
+5008	transfer_timing	transfer_timing	transfer_timing	transfer_not_received_by_recipient	2	I sent some money to somebody a couple of hours ago, and they still have yet to receive it. They really need the money, how much longer are they going to have to wait?
+5018	top_up_failed	top_up_failed	top_up_failed	pending_top_up	2	How do I know if my top up worked?
+5028	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	2	When I received my money, it was not in the correct amount. The exchange rate was not what it should have been.
+5107	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	automatic_top_up	2	Will the system automatically update once there is no more money left?
+5117	cash_withdrawal_charge	cash_withdrawal_charge	wrong_exchange_rate_for_cash_withdrawal	cash_withdrawal_charge	2	Can i get money in my home currency at my ATM ?I am on holiday and bit concerned because i do not have any cash with me .Is it possible to withdraw without any additional cost.
+5126	card_not_working	card_not_working	pending_transfer	failed_transfer	3	It's been a few days since I've tried to pay a seller but the funds aren't going through. What is happening?
+5132	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_wrong_exchange_rate	2	Why was the price higher when I paid with my card?
+5142	declined_cash_withdrawal	declined_cash_withdrawal	declined_cash_withdrawal	card_not_working	2	My ATM card isn't working for a withdrawl
+5156	transaction_charged_twice	transaction_charged_twice	pending_card_payment	transaction_charged_twice	2	One of my charges was declined, but the second one went through. But I notice on my App that one of them has gone through, and the other one is still pending. Please ensure that only one charge is processed. Thanks
+5158	card_payment_fee_charged	extra_charge_on_statement	card_payment_fee_charged	card_payment_fee_charged	2	Let me know when you charge for payments. I just checked the app and saw a fee that I wasn't warned about.
+5161	declined_card_payment	declined_card_payment	declined_card_payment	failed_transfer	2	My payment was terminated
+5167	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	compromised_card	2	There are a few payments in the app that I didn't make! Does someone else have my card? What should I do?
+5169	transfer_into_account	transfer_into_account	transfer_into_account	transfer_timing	2	Can I use SWIFT transfers?
+5192	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	card_arrival	2	Where do we mail the card?
+5195	declined_card_payment	declined_card_payment	declined_card_payment	reverted_card_payment?	2	I dont know what happened, but my payment was cancelled
+5063	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	country_support	2	What locations are cards delivered to?
+5074	pending_cash_withdrawal	pending_cash_withdrawal	wrong_amount_of_cash_received	pending_cash_withdrawal	2	I see non-received cash in my app.
+5082	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	balance_not_updated_after_bank_transfer	2	Why is my money not in my account. I have already sent it out.
+5087	declined_card_payment	declined_card_payment	declined_card_payment	card_not_working	2	I received my new card and tried using it today, just to have it show declined over and over again. Why is this happening?
+5223	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_timing	2	Where is the money that I transferred.
+5249	cancel_transfer	cancel_transfer	cancel_transfer	request_refund	2	I want to revert a transaction I did this morning
+5409	receiving_money	topping_up_by_card	receiving_money	receiving_money	2	Who can have access to top up my account?
+5413	activate_my_card	verify_my_identity	activate_my_card	activate_my_card	2	Do I need a photo ID to activate a my new card?
+5425	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	2	After making a transfer from a UK account it's not showing up. How long do these transfers normally take for you? I want to be certain everything is all right.
+5426	topping_up_by_card	topping_up_by_card	topping_up_by_card	transfer_into_account	2	Can a friend top up my account
+5428	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	card_payment_wrong_exchange_rate	2	My foreign currency exchange has been applied incorrectly.
+5452	top_up_reverted	top_up_reverted	top_up_reverted	topping_up_by_card	2	I need someone to find out where my money has gone to? It has disappeared. I completed a top up earlier and seen it had went through. Since it has now disappeared I need to know what's going on.
+5454	declined_cash_withdrawal	declined_cash_withdrawal	declined_cash_withdrawal	card_not_working	2	Every ATM I visit is rejecting my card and I don't know why. There should be money on it. Can you check it to see if something is wrong or if I'm doing something wrong?
+5460	passcode_forgotten	passcode_forgotten	passcode_forgotten	pin_blocked	2	I punched in the wrong pin too many times and I'm locked out.
+5463	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	2	Do international transfers take longer?? I made a transfer from France 2 days ago but it's still not there yet...
+5330	declined_card_payment	declined_card_payment	declined_transfer	failed_transfer	3	A mortgage payment I'm making is giving me an error message. This is the first time I'm making this payment and want to know what's wrong.
+5356	verify_my_identity	why_verify_identity	verify_my_identity	verify_my_identity	2	Must I verify my identity?
+5274	exchange_charge	exchange_charge	exchange_charge	exchange_rate	2	is there a frequent currency discount?
+5277	card_acceptance	card_acceptance	card_acceptance	atm_support	2	Any place that takes Mastercard would be fine.
+5282	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	top_up_failed	pending_top_up	3	What happened to my Top-Up? It's not reflected.
+5303	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	get_disposable_virtual_card	2	How do I know if i need a disposable card?
+5535	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	transaction_charged_twice	2	I was charged the wing amount for an item.
+5549	transfer_fee_charged	exchange_charge	transfer_fee_charged	transfer_fee_charged	2	I've used my account frequently over the last month to manage my payments from abroad for my new place. I noticed that my fees have suddenly increased. As a frequent customer, shouldn't I be rewarded rather than suddenly being subject to a new fee?
+5555	age_limit	age_limit	age_limit	unable_to_verify_identity	2	You will hear back from us about your verification results in 10 minutes to a one hour timeframe. If these verification results do fail, please double-check to make sure your images are clear and have no glare or blur; your photos need to be fully readable. You need to be 18 years of age or older and a resident of Switzerland or the European Economic Area to create an account.
+5559	fiat_currency_support	exchange_via_app	fiat_currency_support	fiat_currency_support	2	Do you provide currency exchange to Euros?
+5568	why_verify_identity	why_verify_identity	why_verify_identity	verify_my_identity	2	Am I supposed to verify my identity?
+5500	receiving_money	receiving_money	receiving_money	fiat_currency_support	2	Can I receive payments in another currency?
+5519	pending_cash_withdrawal	pending_cash_withdrawal	wrong_amount_of_cash_received	cash_withdrawal_not_recognised	3	I did not get the cash that is showing up in my app.
+5522	top_up_by_card_charge	top_up_by_card_charge	top_up_by_bank_transfer_charge	top_up_by_card_charge	2	Are there still fees for european top-ups?
+5600	declined_card_payment	declined_card_payment	top_up_failed	topping_up_by_card	3	My card keeps getting declined when I try to use it. I would like to top-up, but it is not going though.
+5612	card_payment_fee_charged	card_payment_fee_charged	exchange_charge	extra_charge_on_statement	3	I thought I can make transfers for free, this is not fair. I bought something online from abroad and there was some weird additional fee that I've never seen before?
+5631	top_up_by_card_charge	topping_up_by_card	top_up_by_card_charge	top_up_by_card_charge	2	Is it free for top ups?
+5643	order_physical_card	order_physical_card	order_physical_card	country_support	2	How do I get a card in the EU?
+5646	order_physical_card	order_physical_card	order_physical_card	getting_spare_card	2	I want a new card
+5654	exchange_charge	exchange_charge	exchange_charge	cash_withdrawal_charge	2	Could you inform me as to why I have been charged a higher fee for doing banking abroad.
+5665	order_physical_card	order_physical_card	order_physical_card	getting_spare_card	2	Is a new debit card free?
+5666	pin_blocked	pin_blocked	declined_card_payment	pin_blocked	2	I must have entered my PIN wrong.
+5819	topping_up_by_card	topping_up_by_card	transfer_into_account	topping_up_by_card	2	What information am I going to have to have in order to do a transfer with my card?
+5828	direct_debit_payment_not_recognised	card_payment_not_recognised	direct_debit_payment_not_recognised	direct_debit_payment_not_recognised	2	How can I dispute a debit transaction?
+5844	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	Do you not accept crypto transfers from certain places? Because when I tried to do a top up the money just disappeared. Im not sure what to do or what I'm doing wrong, please help.
+5847	topping_up_by_card	topping_up_by_card	topping_up_by_card	supported_cards_and_currencies	2	How do I use American express to top up my account?
+5758	top_up_by_card_charge	top_up_by_card_charge	top_up_by_card_charge	top_up_by_bank_transfer_charge	2	What is the fee if I use a European bank for a top up?
+5765	extra_charge_on_statement	balance_not_updated_after_cheque_or_cash_deposit	extra_charge_on_statement	extra_charge_on_statement	2	Why is there extra cash in my account?
+5685	transfer_into_account	transfer_into_account	transfer_into_account	country_support	2	Help! I need to transfer something to China.
+5694	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	failed_transfer	2	I made a bank transfer but it doesn't seem to have gone through?
+5697	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	Are there any fees associated with receiving money?
+5719	top_up_reverted	top_up_failed	top_up_reverted	top_up_reverted	2	Can you tell me why my top-up was canceled?
+5734	transfer_timing	transfer_timing	transfer_timing	transfer_not_received_by_recipient	2	Why hasn't my transfer from Europe gone through?
+5738	extra_charge_on_statement	extra_charge_on_statement	card_payment_not_recognised	extra_charge_on_statement	2	Why is there an uknown charge showing on my account?
+5739	verify_source_of_funds	verify_source_of_funds	verify_source_of_funds	receiving_money	2	where is this money from
+5859	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	Why isn't top-up working? My top-up money disappeared after I saw that it was successfully transferred. Is it gone? Where did it go?
+5860	transfer_fee_charged	transfer_fee_charged	transfer_fee_charged	extra_charge_on_statement	2	How do I see what fees I am supposed to be charged on my account? I've noticed fees on some transactions, but not on others. This is very confusing and I cannot find a pattern to what I am being charged?
+5874	topping_up_by_card	topping_up_by_card	topping_up_by_card	declined_card_payment	2	I really need to top-up my card today urgently but my card keeps getting declined!! Can you please resolve this problem or let me know if you have any alternatives
+5880	pin_blocked	pin_blocked	card_not_working	pin_blocked	2	My PIN isn't working.
+5894	pending_cash_withdrawal	pending_cash_withdrawal	pending_cash_withdrawal	declined_cash_withdrawal	2	I tried to withdraw cash at an ATM in the city center but my card was declined. The transaction is still showing up as pending - please cancel it!
+5897	request_refund	request_refund	cancel_transfer	request_refund	2	I ordered something, and now I have buyer's remorse. Since what I ordered hasn't come yet, can you just cancel the payment since I already know I want a refund for it?
+5908	supported_cards_and_currencies	supported_cards_and_currencies	topping_up_by_card	supported_cards_and_currencies	2	I'd like to use my American Express to place money into my account.
+5919	top_up_by_card_charge	top_up_by_card_charge	topping_up_by_card	top_up_by_bank_transfer_charge	3	how much does it cost to add money
+5922	order_physical_card	getting_spare_card	order_physical_card	order_physical_card	2	How can i get new card?
+5929	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	extra_charge_on_statement	2	I'm not sure where this charge came from.
+5935	reverted_card_payment?	reverted_card_payment?	declined_card_payment	reverted_card_payment?	2	Why is my card payment cancelled?
+5940	disposable_card_limits	disposable_card_limits	disposable_card_limits	get_disposable_virtual_card	2	Can you please explain disposable virtual cards for me?
+5941	supported_cards_and_currencies	supported_cards_and_currencies	fiat_currency_support	supported_cards_and_currencies	2	What currency can I use to add money?
+5944	exchange_charge	exchange_charge	card_payment_fee_charged	extra_charge_on_statement	3	Is there a place to check for fee for payments? I feel like I'm getting charged too much at times.
+5947	compromised_card	compromised_card	card_payment_not_recognised	extra_charge_on_statement	3	My account seems a bit off and getting weird charges.
+5963	failed_transfer	failed_transfer	balance_not_updated_after_bank_transfer	failed_transfer	2	There is a transfer not showing on my account.
+5965	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	I tried to add a topup to my account but the money isn't there, anymore. Did I do something wrong?
+6002	card_arrival	card_arrival	card_arrival	getting_spare_card	2	I'm in China and really need a new card.
+6084	failed_transfer	failed_transfer	transfer_not_received_by_recipient	failed_transfer	2	I sent a payment but now it's not showing up.
+6093	unable_to_verify_identity	unable_to_verify_identity	verify_my_identity	why_verify_identity	3	What happens if I use my account and my identity verification hasn't finished?
+6185	transfer_into_account	transfer_into_account	country_support	card_not_working	3	Can I get support?
+6200	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	Just received a message that my transfer is not possible?? What is going on. I have done this before with no issues.
+6223	card_acceptance	card_acceptance	card_acceptance	card_not_working	2	The terminal I paid at wouldn't take my card. Is something wrong?
+6228	refund_not_showing_up	refund_not_showing_up	reverted_card_payment?	request_refund	3	It's been some time ago that I placed an order and it just isn't coming. At this point just give me back my money because I'm not paying them.
+6230	fiat_currency_support	receiving_money	fiat_currency_support	fiat_currency_support	2	Can I receive payment in another currency?
+6231	transfer_into_account	transfer_into_account	transfer_into_account	exchange_via_app	2	Do I need to convert my currency from GBP before transferring?
+6130	card_delivery_estimate	card_delivery_estimate	card_arrival	card_delivery_estimate	2	Can you tell me when my card will arrive?
+6132	card_linking	card_linking	getting_spare_card	card_linking	2	how is it possible to add another card to account
+6141	exchange_rate	exchange_rate	exchange_rate	card_payment_wrong_exchange_rate	2	Why is my exchange rate wrong?
+6162	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	What's the deal? Money has just disappeared out of my account. I thought you offered crypto top up and it doesn't seem to working.
+6176	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_timing	balance_not_updated_after_bank_transfer	2	I made a transfer from my UK account a couple of hours ago. Could you please make sure everything went alright.
+6242	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	I keep getting an error message when I'm trying to transfer funds! Why aren't you accepting that?
+6260	transfer_timing	transfer_timing	transfer_timing	pending_top_up	2	How long does it take for a top up to go through
+6265	topping_up_by_card	topping_up_by_card	topping_up_by_card	supported_cards_and_currencies	2	What is not accepted in order for me to top up my account?
+6266	receiving_money	receiving_money	transfer_into_account	receiving_money	2	are transfers to a beneficiary possible
+6275	card_not_working	card_not_working	activate_my_card	card_not_working	2	I would like to reactivate a card and wondered if that could be done?
+6283	atm_support	atm_support	atm_support	cash_withdrawal_charge	2	Can I make a withdraw in my home currency at an ATM? I'm on vacation and don't have cash with me. This is cause for a bit of concern. Is it possible to withdraw here without additional fees?
+6302	declined_card_payment	declined_card_payment	declined_card_payment	card_not_working	2	I couldn't pay with my card
+6309	top_up_failed	top_up_failed	top_up_failed	pending_top_up	2	Did I do something incorrectly? Where is my top-up?
+6326	request_refund	request_refund	request_refund	cancel_transfer	2	I need my purchase cancelled.
+6331	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	Will I be charged any fee for receiving money?
+6340	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	extra_charge_on_statement	card_payment_not_recognised	3	I have a payment in my statement that is off
+6350	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	direct_debit_payment_not_recognised	2	I don't recognize this debit transaction in my billing statement?
+6387	reverted_card_payment?	reverted_card_payment?	refund_not_showing_up	reverted_card_payment?	2	I paid two weeks ago and just got refunded
+6392	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	My wallet isn't showing my top-up, did I do something wrong?
+6459	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	pending_card_payment	2	Why isn't my payment showing?
+6469	country_support	exchange_rate	country_support	country_support	2	WHAT IS THE ATMOSPHERE OF IT
+6486	disposable_card_limits	disposable_card_limits	disposable_card_limits	get_disposable_virtual_card	2	I'm interested in learning more about disposable virtual cards.
+6395	transfer_timing	transfer_not_received_by_recipient	transfer_timing	transfer_timing	2	I am wondering about a transfer from a different country that doesn't show up yet?
+6407	country_support	country_support	country_support	order_physical_card	2	I reside in the US, but I want a card.
+6533	failed_transfer	failed_transfer	failed_transfer	declined_transfer	2	I tried transferring to an account but it won't let me.
+6542	unable_to_verify_identity	unable_to_verify_identity	verify_my_identity	unable_to_verify_identity	2	Can I already use my account although the identity verification has not passed yet?
+6554	top_up_reverted	top_up_failed	top_up_reverted	top_up_reverted	2	Why was my top up cancelled?
+6579	transfer_into_account	transfer_into_account	transfer_into_account	transfer_timing	2	Can you please check my UK Account to make sure everything went alright? I made the transfer a couple of hours ago.
+6587	reverted_card_payment?	reverted_card_payment?	reverted_card_payment?	card_not_working	2	I really wanted to buy something online but seems the card is not working as the payment suddenly came back! What's going on here, I've been trying for a good week or two.
+6596	transfer_timing	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	2	How long before a bank transfer shows up in the account?
+6608	age_limit	age_limit	age_limit	fiat_currency_support	2	We want to start a college fund for my daughter.
+6611	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	country_support	2	Where can I have a new bank card sent to China?
+6670	card_payment_fee_charged	extra_charge_on_statement	card_payment_fee_charged	card_payment_fee_charged	2	I see I was charged extra when I used the card. I am not sure why, please tell me why.
+6689	pending_card_payment	pending_card_payment	pending_card_payment	transfer_not_received_by_recipient	2	I purchased something and the seller hasn't received the money yet, but it has been deducted from my account.
+6703	cancel_transfer	cancel_transfer	cancel_transfer	failed_transfer	2	How do I fix a transaction to the wrong account?
+6719	pending_transfer	pending_transfer	balance_not_updated_after_bank_transfer	pending_transfer	2	I'm waiting for a money transfer to show, still.
+6722	declined_card_payment	declined_card_payment	declined_card_payment	declined_transfer	2	What does the decline message mean
+6725	request_refund	request_refund	card_payment_not_recognised	request_refund	2	I have an incorrect charge and would like a refund.
+6621	transfer_timing	transfer_timing	transfer_into_account	transfer_not_received_by_recipient	3	how do i track the moeney
+6629	failed_transfer	failed_transfer	failed_transfer	declined_transfer	2	the bank transfer was declined
+6641	balance_not_updated_after_bank_transfer	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	2	I put some money in my account the other day and it's not gone in yet, can you help with this?
+6645	transfer_timing	transfer_timing	pending_transfer	transfer_timing	2	I am having to wait for my transfer to be fully processed. It seems to be taking a very long time in the pending phase. What is the normal turn around time that I can expect to see it completed?
+6647	top_up_by_card_charge	top_up_by_card_charge	top_up_by_bank_transfer_charge	top_up_by_card_charge	2	Will there be extra charges regarding to adding money into my international card?
+6653	transfer_into_account	topping_up_by_card	transfer_into_account	transfer_into_account	2	With my credit card i would like to transfer money.
+6658	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	the exchange rate is wrong from something I got in another country
+6662	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	cash_withdrawal_charge	2	What is the extra fee that was added when I used the card?
+6789	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	pending_top_up	2	I topped up last night but don't have any funds, why not?
+6807	card_delivery_estimate	card_delivery_estimate	card_arrival	card_delivery_estimate	2	If I ordered my new card last week, how much longer should I wait to receive it?
+6831	declined_transfer	declined_transfer	declined_transfer	failed_transfer	2	Why can't I complete my transfer?
+6738	declined_card_payment	declined_card_payment	card_not_working	declined_card_payment	2	My card payment didn't work
+6842	card_not_working	lost_or_stolen_card	card_not_working	card_not_working	2	I want to reactivate my card, I found it after thinking it was lost.
+6848	declined_transfer	declined_transfer	failed_transfer	declined_transfer	2	Why was my transaction declined?
+6852	wrong_amount_of_cash_received	pending_cash_withdrawal	wrong_amount_of_cash_received	wrong_amount_of_cash_received	2	I see cash in my app but I did not get it.
+6870	lost_or_stolen_phone	lost_or_stolen_phone	passcode_forgotten	lost_or_stolen_phone	2	I forgot my phone at the hotel, so I can't access the app.
+6871	top_up_failed	top_up_failed	unable_to_verify_identity	failed_transfer	3	I have made 5 attempts to make a very standard survey, yet I can't get it to work. What is the problem? Is there an issue related to your system?
+6893	top_up_reverted	top_up_reverted	top_up_failed	top_up_reverted	2	My money is gone :( I had topped up recently and saw it was there and went through, but now it's disappeared, what's going on?
+6898	card_payment_not_recognised	card_payment_not_recognised	compromised_card	card_payment_not_recognised	2	It looks like someone besides me ordered something with my card, what should I do?
+6902	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	Why are you not accepting my transfer!! I've tried a couple times already now and it just keeps showing an error message
+6913	exchange_rate	exchange_rate	exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	What on earth is up with the exchange rate! This should have been a much higher amount of cash
+6935	extra_charge_on_statement	extra_charge_on_statement	card_payment_not_recognised	extra_charge_on_statement	2	How do I find out how or where this transaction on my account came from?
+6938	pending_transfer	pending_transfer	pending_transfer	transfer_not_received_by_recipient	2	Why am I still waiting for a transfer?
+6960	transfer_timing	transfer_timing	receiving_money	transfer_timing	2	When will my account receive the money?
+6961	card_not_working	declined_card_payment	card_not_working	card_not_working	2	Can you tell me why my card isn't letting me make purchases online? It's been 2 weeks I've been trying.
+6966	contactless_not_working	contactless_not_working	contactless_not_working	card_acceptance	2	Can I make a contactless payments?
+6971	apple_pay_or_google_pay	apple_pay_or_google_pay	apple_pay_or_google_pay	supported_cards_and_currencies	2	What currencies does google pay top up accept?
+6976	exchange_charge	exchange_charge	extra_charge_on_statement	exchange_charge	2	Next time maybe let people know that buying things from another country costs extra. I used my card to purchase an item from another country and I was charged for the item and also an extra fee it looks like. I wasnt aware of this and I think I should get a refund.
+6980	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	transfer_fee_charged	2	Why did I get charged a fee, I thought it was free?
+6994	disposable_card_limits	disposable_card_limits	card_acceptance	disposable_card_limits	2	Where can I use a disposable card?
+7005	pending_card_payment	pending_card_payment	card_arrival	pending_card_payment	2	My card has been pending for a while, what should I do?
+7006	failed_transfer	failed_transfer	balance_not_updated_after_bank_transfer	failed_transfer	2	The transfer on my account is not showing up.
+7131	card_acceptance	card_acceptance	card_acceptance	declined_card_payment	2	A shop I go to didn't let me pay.
+7157	exchange_via_app	exchange_via_app	failed_transfer	exchange_via_app	2	Why is this not letting me exchange crypto? I need help making this transaction go through.
+7158	verify_my_identity	why_verify_identity	verify_my_identity	verify_my_identity	2	Can I make transfers before my identity verification?
+7162	card_payment_not_recognised	reverted_card_payment?	card_payment_not_recognised	card_payment_not_recognised	2	I cancelled my card payment
+7191	card_arrival	card_arrival	card_arrival	card_delivery_estimate	2	I was issued a new card a week ago but still haven't received it. How long will it be until I receive it?
+7194	exchange_charge	exchange_charge	exchange_charge	exchange_rate	2	I changed the currency, but why is it costing more?
+7200	pending_card_payment	pending_card_payment	pending_card_payment	failed_transfer	2	Why is the transaction not posting?
+7261	request_refund	request_refund	cancel_transfer	request_refund	2	Yesterday, I made an incorrect payment to the wrong account for my rent payment. I need this addressed as soon as possible and the funds transferred to the correct account by no later than tomorrow.
+7265	declined_card_payment	declined_card_payment	card_not_working	declined_card_payment	2	Could you explain why my card payment did not work?
+7272	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Can i make transactions before identity verification?
+7277	reverted_card_payment?	reverted_card_payment?	card_payment_not_recognised	reverted_card_payment?	2	What happens if my card payment is cancelled?
+7309	receiving_money	receiving_money	receiving_money	fiat_currency_support	2	If my salary is in GBP, do I need to do something?
+7209	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	2	Someone may have made an error in figuring out the rate of exchange. I should have received more cash than I did on my most recent withdrawal.
+7230	country_support	country_support	card_delivery_estimate	country_support	2	Am I able to have a card sent to China?
+7256	cash_withdrawal_charge	cash_withdrawal_charge	cash_withdrawal_charge	wrong_exchange_rate_for_cash_withdrawal	2	Hi, I have withdrawn cash from the ATM on holiday and i guess withdrawal amount has been overcharged. I did it as i was not aware of these charges.
+7315	card_payment_not_recognised	card_payment_not_recognised	extra_charge_on_statement	card_payment_not_recognised	2	i do not know what this charge is for
+7320	failed_transfer	pending_transfer	failed_transfer	failed_transfer	2	Help me find the transfer that I did.
+7327	card_payment_fee_charged	exchange_charge	card_payment_fee_charged	card_payment_fee_charged	2	What can i pay with out fees
+7435	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	top up for my american express card is not working
+7472	transfer_timing	transfer_timing	transfer_timing	transfer_not_received_by_recipient	2	What is the normal time to make an international transfer? I made one a few days ago that still hasn't arrived.
+7473	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	2	Why did I only receive this much currency?
+7377	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	The exchange rate applied was incorrect when I was traveling outside the country.
+7383	order_physical_card	order_physical_card	order_physical_card	country_support	2	I need to get a card, but I live in the US.
+7386	topping_up_by_card	top_up_reverted	topping_up_by_card	topping_up_by_card	2	My money is gone. I had topped up recently and saw it was there, but now it's disappeared, what's going on?
+7537	country_support	country_support	country_support	order_physical_card	2	I live in America, but I would like a card.
+7575	receiving_money	receiving_money	receiving_money	transfer_into_account	2	Can this app take my salary?
+7579	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	receiving_money	cash_withdrawal_not_recognised	3	i didnt put that money in my account
+7475	wrong_exchange_rate_for_cash_withdrawal	wrong_exchange_rate_for_cash_withdrawal	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	2	A receiver made me aware that they did not receive the full transfer that I made. The amount was showing to be a bit less. I now have to make a second transfer just to make up the difference. Can you reach out and let me know what's going on?
+7491	fiat_currency_support	fiat_currency_support	receiving_money	fiat_currency_support	2	My salary is in GBP. Do I need to configure this somewhere?
+7516	topping_up_by_card	topping_up_by_card	topping_up_by_card	supported_cards_and_currencies	2	What are my payment options?
+7522	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	How do I know which payments I make will have additional fees? Where can I find this information online?
+7524	visa_or_mastercard	visa_or_mastercard	card_not_working	card_acceptance	3	Why did I get a different card then requested?
+7598	passcode_forgotten	passcode_forgotten	card_not_working	failed_transfer	3	Should i uninstall the app before i try it again?
+7611	cancel_transfer	cancel_transfer	cancel_transfer	request_refund	2	I just bought an item and would like to stop payment can you tell me if the item has been sent yet?
+7613	card_swallowed	pin_blocked	card_swallowed	card_swallowed	2	When I was drunk I got my card stuck in your machine because i mis-typed my PIN. What do I need to do to get it restored?
+7615	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	card_arrival	2	Where are the cards delivered to
+7622	transfer_fee_charged	transfer_fee_charged	transfer_fee_charged	exchange_rate	2	If I were to do a transfer, what is the rate for that?
+7642	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_timing	2	What's the normal time frame for a transfer from a UK account? After just making a transfer it doesn't appear at all. I need to know if things went okay.
+7645	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	exchange_rate	card_payment_wrong_exchange_rate	2	The exchange rate was wrong?
+7651	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	extra_charge_on_statement	2	what is this charge on my card?
+7655	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	Will I be charged for receiving the money?
+7701	extra_charge_on_statement	extra_charge_on_statement	card_payment_not_recognised	extra_charge_on_statement	2	The app isn't showing my transactions
+7740	exchange_rate	passcode_forgotten	exchange_rate	exchange_rate	2	what is the word?
+7766	unable_to_verify_identity	unable_to_verify_identity	verify_my_identity	unable_to_verify_identity	2	My ID verification hasn't gone through yet, but can I use my account anyway?
+7767	atm_support	atm_support	atm_support	cash_withdrawal_charge	2	I'm looking for a machine of yours that will provide me cash from my home country. I went on holiday and don't have any cash on me. Will your machine charge me extra to do this?
+7773	unable_to_verify_identity	age_limit	unable_to_verify_identity	unable_to_verify_identity	2	i am under 18 and i am trying to verify my id. why wont it work?
+7775	refund_not_showing_up	refund_not_showing_up	refund_not_showing_up	request_refund	2	How long does it take to get a refund on something I bought?
+7784	declined_transfer	declined_transfer	declined_transfer	failed_transfer	2	How can I find a way to transfer money without it being rejected?
+7792	top_up_by_card_charge	top_up_by_card_charge	top_up_by_card_charge	top_up_limits	2	Does it cost anything to top up?
+7805	extra_charge_on_statement	extra_charge_on_statement	card_payment_not_recognised	extra_charge_on_statement	2	I dont see my reciept
+7814	order_physical_card	order_physical_card	order_physical_card	getting_spare_card	2	want a new card what are the fees
+7832	card_arrival	card_arrival	getting_spare_card	country_support	3	Can I get a new card even though I am in China?
+7837	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	compromised_card	2	There were a couple of payments that I have noticed on my account with my card that I didn't make. Is it possible that somebody else has my card information?
+7857	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	This isn't fair! I thought transfers could be made for free. I just made a purchase online from abroad and now see some strange fee that I've never seen before.
+7869	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	top_up_by_card_charge	2	Why are there fees for using a card?
+7879	card_payment_not_recognised	card_payment_not_recognised	card_payment_not_recognised	card_payment_fee_charged	2	To many charges on my card how do I go about fixing that?
+7893	topping_up_by_card	topping_up_by_card	top_up_failed	topping_up_by_card	2	I attempted to top up using my card, but now the money just disappeared?
+7973	country_support	country_support	country_support	lost_or_stolen_phone	2	Can I use the app without my phone?
+7987	visa_or_mastercard	visa_or_mastercard	supported_cards_and_currencies	visa_or_mastercard	2	Are visa and mastercard accepted
+7997	card_arrival	card_arrival	card_arrival	card_delivery_estimate	2	Where are your cards delivered to?
+8005	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_bank_transfer	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	2	When will my deposit from this morning show up?
+8010	top_up_by_card_charge	top_up_by_card_charge	top_up_by_card_charge	top_up_limits	2	Will there be any fees for top ups?
+8013	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_bank_transfer	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	2	Why am I still not able to see the money I deposited a week ago? This is urgent!!
+7915	topping_up_by_card	topping_up_by_card	apple_pay_or_google_pay	topping_up_by_card	2	why top up is not working even if I got my American Express in Apple Bay?
+7929	pending_transfer	failed_transfer	pending_transfer	pending_transfer	2	Why hasn't my transfer gone through
+7940	pending_transfer	failed_transfer	pending_transfer	pending_transfer	2	Why is my transfer not showing
+7946	pending_top_up	top_up_failed	pending_top_up	pending_top_up	2	I can't see my top up in my wallet!
+8074	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	pending_cash_withdrawal	2	I haven't received my cash yet.
+8081	cash_withdrawal_not_recognised	compromised_card	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	2	I lost my wallet and I think someone is withdrawing cash with my card. Please help. It is urgent.
+8092	transfer_not_received_by_recipient	failed_transfer	transfer_not_received_by_recipient	transfer_not_received_by_recipient	2	I made a transfer the day before yesterday within this country. It is still not showing up at all. I have double-checked and the account number is certainly right. I've actually type this multiple times. can you look into what is going on here?
+8097	exchange_charge	exchange_charge	exchange_charge	exchange_rate	2	There's an error with the rate that is charged.
+8099	transfer_not_received_by_recipient	pending_transfer	transfer_not_received_by_recipient	transfer_not_received_by_recipient	2	I've been waiting since Friday, where is my money?
+8110	declined_transfer	declined_transfer	declined_transfer	failed_transfer	2	I was unable to transfer money to a beneficiary.
+8116	fiat_currency_support	fiat_currency_support	fiat_currency_support	exchange_via_app	2	Hi, Is there any problem with app? As i am facing some issues with the exchange of crypto currency. I am extremely interested in buying.
+8148	pending_card_payment	pending_card_payment	pending_card_payment	pending_transfer	2	There is a pending transaction on my account, what does this mean?
+8164	card_not_working	card_not_working	card_not_working	declined_card_payment	2	I NEED HELP WITH MY CARD!!!!! please. It keeps getting declined when I try to use it. I have tried a few times to use it and it keeps getting rejected. I have no idea why.
+8168	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	transfer_timing	2	When will my deposit be processed?
+8035	card_not_working	declined_cash_withdrawal	card_not_working	card_not_working	2	I might need a new card because it's not working at any of the ATMs. I don't think ive used all my money. Why is it doing this?
+8054	transfer_timing	extra_charge_on_statement	transfer_timing	transfer_timing	2	Can you explain the various transaction times shown on my statement?
+8062	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	exchange_rate	2	I recently bought something in foreign currency and I am unsure of the exchange rate. Is this rate applied correctly?
+8069	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	pending_top_up	2	how long does it take to reflect in my balance a top up
+8287	pending_top_up	pending_top_up	pending_top_up	top_up_failed	2	Says that my top-up is incomplete?
+8304	compromised_card	card_payment_not_recognised	compromised_card	compromised_card	2	I need to freeze my card as soon as possible. I just checked my account and saw that there have been several payments that I don't recognize over the course of a few days. Can we investigate and get my money back?
+8326	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_into_account	balance_not_updated_after_bank_transfer	2	Is there a way for me to check my balance?
+8341	card_not_working	pin_blocked	card_not_working	card_not_working	2	How do I unblock my card?
+8342	transfer_timing	pending_cash_withdrawal	transfer_timing	transfer_timing	2	How long does it take for cash withdrawals to hit my account?
+8343	declined_card_payment	declined_card_payment	declined_card_payment	reverted_card_payment?	2	I just checked and my payment was cancelled, why?
+8239	card_delivery_estimate	card_delivery_estimate	card_delivery_estimate	card_arrival	2	I'd like to have it delivered on Saturday. Is that possible?
+8250	transfer_timing	pending_transfer	transfer_timing	transfer_timing	2	How long does it take for pending transfer transactions to post?
+8260	compromised_card	compromised_card	card_payment_not_recognised	compromised_card	2	Is it possible someone has access to my card? I noticed that there are a couple of payments in the app I'm sure I did not make. Can you find out what's going on here?
+8262	top_up_by_cash_or_cheque	balance_not_updated_after_cheque_or_cash_deposit	top_up_by_cash_or_cheque	top_up_by_cash_or_cheque	2	What happens if I deposit a cheque accidentally?
+8264	country_support	country_support	country_support	exchange_rate	2	What kind of security protects my money?
+8284	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	exchange_charge	2	Im not sure why Im being charged an extra fee just for purchasing an item from another country? I paid for the item and the shipping why am I getting charged extra?
+8285	lost_or_stolen_card	lost_or_stolen_card	lost_or_stolen_card	compromised_card	2	I found my lost card. Am I still able to use it?
+8193	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_bank_transfer	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	2	How long does it take to show a deposit I made to my balance?
+8200	transfer_timing	transfer_timing	balance_not_updated_after_bank_transfer	transfer_timing	2	How long does a transfer from the UK account usually take? After completing the transfer it is not showing up. I need to know that everything I actually went okay.
+8209	country_support	country_support	country_support	order_physical_card	2	Can I get a card? I live in the US.
+8350	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Can I get information on the identity checks?
+8352	disposable_card_limits	disposable_card_limits	disposable_card_limits	get_disposable_virtual_card	2	I must make several disposable cards every day.
+8359	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	cash_withdrawal_charge	pending_cash_withdrawal	3	My cash withdrawal isnt showing on my account
+8373	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	2	There was an extra charge when I used my card
+8377	pending_top_up	pending_top_up	pending_top_up	top_up_failed	2	Hello, I have recharged topup but account is not credited. Please help me in this, i guess there is some defect in system.
+8381	topping_up_by_card	topping_up_by_card	topping_up_by_card	getting_virtual_card	2	What is the procedure for depositing a virtual card
+8383	card_not_working	card_not_working	card_not_working	declined_cash_withdrawal	2	I tried to get money out of the Notting Hill ATM earlier, but wasn't able to. Is my card working okay? It's the first time I tried using it.
+8475	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	I need to know what's going on. I was under the impression you offered cryto top up which doesn't seem to be working and money has just vanished from my account.
+8542	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	2	My transfer to my account is missing.
+8561	supported_cards_and_currencies	supported_cards_and_currencies	supported_cards_and_currencies	visa_or_mastercard	2	Is American Express accepted?
+8590	transfer_not_received_by_recipient	transfer_not_received_by_recipient	transfer_not_received_by_recipient	transfer_timing	2	When will I get my money? It's been too long.
+8599	transfer_not_received_by_recipient	transfer_not_received_by_recipient	transfer_not_received_by_recipient	transfer_timing	2	I am worried that too much time has gone by for a transfer to be completed.
+8405	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Can I use my account before the identity verification is complete?
+8435	pending_card_payment	pending_card_payment	transfer_timing	pending_card_payment	2	When will the transaction post to my account?
+8436	exchange_charge	extra_charge_on_statement	exchange_charge	exchange_charge	2	how do i avoid charges in the future
+8628	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Should I complete my security verification before I can use my account?
+8642	transfer_into_account	balance_not_updated_after_bank_transfer	transfer_into_account	transfer_into_account	2	I did a money transfer to my account and it is not showing there.
+8644	card_linking	card_linking	card_linking	card_not_working	2	lost card found, want to put it back in app
+8647	failed_transfer	failed_transfer	failed_transfer	transfer_into_account	2	Why cant I transfer to my account?
+8683	transfer_timing	transfer_timing	transfer_timing	transfer_not_received_by_recipient	2	The seller of the items I bought online the other day hasn't received the EU transfer yet. How long do these usually take?
+8688	country_support	card_acceptance	country_support	country_support	2	can I use it all over the world?
+8696	top_up_failed	top_up_failed	top_up_failed	top_up_reverted	2	My top-up was cancelled, could my bank be the problem?
+8713	exchange_charge	exchange_charge	transfer_fee_charged	exchange_charge	2	Is there a way to get around fees
+8717	top_up_failed	top_up_failed	top_up_failed	top_up_reverted	2	Reasons for top up cancellation.
+8734	transfer_not_received_by_recipient	balance_not_updated_after_bank_transfer	transfer_not_received_by_recipient	transfer_not_received_by_recipient	2	I have checked the account information several times to be sure that it is correct, but the in country transfer I did a few days ago still has not appeared! What is the hold up?
+8792	receiving_money	receiving_money	receiving_money	fiat_currency_support	2	How can I receive my salary in another currency?
+8844	disposable_card_limits	age_limit	disposable_card_limits	disposable_card_limits	2	Is there an allowance on cards?
+8741	pin_blocked	pin_blocked	pin_blocked	card_not_working	2	My PIN is not working, can you help?
+8748	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	wrong_amount_of_cash_received	cash_withdrawal_not_recognised	2	Some cash I didn't get shows in my app
+8761	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_exchange_rate_for_cash_withdrawal	2	I made a transfer and the receiver did not get the right amount its lesser than what it should be,Now I have to transfer more money to make up for the missing amount . Can you please help me about this, what should be done
+8780	cash_withdrawal_charge	atm_support	cash_withdrawal_charge	cash_withdrawal_charge	2	How do I avoid a fee to use an ATM?
+8847	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Is getting my identity verified required before I can use my account?
+8858	top_up_failed	top_up_failed	pending_top_up	top_up_failed	2	Help, I don't see my money i just added.
+8864	pending_transfer	pending_transfer	pending_transfer	transfer_timing	2	How long will my transfer be pending?
+8866	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	Can I still use my account without verifying my identity?
+8867	topping_up_by_card	topping_up_by_card	topping_up_by_card	top_up_by_card_charge	2	Where can i top my card for free?
+8909	exchange_via_app	exchange_via_app	top_up_failed	exchange_via_app	2	I'm trying to purchase crypto via the app. I haven't been able to get it to go through. Am I doing something wrong?
+8918	compromised_card	compromised_card	card_payment_not_recognised	compromised_card	2	I sees some suspicious spending on my credit card that I don't recall I had made. What should I do?
+8925	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	How does a disposable virtual card work?
+8926	getting_spare_card	getting_spare_card	compromised_card	getting_spare_card	2	Should I order a new card before I freeze my original one?
+8928	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	cash_withdrawal_charge	balance_not_updated_after_cheque_or_cash_deposit	2	i withdrew cash and dont see it reflected on the balance
+8940	receiving_money	receiving_money	receiving_money	transfer_fee_charged	2	Will I be charged for receiving money?
+9069	extra_charge_on_statement	extra_charge_on_statement	extra_charge_on_statement	exchange_charge	2	I just moved overseas and I noticed that you are charging me more fees. I am a loyal customer, is this how you expect to keep customers?
+9085	get_physical_card	get_physical_card	get_physical_card	change_pin	2	Is my PIN recorded anywhere?
+9087	topping_up_by_card	topping_up_by_card	topping_up_by_card	declined_card_payment	2	I need to top-up my card today urgently but my card keeps getting declined!! Can you please resolve this problem or let me know if you have any alternatives
+9104	get_disposable_virtual_card	get_disposable_virtual_card	get_disposable_virtual_card	disposable_card_limits	2	Why use a disposable card?
+9049	extra_charge_on_statement	extra_charge_on_statement	exchange_charge	extra_charge_on_statement	2	I've use this account all the time, including over this past month, to pay for things from my new place abroad. I'm a really good customer, so why do I suddenly have new fees? I should be rewarded instead of charged more fees.
+9052	lost_or_stolen_card	lost_or_stolen_card	card_payment_not_recognised	compromised_card	3	I need to cancel my card. There are a few charges from a couple days ago that I didn't make. Can I get credit for these charges?
+9054	extra_charge_on_statement	extra_charge_on_statement	exchange_charge	extra_charge_on_statement	2	I have used my account abroad for a while without any fees, why am I being charged additional fees all of a sudden?
+9058	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	On my last trip, I received the incorrect exchange rate.
+9119	passcode_forgotten	passcode_forgotten	passcode_forgotten	card_not_working	2	Do I need my phone to use the app?
+9124	cash_withdrawal_charge	cash_withdrawal_charge	extra_charge_on_statement	cash_withdrawal_charge	2	What is your policy on withdrawing cash from an ATM? There is a fee on my account that wasn't there before I paid for my groceries.
+9166	pending_top_up	pending_top_up	pending_top_up	balance_not_updated_after_bank_transfer	2	I am still awaiting the money I put into my account this morning.
+9242	card_delivery_estimate	card_delivery_estimate	card_arrival	order_physical_card	3	Where will I get my card?
+9246	cash_withdrawal_charge	cash_withdrawal_charge	cash_withdrawal_charge	atm_support	2	Can I get money in my home currency at an ATM? I'm on vacation and don't have cash with me. This is cause for a bit of concern. Is it possible to withdraw here without additional cost?
+9250	order_physical_card	order_physical_card	order_physical_card	country_support	2	Please tell me how to get a card if I reside in the US.
+9254	beneficiary_not_allowed	beneficiary_not_allowed	beneficiary_not_allowed	transfer_into_account	2	I wasn't allowed to transfer to my account
+9258	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	pending_transfer	transfer_timing	3	My money transfer hasn't appeared yet.
+9263	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	2	Hey, I got charged extra for some reason when I purchased an app. Is this a hidden fee or something? I don't think it's very cool.
+9170	country_support	country_support	order_physical_card	country_support	2	I live in the EU. Can I order one of your cards?
+9179	pending_transfer	pending_transfer	pending_transfer	transfer_timing	2	How long does a transfer to another country normally take? I check over and over again and see that my transfer is still pending. It's 2018, nothing should take this long. I have confirmed my account information, so there is no error. What is the hold up?
+9180	receiving_money	receiving_money	transfer_not_received_by_recipient	balance_not_updated_after_bank_transfer	3	How come my money hasn't shown up yet?
+9194	get_physical_card	get_physical_card	get_physical_card	change_pin	2	can i create my own pin right away
+9196	order_physical_card	order_physical_card	getting_spare_card	order_physical_card	2	What do I need to do in order to get a new card?
+8965	wrong_amount_of_cash_received	wrong_amount_of_cash_received	wrong_amount_of_cash_received	cash_withdrawal_charge	2	i did not get any money but still was charged
+8972	fiat_currency_support	receiving_money	fiat_currency_support	fiat_currency_support	2	I would like to receive my salary in a different currency. How does that work?
+8978	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	extra_charge_on_statement	2	Why do some of my payments have fees? I don't understand.
+9274	verify_my_identity	why_verify_identity	verify_my_identity	verify_my_identity	2	do I need to verify my identity before I can use my card?
+9276	cash_withdrawal_charge	cash_withdrawal_not_recognised	cash_withdrawal_charge	cash_withdrawal_charge	2	I went to the Notting Hill ATM to use my card the first time for a cash withdrawal but it didn't work. Does this mean that my card isn't working yet?
+9280	card_delivery_estimate	card_delivery_estimate	card_arrival	card_delivery_estimate	2	Card delivery services? Where?
+9281	unable_to_verify_identity	unable_to_verify_identity	verify_my_identity	unable_to_verify_identity	2	I'm waiting for the ID verification to go through still, so is it too soon to use my account?
+9295	card_arrival	card_arrival	card_arrival	card_delivery_estimate	2	What is the status of my card's delivery?
+9306	declined_card_payment	declined_card_payment	declined_card_payment	card_not_working	2	I'm sure I have enough money so why didn't the store accept my card?
+9338	reverted_card_payment?	reverted_card_payment?	reverted_card_payment?	card_payment_not_recognised	2	I bought something and already paid for it but now I don't see it.
+9345	exchange_via_app	exchange_via_app	fiat_currency_support	exchange_rate	3	Will you be able to exchange to EUR?
+9358	transfer_timing	pending_top_up	transfer_timing	transfer_timing	2	how long should i expect to wait when i add money
+9373	transfer_not_received_by_recipient	pending_transfer	transfer_not_received_by_recipient	transfer_not_received_by_recipient	2	Where is my money transfer?
+9381	refund_not_showing_up	refund_not_showing_up	refund_not_showing_up	request_refund	2	Hello. Please, would you tell me if you have or have not received funds for a refund that I recently requested for a big purchase? I've contacted the merchant, but I can't tell that they have taken any action on it.
+9393	receiving_money	receiving_money	receiving_money	topping_up_by_card	2	Am I the only one who can top-up my account?
+9410	pending_transfer	pending_transfer	pending_transfer	transfer_not_received_by_recipient	2	Why hasn't my in country transfer gone through yet? I confirmed the account info a couple days ago but the payment hasn't been posted yet.
+9435	supported_cards_and_currencies	card_acceptance	supported_cards_and_currencies	supported_cards_and_currencies	2	Do you accept US credit cards?
+9437	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	cash_withdrawal_charge	2	Help! My card isn't working at the ATM and I know I used the right PIN. Trying to get my money.
+9454	edit_personal_details	edit_personal_details	passcode_forgotten	edit_personal_details	2	How do I check security settings using the app?
+9478	card_acceptance	card_acceptance	supported_cards_and_currencies	card_acceptance	2	Will you accept my credit card, it my only one.
+9486	card_delivery_estimate	card_delivery_estimate	order_physical_card	card_delivery_estimate	2	When will I get a new card when I order it, and how much will it cost.
+9492	why_verify_identity	unable_to_verify_identity	why_verify_identity	why_verify_identity	2	I don't want to use this method to identify myself.
+9527	refund_not_showing_up	refund_not_showing_up	refund_not_showing_up	request_refund	2	Hurry and refund me, I am waiting
+9529	fiat_currency_support	fiat_currency_support	fiat_currency_support	exchange_rate	2	Are EUR exchanges allowed?
+9539	declined_transfer	declined_transfer	declined_transfer	beneficiary_not_allowed	2	I want to transfer money to a beneficiary, but I couldn't.
+9561	lost_or_stolen_card	compromised_card	lost_or_stolen_card	lost_or_stolen_card	2	Someone took my card without my permission.
+9610	exchange_via_app	exchange_rate	exchange_via_app	exchange_via_app	2	What's the procedure with currency exchange?
+9642	card_payment_fee_charged	card_payment_fee_charged	card_payment_fee_charged	transfer_fee_charged	2	There are multiple instances where you added a fee to the payment, as well as some where you didn't. Do you have an outline of when a fee will be added?
+9644	order_physical_card	order_physical_card	order_physical_card	country_support	2	I am in the EU. Can I get one of your cards?
+9666	activate_my_card	activate_my_card	activate_my_card	lost_or_stolen_card	2	I have found my lost or stolen card, would I still have to activate the new card that was sent to me through the mail in order to access my account?
+9680	country_support	country_support	country_support	getting_spare_card	2	Can I get a new card in China?
+9682	top_up_reverted	top_up_reverted	top_up_reverted	topping_up_by_card	2	What did you do with my money??? I just topped up, I saw the money was there, but now it's gone!! What did you do with it?
+9696	failed_transfer	failed_transfer	pending_transfer	transfer_not_received_by_recipient	3	My transfer isn't in
+9709	extra_charge_on_statement	extra_charge_on_statement	card_payment_fee_charged	extra_charge_on_statement	2	I think I was wrongly charged in a recent transaction when I used my card.
+9715	exchange_via_app	exchange_via_app	fiat_currency_support	exchange_via_app	2	I received my salary in the wrong currency. How do I change this?
+9731	top_up_failed	top_up_failed	top_up_failed	topping_up_by_card	2	I really need to top-up my card today urgently but my card keeps getting declined!! Can you please resolve this problem or try an alternative
+9733	beneficiary_not_allowed	beneficiary_not_allowed	failed_transfer	declined_transfer	3	I am having trouble transferring money to a beneficiery.
+9734	exchange_charge	exchange_charge	exchange_charge	extra_charge_on_statement	2	Why is there a fee when I thought there would be no fees?
+9745	fiat_currency_support	exchange_via_app	fiat_currency_support	fiat_currency_support	2	May I get my salary paid out in a different currency?
+9746	card_not_working	card_payment_not_recognised	card_not_working	card_not_working	2	I am being charged the wrong amount on my card.
+9758	country_support	country_support	country_support	order_physical_card	2	How do I get a card if I live in the US?
+9773	why_verify_identity	why_verify_identity	verify_my_identity	why_verify_identity	2	What is with the need to have all my ID information?
+9792	transfer_timing	pending_transfer	transfer_timing	transfer_timing	2	How long will a transfer be pending for?
+9806	card_acceptance	card_acceptance	card_acceptance	atm_support	2	Where can I use my Mastercard?
+9981	beneficiary_not_allowed	beneficiary_not_allowed	beneficiary_not_allowed	transfer_not_received_by_recipient	2	What happens when a beneficiary can't receive my transfer?
+9983	topping_up_by_card	topping_up_by_card	top_up_by_card_charge	topping_up_by_card	2	Does it cost to add money to my card?
+9993	failed_transfer	beneficiary_not_allowed	failed_transfer	failed_transfer	2	Why didn't my transfer to a beneficiary happen?
+10000	transfer_timing	transfer_timing	transfer_timing	transfer_into_account	2	where are the transfers originating
+9815	balance_not_updated_after_bank_transfer	balance_not_updated_after_bank_transfer	transfer_into_account	balance_not_updated_after_bank_transfer	2	Why can't I see a transfer to my account?
+9822	failed_transfer	declined_transfer	failed_transfer	failed_transfer	2	I'm trying to purchase a flat but i need my first payment for my mortgage to go through first. I keep getting an error. I'm not sure what is going on but i need help making this transfer.
+9831	fiat_currency_support	transfer_into_account	fiat_currency_support	fiat_currency_support	2	My salary is in GBP - what should I do?
+9841	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	card_payment_wrong_exchange_rate	wrong_exchange_rate_for_cash_withdrawal	2	When I was abroad the exchange rate for me was wrong.
+9853	lost_or_stolen_phone	lost_or_stolen_card	lost_or_stolen_phone	lost_or_stolen_phone	2	Hi, I am on vacation in Spain and someone stole my bag with my phone and wallet with cards and everything. Can you block it ASAP and then I want to order a new one also ASAP.
+9860	exchange_charge	exchange_charge	card_payment_wrong_exchange_rate	exchange_charge	2	Why am I being charged more on exchange with things I bought abroad?
+9870	card_payment_fee_charged	card_payment_fee_charged	extra_charge_on_statement	card_payment_fee_charged	2	Let me know when you charge extra for payments please. I just checked the app earlier when I saw that there was an additional fee on one of the payments that I wasn't warned about before.
+9924	transaction_charged_twice	pending_card_payment	transaction_charged_twice	transaction_charged_twice	2	Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once, second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?
+9936	exchange_charge	exchange_charge	cash_withdrawal_charge	extra_charge_on_statement	3	I've been using my account while abroad for a while but only recently I've been charged a fee. Why am I only being charged a fee now.
+9941	transfer_fee_charged	transfer_fee_charged	receiving_money	transfer_fee_charged	2	Are you aware of any charges for receiving money?
+9952	failed_transfer	transfer_timing	failed_transfer	failed_transfer	2	HOW LONG TO TAKE THE TIME TO SOLVE
+9961	cash_withdrawal_not_recognised	cash_withdrawal_not_recognised	card_swallowed	card_not_working	3	I was removing a dollar amount from my account and now don't have access to my card.
+9962	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_cheque_or_cash_deposit	balance_not_updated_after_bank_transfer	transfer_timing	3	How long do deposits take to appear? I've been waiting for more than a week and need the money!
+9964	top_up_failed	top_up_failed	topping_up_by_card	top_up_failed	2	Why was my card charged when topping off my balance but it's not showing up in my wallet balance?

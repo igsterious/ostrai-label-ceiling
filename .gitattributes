@@ -1,0 +1,8 @@
+# Force LF everywhere, in the repo AND in the working copy.
+#
+# Without this, git on Windows checks files out with CRLF, so the data files
+# would differ byte-for-byte between this machine and Colab. That breaks the
+# reproducibility the split relies on and invites subtle parsing differences
+# in files we read as strictly tab-separated. This repo syncs to Linux, so
+# LF is the only sane choice.
+* text=auto eol=lf

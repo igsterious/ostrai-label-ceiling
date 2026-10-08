@@ -1,0 +1,9 @@
+{
+  "assigned": "direct_debit_payment_not_recognised",
+  "at": "2026-09-05T08:42:33.936Z",
+  "benchmark": "calibration",
+  "item_id": "p29",
+  "note": "",
+  "stratum": "pseudo",
+  "verdict": "ok"
+}
