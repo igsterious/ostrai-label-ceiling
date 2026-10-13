@@ -1,0 +1,29 @@
+# Licence for the label sets
+
+Everything under `labels/` — the eleven pseudo-label sets and the derived
+consensus, hand-corrected, audit and synthetic files — is licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+You are free to share and adapt this material, including commercially, provided
+you give appropriate credit, link to the licence, and indicate if changes were
+made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+## Attribution
+
+> Igor Juríček, label sets from the Ostr-AI 2026 label-ceiling study,
+> https://github.com/igsterious/ostrai-label-ceiling
+
+## What this does and does not cover
+
+It covers the labels: the intent assigned to each message id by each labelling
+pass, together with the model, prompt revision and shot count that produced it.
+
+It does not cover the underlying message texts. Benchmark A's messages come from
+Banking77 and benchmark B's from CLINC150; both are public datasets distributed
+under their own terms, and this repository does not redistribute the pool or test
+splits used in the competition. A few audit files quote the text of sampled pool
+messages for context; those quotations remain subject to the source datasets'
+licences.

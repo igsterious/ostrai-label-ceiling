@@ -91,6 +91,11 @@ A short paper is in preparation. The mechanism is not novel and
 the measurement with a floor under it, the family separation, and the downstream
 test.
 
-## License
+## Licence
 
-doplň — not yet chosen. Until then, treat this as all rights reserved.
+Code — `src/`, `tools/`, `notebooks/` and the documentation — is MIT, see
+[LICENSE](LICENSE). The label sets under `labels/` are CC BY 4.0, see
+[LICENSE-labels](LICENSE-labels), with the attribution string given there.
+
+Neither covers the underlying message texts, which belong to Banking77 and
+CLINC150 and are distributed under their own terms.
